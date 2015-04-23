@@ -48,7 +48,7 @@ class CaptionMessage {
 		return rows
 	}
 	
- 	def String toTTML(MarkupBuilder xml)
+ 	def String toTTML(MarkupBuilder xml, int offset)
 	{
 		boolean topRegion = true
 		int renderRow = 1;
@@ -62,7 +62,7 @@ class CaptionMessage {
 		}
 		
 		// Put the message into a paragraph
-		xml.p(region:topRegion?"top":"bottom", begin:framesToIsoTime(startOfMessage), end:framesToIsoTime(endOfMessage)) {
+		xml.p(region:topRegion?"top":"bottom", begin:framesToIsoTime(startOfMessage + offset), end:framesToIsoTime(endOfMessage + offset)) {
 			//mkp.comment("row:" + lines[0].row + " to row:" + lines.get(lines.size() -1).row)
 			// Vertically position for a top region
 			if (topRegion) { 
@@ -86,13 +86,13 @@ class CaptionMessage {
 		}
 	}
 	
-	def String toVTT()
+	def String toVTT(int offset)
 	{
 		def output = ""
 		
 		// Render the text
-		output += framesToIsoTime(startOfMessage) + " --> " + 
-				  framesToIsoTime(endOfMessage)   + " " +
+		output += framesToIsoTime(startOfMessage + offset) + " --> " + 
+				  framesToIsoTime(endOfMessage + offset)   + " " +
 				  "line:" + ((lines[0].row >> 1) + 1) + " " + 
 				  "align:middle\n"
 		lines.each {

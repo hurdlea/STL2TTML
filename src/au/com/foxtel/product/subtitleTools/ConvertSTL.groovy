@@ -30,7 +30,7 @@ class ConvertSTL {
 		}
 	}
 	
-	static String getTTML(ArrayList captions)
+	static String getTTML(ArrayList captions, int offset = 0)
 	{
 		def writer = new StringWriter()
 		def xml = new groovy.xml.MarkupBuilder(writer)
@@ -71,7 +71,7 @@ class ConvertSTL {
 			body(style:"teletext") {
 				div() {
 					captions.each {
-						it.toTTML(xml)
+						it.toTTML(xml, offset)
 					}
 				}
 			}
@@ -80,13 +80,13 @@ class ConvertSTL {
 		writer.toString()
 	}
 
-	static String getVTT(ArrayList captions)
+	static String getVTT(ArrayList captions, int offset = 0)
 	{
 		def output = ""
 		
 		output += "WEBVTT\n\n"
 		captions.each {
-			output += it.toVTT()
+			output += it.toVTT(offset)
 		}
 		
 		return output
@@ -94,21 +94,22 @@ class ConvertSTL {
 
 	static void main(args) {
 		
-		args.each {
-			def captions = new ArrayList<CaptionMessage>()
+		def captions = new ArrayList<CaptionMessage>()
+		def file = args[0]
+		def offset = args[1] ?: "0"
+		offset = Integer.parseInt(offset)
 		
-			processFile(it, captions)
-			
-			def ttml_captions = getTTML(captions)
-			def ttml = new File(it + ".ttml").newWriter()
-			ttml.println ttml_captions
-			ttml.close()
+		processFile(args[0], captions)
+		
+		def ttml_captions = getTTML(captions, offset)
+		def ttml = new File(args[0] + ".ttml").newWriter()
+		ttml.println ttml_captions
+		ttml.close()
 
-			def vtt_captions = getVTT(captions)
-			def vtt = new File(it + ".vtt").newWriter()
-			vtt.println vtt_captions
-			vtt.close()
-		}
+		def vtt_captions = getVTT(captions, offset)
+		def vtt = new File(args[0] + ".vtt").newWriter()
+		vtt.println vtt_captions
+		vtt.close()
 	}
 	
 }
