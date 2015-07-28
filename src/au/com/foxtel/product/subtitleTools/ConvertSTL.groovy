@@ -34,10 +34,11 @@ class ConvertSTL {
 	{
 		def writer = new StringWriter()
 		def xml = new groovy.xml.MarkupBuilder(writer)
+		xml.setDoubleQuotes(true);
 
-		xml.mkp.xmlDeclaration(version:'1.0', encoding:"UTF-8")
+		xml.mkp.xmlDeclaration(version:"1.0", encoding:"UTF-8")
 		xml.tt(
-			'xmlns:ttp':"http://www.w3.org/ns/ttml#parameter",
+			"xmlns:ttp":"http://www.w3.org/ns/ttml#parameter",
 			'xmlns:tts':"http://www.w3.org/ns/ttml#syling",
 			'xmlns':"http://www.w3.org/ns/ttml",
 			'xmlns:smpte':"http://www.smpte-ra.org/schema/2052-1/2010/smpte-tt",
@@ -52,7 +53,7 @@ class ConvertSTL {
 						'tts:fontFamily':"monospaceSansSerif", 
 						'tts:fontSize':"160%", 
 						'tts:textAlign':"left",
-						'tts:lineHeight:"125%',
+						'tts:lineHeight':"125%",
 						'tts:backgroundColor':"transparent")
 				}
 				layout() {
