@@ -33,6 +33,7 @@ class StlTtiBlock {
 			System.arraycopy(this.textField, 0, buffer, 0, this.textField.length)
 			System.arraycopy(record, 16, buffer, this.textField.length, 112)
 			this.textField = buffer
+			//println("Multiple text blocks ${textField}")
 		} else {
 			this.textField = record[16..127] as byte[]
 		}

@@ -93,7 +93,7 @@ class CaptionMessage {
 		// Render the text
 		output += framesToIsoTime(startOfMessage + offset) + " --> " + 
 				  framesToIsoTime(endOfMessage + offset)   + " " +
-				  "line:" + (int) (((lines[0].row + 3) / 30) * 100) + "% " +
+				  "line:" + Math.round(((lines[0].row + 3) / 30) * 100) + "% " +
 				  "align:middle position:50% size:80%\n"
 		lines.each {
 			output += it.toVTT()
