@@ -1,5 +1,7 @@
 package au.com.foxtel.product.subtitleTools
 
+import groovy.xml.MarkupBuilder
+
 import java.nio.ByteBuffer
 
 import groovy.xml.XmlUtil
@@ -18,10 +20,11 @@ class ConvertSTL {
 		while (contents.position() < contents.capacity())
 		{
 			StlTtiBlock ttiBlock = new StlTtiBlock()
-			byte[] ttiBytes = new byte[128]
-			contents.get(ttiBytes, 0, 128)
-			ttiBlock.parse(ttiBytes)
-			
+			while(ttiBlock.extensionBlockNumber != 0xff) {
+				byte[] ttiBytes = new byte[128]
+				contents.get(ttiBytes, 0, 128)
+				ttiBlock.parse(ttiBytes)
+			}
 			CaptionMessage caption = new CaptionMessage()
 			caption.ebuTextField(ttiBlock)
 			if (!caption.lines.isEmpty()) {
@@ -33,17 +36,18 @@ class ConvertSTL {
 	static String getTTML(ArrayList captions, int offset = 0)
 	{
 		def writer = new StringWriter()
-		def xml = new groovy.xml.MarkupBuilder(writer)
-		xml.setDoubleQuotes(true);
+		def xml = new MarkupBuilder(writer)
+		xml.setDoubleQuotes(true)
 
 		xml.mkp.xmlDeclaration(version:"1.0", encoding:"UTF-8")
 		xml.tt(
 			"xmlns:ttp":"http://www.w3.org/ns/ttml#parameter",
 			'xmlns:tts':"http://www.w3.org/ns/ttml#syling",
 			'xmlns':"http://www.w3.org/ns/ttml",
-			'xmlns:smpte':"http://www.smpte-ra.org/schema/2052-1/2010/smpte-tt",
+			'xmlns:ebutts':"urn:ebu:tt:style",
+			'xmlns:xsi':"http://www.w3.org/2001/XMLSchema-instance",
 			'ttp:timebase':"media",
-			'xml:lang':"english",
+			'xml:lang':"en",
 			'ttp:cellResolution':"50 30"
 			) {
 			head() {
@@ -51,10 +55,16 @@ class ConvertSTL {
 					style(
 						'xml:id':"teletext", 
 						'tts:fontFamily':"monospaceSansSerif", 
-						'tts:fontSize':"160%", 
+						'tts:fontSize':"125%",
 						'tts:textAlign':"left",
-						'tts:lineHeight':"125%",
-						'tts:backgroundColor':"transparent")
+						'tts:fontStyle':"normal",
+						'tts:lineHeight':"normal",
+						'tts:wrapOption':"noWrap",
+						'tts:color':"#ffffff",
+						'tts:showBackground':"whenActive",
+						'tts:backgroundColor':"transparent",
+						'ebutts:linePadding':'0.5c'
+					)
 				}
 				layout() {
 					region(
@@ -100,7 +110,7 @@ class ConvertSTL {
 		def offset = args[1] ?: "0"
 		offset = Integer.parseInt(offset)
 		
-		processFile(args[0], captions)
+		processFile(file, captions)
 		
 		def ttml_captions = getTTML(captions, offset)
 		def ttml = new File(args[0] + ".ttml").newWriter()

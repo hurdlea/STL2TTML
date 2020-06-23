@@ -1,6 +1,7 @@
 package au.com.foxtel.product.subtitleTools
 
-import java.util.List;
+import java.nio.ByteBuffer
+import java.nio.CharBuffer
 
 class StlTtiBlock {
 	int subtitleGroupNumber
@@ -13,9 +14,10 @@ class StlTtiBlock {
 	int justificationCode
 	int commentFlag
 	byte[] textField
-	
+
 	void parse(byte[] record)
 	{
+		if (textField)
 		this.subtitleGroupNumber = ucharToInt(record[0])
 		this.subtitleNumber = ucharToInt(record[1]) + (ucharToInt(record[2]) << 8)
 		this.extensionBlockNumber = ucharToInt(record[3])
@@ -25,35 +27,45 @@ class StlTtiBlock {
 		this.verticalPosition = ucharToInt(record[13])
 		this.justificationCode = ucharToInt(record[14])
 		this.commentFlag = ucharToInt(record[15])
-		this.textField = record[16..127] as byte[]
+		// When there are extension blocks accumulate the text portion
+		if (this.textField) {
+			byte[] buffer = new byte[this.textField.length + 112]
+			System.arraycopy(this.textField, 0, buffer, 0, this.textField.length)
+			System.arraycopy(record, 16, buffer, this.textField.length, 112)
+			this.textField = buffer
+		} else {
+			this.textField = record[16..127] as byte[]
+		}
 	}
 	
-	def ucharToInt(byte b)
+	def static ucharToInt(byte b)
 	{
-		(int) (b & 0xff)
+		(int) (b & 0x00ff)
 	}
-	
-	def getTimecode(List<Byte> data)
+
+
+	def static getTimecode(List<Byte> data)
 	{
 		(data[0] * (3600 * 25)) + (data[1] * (60 * 25)) + (data[2] * 25) + data[3]
 	}
 	
-	def String toString()
+	String toString()
 	{
 		"[sn:" + subtitleNumber + " eb:" + extensionBlockNumber + " tcin:" + timecodeIn + " tcout:" + timecodeOut + " text:" + makePrintable(textField) + "]"
 	}
 	
-	def String makePrintable(byte[] text)
+	static String makePrintable(byte[] text)
 	{
-		def output = ""
-		text.each {
-			switch(ucharToInt(it))
+		String output
+		CharBuffer charBuffer = ByteBuffer.wrap(text).asCharBuffer()
+		charBuffer.each {
+			switch(it.toInteger())
 			{
 				case 0x20..0x7e:
-					output += (char) it
+					output += it
 					break
 				default:
-					output += "[#" + Integer.toHexString(it & 0xff) + "]"
+					output += "[#" + Integer.toHexString(it.toInteger()) + "]"
 			}
 		}
 		output

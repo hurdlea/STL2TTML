@@ -7,7 +7,7 @@ class CaptionMessage {
 	int startOfMessage = 0
 	int endOfMessage = 0
 	
-	def ebuTextField(StlTtiBlock message)
+	void ebuTextField(StlTtiBlock message)
 	{
 		int row = message.verticalPosition
 		startOfMessage = message.timecodeIn
@@ -27,7 +27,7 @@ class CaptionMessage {
 		}
 	}
 	
-	def ArrayList<ArrayList<Byte>> splitLines(byte[] textField)
+	static ArrayList<ArrayList<Byte>> splitLines(byte[] textField)
 	{
 		int row = 0
 		ArrayList<ArrayList<Byte>> rows = new ArrayList<ArrayList<Byte>>()
@@ -48,10 +48,10 @@ class CaptionMessage {
 		return rows
 	}
 	
- 	def String toTTML(MarkupBuilder xml, int offset)
+ 	String toTTML(MarkupBuilder xml, int offset)
 	{
 		boolean topRegion = true
-		int renderRow = 1;
+		int renderRow = 1
 		
 		if (lines[0].row < 13) {
 			topRegion = true
@@ -86,15 +86,15 @@ class CaptionMessage {
 		}
 	}
 	
-	def String toVTT(int offset)
+	String toVTT(int offset)
 	{
-		def output = ""
+		String output = ""
 		
 		// Render the text
 		output += framesToIsoTime(startOfMessage + offset) + " --> " + 
 				  framesToIsoTime(endOfMessage + offset)   + " " +
-				  "line:" + ((lines[0].row >> 1) + 1) + " " + 
-				  "align:middle\n"
+				  "line:" + (int) (((lines[0].row + 3) / 30) * 100) + "% " +
+				  "align:middle position:50% size:80%\n"
 		lines.each {
 			output += it.toVTT()
 		}
@@ -103,7 +103,7 @@ class CaptionMessage {
 		return output
 	}
 	
-	def String toString()
+	String toString()
 	{
 		def output = ""
 		lines.each {
@@ -112,15 +112,15 @@ class CaptionMessage {
 		"SOM: " + framesToIsoTime(this.startOfMessage) + " EOM: " + framesToIsoTime(this.endOfMessage) + "\n" + output
 	}
 	
-	def String framesToIsoTime(int frames)
+	static String framesToIsoTime(int frames)
 	{
 
 		String output = ""
 		
 		output += sprintf("%02d:", (int) (frames / (3600 * 25)))
-		output += sprintf("%02d:", Math.round(frames / (60 * 25)).intValue() % 60)
-		output += sprintf("%02d.", Math.round(frames / 25).intValue() % 60)
-		output += sprintf("%03d", (frames % 25).intValue() * 40)
+		output += sprintf("%02d:", (int) (frames / (60 * 25)).intValue() % 60)
+		output += sprintf("%02d.", (int) (frames / 25).intValue() % 60)
+		output += sprintf("%03d",  (int) (frames % 25) * 40)
 		
 		output
 	}

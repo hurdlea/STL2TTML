@@ -2,6 +2,8 @@ package au.com.foxtel.product.subtitleTools
 
 import groovy.xml.MarkupBuilder
 
+import java.util.regex.Matcher
+
 
 class CaptionLine {
 	Boolean empty = true
@@ -31,30 +33,30 @@ class CaptionLine {
 						format.colour = ebuColours[it as byte]
 					}
 					format.text += ' '
-					break;
+					break
 					
 				case 0x1d: // background colour change
 				    backgroundChange = true
 					format.text += ' '
-					break;
+					break
 					
 				case [0x0a, 0x8f, 0x8a]: // line termination
 					if (!format.text.trim().empty) {
 						this.text.add(format)
 						format = new LineFormat()
 					}
-					break;
+					break
 					
 				case 0x20..0x7e:
 				case 0xa0..0xff: // regular characters
 					int chr = mapCharacter((int) it & 0xff)
 					format.text += new String( chr as int[], 0, 1)
-					break;
+					break
 					
 				default:
 					// add a space to replace the control character
 					format.text += ' '
-					break;
+					break
 			}
 		}
 		
@@ -63,7 +65,7 @@ class CaptionLine {
 		}
 	}
 	
-	def String toString()
+	String toString()
 	{
 		def output = ""
 		text.each {
@@ -72,12 +74,12 @@ class CaptionLine {
 		"row:" + row + " " + output
 	}
 	
-	def String toTTML(MarkupBuilder xml)
+	String toTTML(MarkupBuilder xml)
 	{
 		boolean removeSpace = true
 		text.each {
 			String caption = it.text
-			def m
+			Matcher m
 			if (removeSpace) {
 				if ((m = it.text =~ /(\s+)(.+)/)) {
 					
@@ -90,7 +92,7 @@ class CaptionLine {
 		}
 	}
 	
-	def String toVTT()
+	String toVTT()
 	{
 		def output = ""
 		text.each {
@@ -114,9 +116,9 @@ class CaptionLine {
 	}
 	
 	// Fix character mapping differences between EBU Latin and regular Latin set
-	def int mapCharacter(int chr)
+	static int mapCharacter(int chr)
 	{
-		int mapped = 0
+		int mapped
 		switch(chr) {
 			case 0x24: // Swap currency symbol for $ sign 
 				mapped = 0xa4

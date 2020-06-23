@@ -68,7 +68,7 @@ class StlGsiBlock {
 		this.userDefinedArea = getString(data[448..1023])
 	}
 	
-	def getDate(List<Byte> data)
+	static Date getDate(List<Byte> data)
 	{
 		def string = getString(data)
 		if (string == "")
@@ -79,21 +79,21 @@ class StlGsiBlock {
 		format.parse(string)
 	}
 	
-	def getString(List<Byte> data)
+	static String getString(List<Byte> data)
 	{
 		String string = new String(data as byte[], "US-ASCII")
 		//println "[" + string + "]"
 		string.trim()
 	}
 	
-	def getCharAsString(Byte data)
+	static String getCharAsString(Byte data)
 	{
 		String string = new String(data as byte[], "US-ASCII")
 		//println "[" + string + "]"
 		string.trim()
 	}
 	
-	def StringToFrames(byte[] data)
+	static int StringToFrames(byte[] data)
 	{
 		int hours = getString(data[0..1]).toInteger() 
 		int minutes = getString(data[2..3]).toInteger() 
