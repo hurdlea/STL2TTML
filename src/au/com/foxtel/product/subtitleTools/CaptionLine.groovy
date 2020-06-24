@@ -77,7 +77,7 @@ class CaptionLine {
 					
 				case 0x20..0x7e:
 				case 0xa0..0xff: // regular characters
-					int chr = mapCharacter((int) it & 0xff)
+					String chr = mapCharacter((int) it & 0xff)
 					format.text += new String( chr as int[], 0, 1)
 					break
 					
@@ -158,18 +158,27 @@ class CaptionLine {
 	}
 	
 	// Fix character mapping differences between EBU Latin and regular Latin set
-	static int mapCharacter(int chr)
+	static String mapCharacter(int chr)
 	{
-		int mapped
+		String mapped
 		switch(chr) {
+			case 0x26:
+				mapped = '&amp;'
+				break
+			case 0x3c:
+				mapped = '&lt;'
+				break
+			case 0x3e:
+				mapped = '&gt;'
+				break
 			case 0x24: // Swap currency symbol for $ sign 
-				mapped = 0xa4
+				mapped = '$'
 				break
 			case 0xa4: // Swap $ sign for currency symbol
-				mapped = 0x24
+				mapped = '£'
 				break
 			default:
-				mapped = chr
+				mapped = new String( chr as int[], 0, 1)
 				 
 		}
 		return mapped
