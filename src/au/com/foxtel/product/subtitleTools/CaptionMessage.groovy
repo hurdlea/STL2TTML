@@ -2,22 +2,27 @@ package au.com.foxtel.product.subtitleTools
 
 import groovy.xml.MarkupBuilder
 
+import java.util.stream.Stream
+
 class CaptionMessage {
 	def lines = new ArrayList<CaptionLine>() 
 	int startOfMessage = 0
 	int endOfMessage = 0
-	
+	CaptionLine.LineAlignment align
+
 	void ebuTextField(StlTtiBlock message)
 	{
 		int row = message.verticalPosition
 		startOfMessage = message.timecodeIn
 		endOfMessage = message.timecodeOut
+		align = CaptionLine.LineAlignment.valueOf(message.justificationCode)
 		
 		def rows = splitLines(message.textField)
 
 		rows.each {
 			if (!it.isEmpty()) {
 				CaptionLine line = new CaptionLine()
+				line.align = align
 				line.parseEbuText(row, it)
 				if (!line.text.empty) {
 					this.lines.add(line)
@@ -89,14 +94,48 @@ class CaptionMessage {
 	String toVTT(int offset)
 	{
 		String output = ""
-		
+		int start = 0
+
+		if (align == CaptionLine.LineAlignment.NONE) {
+			start = 1000
+			// Determine the lowest start position of the text
+			lines.each {
+				if (start > it.charStart) {
+					start = it.charStart
+				}
+			}
+		}
+
+		//println("Start: ${start} ${lines.toString()}")
+		String formatting
+
+		switch (align) {
+			case CaptionLine.LineAlignment.NONE:
+				long position = Math.round(((5 + start)/50) * 100)
+				formatting  = "align:left "
+				formatting += "position:${position}%,line-left "
+				formatting += "size:${80 - position}%"
+				break
+
+			case CaptionLine.LineAlignment.LEFT:
+				formatting = 'align:left size:80% position:10%,line-left%'
+				break
+
+			case CaptionLine.LineAlignment.RIGHT:
+				formatting = 'align:right size:80% position:90%'
+				break
+
+			default:
+				formatting = 'align:middle position:50% size:80%'
+		}
+
 		// Render the text
 		output += framesToIsoTime(startOfMessage + offset) + " --> " + 
 				  framesToIsoTime(endOfMessage + offset)   + " " +
 				  "line:" + Math.round(((lines[0].row + 3) / 30) * 100) + "% " +
-				  "align:middle position:50% size:80%\n"
+				  "${formatting}\n"
 		lines.each {
-			output += it.toVTT()
+			output += it.toVTT(start)
 		}
 		output += "\n"
 

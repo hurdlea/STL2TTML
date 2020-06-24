@@ -6,15 +6,43 @@ import java.util.regex.Matcher
 
 
 class CaptionLine {
-	Boolean empty = true
+
+	enum LineAlignment {
+		NONE(0), LEFT(1), CENTRE(2), RIGHT(3)
+		private int value
+		private static Map map = new HashMap<>()
+
+		private LineAlignment(int value) {
+			this.value = value
+		}
+
+		static {
+			for (LineAlignment alignment : values()) {
+				map.put(alignment.value, alignment)
+			}
+		}
+
+		static LineAlignment valueOf(int alignment) {
+			return (LineAlignment) map.get(alignment)
+		}
+
+		int getValue() {
+			value
+		}
+	}
+
+
+	public LineAlignment align = LineAlignment.CENTRE
+	public int charStart = 0
+
 	int row
-	ArrayList<LineFormat> text = new ArrayList<LineFormat>()
-	String[] ebuColours = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
-	
+	private ArrayList<LineFormat> text = new ArrayList<LineFormat>()
+	private String[] ebuColours = ['black', 'red', 'lime', 'yellow', 'blue', 'magenta', 'cyan', 'white']
+
 	def parseEbuText(int row, ArrayList<Byte> line)
 	{
 		this.row = row
-		def format = new LineFormat()
+		LineFormat format = new LineFormat()
 		boolean backgroundChange = false
 		
 		line.each {
@@ -63,6 +91,16 @@ class CaptionLine {
 		if (!format.text.trim().empty) {
 			this.text.add(format)
 		}
+
+		if (this.text.size() > 0) {
+			String text = this.text[0].text
+			Matcher m
+			if(m = text =~ /(\s+)(.+)/) {
+				this.charStart = m.group(1).size()
+				this.text[0].text = m.group(2)
+				//println("Row: ${this.row} Align: ${align} Offset: ${this.charStart} ${m.group(2)}")
+			}
+		}
 	}
 	
 	String toString()
@@ -92,16 +130,19 @@ class CaptionLine {
 		}
 	}
 	
-	String toVTT()
+	String toVTT(int start)
 	{
-		def output = ""
+		boolean first_unit = true
+		String output = ""
+
 		text.each {
 			String caption = it.text
-			
-			// Trim any leading spaces
-			def m
-			if ((m = it.text =~ /(\s*)(.+)/)) {
-				caption = m.group(2)
+
+			if (align == LineAlignment.NONE && first_unit) {
+				int length = this.charStart - start
+				if (length > 1) {
+					output += "<c.transparent.bg_transparent>" + "." * length + "</c>"
+				}
 			}
 
 			if (it.colour != "white") {
@@ -109,9 +150,10 @@ class CaptionLine {
 			} else {
 				output += caption
 			}
-			output += "\n"
+			first_unit = false
 		}
-		
+		output += "\n"
+
 		return output
 	}
 	
