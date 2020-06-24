@@ -113,12 +113,12 @@ class CaptionMessage {
 			case CaptionLine.LineAlignment.NONE:
 				long position = Math.round(((5 + start)/50) * 100)
 				formatting  = "align:left "
-				formatting += "position:${position}%,line-left "
+				formatting += "position:${position}% "
 				formatting += "size:${80 - position}%"
 				break
 
 			case CaptionLine.LineAlignment.LEFT:
-				formatting = 'align:left size:80% position:10%,line-left%'
+				formatting = 'align:left size:80% position:10%'
 				break
 
 			case CaptionLine.LineAlignment.RIGHT:
