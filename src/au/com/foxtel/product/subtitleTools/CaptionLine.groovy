@@ -141,7 +141,7 @@ class CaptionLine {
 			if (align == LineAlignment.NONE && first_unit) {
 				int length = this.charStart - start
 				if (length > 1) {
-					output += "<c.transparent.bg_transparent>" + "." * length + "</c>"
+					output += "<c.black>" + "." * length + "</c>"
 				}
 			}
 
