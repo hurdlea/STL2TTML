@@ -78,7 +78,7 @@ class CaptionLine {
 				case 0x20..0x7e:
 				case 0xa0..0xff: // regular characters
 					String chr = mapCharacter((int) it & 0xff)
-					format.text += new String( chr as int[], 0, 1)
+					format.text += chr
 					break
 					
 				default:
