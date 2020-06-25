@@ -1,10 +1,10 @@
 package au.com.foxtel.product.subtitleTools
 
+//@GrabConfig(systemClassLoader=true)
+//@Grab('info.picocli:picocli:4.2.0')
+import groovy.cli.commons.CliBuilder
 import groovy.xml.MarkupBuilder
-
 import java.nio.ByteBuffer
-
-import groovy.xml.XmlUtil
 
 class ConvertSTL {
 	
@@ -33,7 +33,7 @@ class ConvertSTL {
 		}
 	}
 	
-	static String getTTML(ArrayList captions, int offset = 0)
+	static String getTTML(ArrayList<CaptionMessage> captions, int offset = 0)
 	{
 		def writer = new StringWriter()
 		def xml = new MarkupBuilder(writer)
@@ -91,14 +91,12 @@ class ConvertSTL {
 		writer.toString()
 	}
 
-	static String getVTT(ArrayList captions, int offset = 0)
+	static String getVTT(ArrayList<CaptionMessage> captions, int offset = 0, boolean styling)
 	{
 		def output = ""
 		String style = '''\
 STYLE
 ::cue {
-  line-height: 5.33vh;
-  font-size: 4.1vh;
   font-family: monospace;
   font-style: normal;
   font-weight: normal;
@@ -173,33 +171,48 @@ STYLE
 }
 
 '''
-		output += "WEBVTT\n\n" + style
-
+		output += "WEBVTT\n\n"
+		if (styling) {
+			output += style
+		}
 		captions.each {
-			output += it.toVTT(offset)
+			output += it.toVTT(offset, styling)
 		}
 		
 		return output
 	}
 
 	static void main(args) {
-		
-		def captions = new ArrayList<CaptionMessage>()
-		def file = args[0]
-		def offset = args[1] ?: "0"
-		offset = Integer.parseInt(offset)
-		
-		processFile(file, captions)
-		
-		def ttml_captions = getTTML(captions, offset)
-		def ttml = new File(args[0] + ".ttml").newWriter()
-		ttml.println ttml_captions
-		ttml.close()
+		def cli = new CliBuilder(usage: 'STL2TTML -f file [-o offset] [-t false] [-v false] [-ns true]')
+		cli.o(type: int, args:1, longOpt:'offset', defaultValue:"0",'set offset',)
+		cli.f(type: String, args:1, longOpt:'file', required:true, 'STL file to convert')
+		cli.t(args:0, longOpt:'ttml', 'create a TTML file')
+		cli.v(args:0, longOpt:'vtt', 'create a VTT file')
+		cli.ns(args:0, longOpt: 'no-vtt-styling', 'Disable VTT styling')
+		def options = cli.parse(args)
 
-		def vtt_captions = getVTT(captions, offset)
-		def vtt = new File(args[0] + ".vtt").newWriter()
-		vtt.println vtt_captions
-		vtt.close()
+		ArrayList<CaptionMessage> captions = new ArrayList<CaptionMessage>()
+		String file = options.f
+		int offset = options.o
+		boolean vttStyling = !options.ns
+		boolean ttml = options.t
+		boolean vtt = options.v
+
+		processFile(file, captions)
+
+		if (ttml) {
+			def ttml_captions = getTTML(captions, offset)
+			def ttmlFile = new File(file + ".ttml").newWriter()
+			ttmlFile.println ttml_captions
+			ttmlFile.close()
+		}
+
+		if (vtt) {
+			def vtt_captions = getVTT(captions, offset, vttStyling)
+			def vttFile = new File(file + ".vtt").newWriter()
+			vttFile.println vtt_captions
+			vttFile.close()
+		}
 	}
 	
 }

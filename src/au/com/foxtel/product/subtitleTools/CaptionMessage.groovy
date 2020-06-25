@@ -91,7 +91,7 @@ class CaptionMessage {
 		}
 	}
 	
-	String toVTT(int offset)
+	String toVTT(int offset, boolean styling)
 	{
 		String output = ""
 		int start = 0
@@ -112,9 +112,9 @@ class CaptionMessage {
 		switch (align) {
 			case CaptionLine.LineAlignment.NONE:
 				long position = Math.round(((5 + start)/50) * 100)
-				formatting  = "align:left "
-				formatting += "position:${position}% "
-				formatting += "size:${80 - position}%"
+				formatting  = "align:left"
+				formatting += " position:${position}%"
+				//formatting += " size:${80 - position}%"
 				break
 
 			case CaptionLine.LineAlignment.LEFT:
@@ -135,7 +135,7 @@ class CaptionMessage {
 				  "line:" + Math.round(((lines[0].row + 3) / 30) * 100) + "% " +
 				  "${formatting}\n"
 		lines.each {
-			output += it.toVTT(start)
+			output += it.toVTT(start, styling)
 		}
 		output += "\n"
 

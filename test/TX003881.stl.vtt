@@ -1,82 +1,5 @@
 WEBVTT
 
-STYLE
-::cue {
-  line-height: 5.33vh;
-  font-size: 4.1vh;
-  font-family: monospace;
-  font-style: normal;
-  font-weight: normal;
-  background-color: black;
-  color: white;
-}
-::cue(c.transparent) {
-  color: transparent;
-}
-::cue(c.semi-transparent) {
-  color: rgba(0, 0, 0, 0.5);
-}
-::cue(c.opaque) {
-  color: rgba(0, 0, 0, 1);
-}
-::cue(c.blink) {
-  text-decoration: blink;
-}
-::cue(c.white) {
-  color: white;
-}
-::cue(c.red) {
-  color: red;
-}
-::cue(c.green) {
-  color: lime;
-}
-::cue(c.blue) {
-  color: blue;
-}
-::cue(c.cyan) {
-  color: cyan;
-}
-::cue(c.yellow) {
-  color: yellow;
-}
-::cue(c.magenta) {
-  color: magenta;
-}
-::cue(c.bg_transparent) {
-  background-color: transparent;
-}
-::cue(c.bg_semi-transparent) {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-::cue(c.bg_opaque) {
-  background-color: rgba(0, 0, 0, 1);
-}
-::cue(c.bg_white) {
-  background-color: white;
-}
-::cue(c.bg_green) {
-  background-color: lime;
-}
-::cue(c.bg_blue) {
-  background-color: blue;
-}
-::cue(c.bg_cyan) {
-  background-color: cyan;
-}
-::cue(c.bg_red) {
-  background-color: red;
-}
-::cue(c.bg_yellow) {
-  background-color: yellow;
-}
-::cue(c.bg_magenta) {
-  background-color: magenta;
-}
-::cue(c.bg_black) {
-  background-color: black;
-}
-
 00:01:51.440 --> 00:01:53.640 line:77% align:middle position:50% size:80%
 (Girl narrates)
 There used to be horses in that barn.
@@ -105,18 +28,18 @@ MAN: It might rain.
 Pat said it'd be a good day for me
 to, er, come down to the diner.
 
-00:02:34.240 --> 00:02:35.680 line:83% align:left position:18% size:62%
+00:02:34.240 --> 00:02:35.680 line:83% align:left position:18%
 Yeah, whatever.
 
 00:02:35.720 --> 00:02:38.160 line:77% align:right size:80% position:90%
 It'll just be breakfast and lunch
 three days a week.
 
-00:02:38.200 --> 00:02:39.960 line:77% align:left position:16% size:64%
+00:02:38.200 --> 00:02:39.960 line:77% align:left position:16%
 Well, if you're
 working down the diner,
 
-00:02:40.000 --> 00:02:42.560 line:77% align:left position:16% size:64%
+00:02:40.000 --> 00:02:42.560 line:77% align:left position:16%
 she comes home from school
 to nobody here.
 
@@ -130,8 +53,8 @@ don't talk much,
 00:02:48.760 --> 00:02:50.680 line:83% align:right size:80% position:90%
 but he and Cale get along real well.
 
-00:02:51.680 --> 00:02:53.520 line:77% align:left position:16% size:64%
-<c.black>..........................</c>And, er...
+00:02:51.680 --> 00:02:53.520 line:77% align:left position:16%
+&nbsp;                          And, er...
 "And, er" what?
 
 00:02:54.960 --> 00:02:56.600 line:77% align:right size:80% position:90%
@@ -142,13 +65,13 @@ promising her for months
 that you would
 take her to work with you.
 
-00:02:58.480 --> 00:03:01.480 line:77% align:left position:16% size:64%
+00:02:58.480 --> 00:03:01.480 line:77% align:left position:16%
 And I will, Lil. But not today,
 honey. I got a big race.
 
-00:03:01.520 --> 00:03:04.760 line:77% align:left position:18% size:62%
+00:03:01.520 --> 00:03:04.760 line:77% align:left position:18%
 What am I supposed to tell her?
-<c.black>........</c>Tell her I was running late
+&nbsp;        Tell her I was running late
 
 00:03:04.800 --> 00:03:06.280 line:77% align:right size:80% position:90%
 and I didn't have time
@@ -157,38 +80,38 @@ to wait for her.
 00:03:07.280 --> 00:03:08.720 line:83% align:right size:80% position:90%
 You tell her.
 
-00:03:08.760 --> 00:03:10.240 line:83% align:left position:18% size:62%
+00:03:08.760 --> 00:03:10.240 line:83% align:left position:18%
 Honey, I'm going to work.
 
-00:03:20.520 --> 00:03:22.000 line:83% align:left position:18% size:62%
+00:03:20.520 --> 00:03:22.000 line:83% align:left position:18%
 ( DOOR SLAMS )
 
 00:03:42.840 --> 00:03:45.000 line:77% align:right size:80% position:90%
 Alright, get in.
 I don't wanna be late.
 
-00:03:55.800 --> 00:03:57.400 line:83% align:left position:18% size:62%
+00:03:55.800 --> 00:03:57.400 line:83% align:left position:18%
 There you go.
 
 00:05:08.200 --> 00:05:10.520 line:83% align:middle position:50% size:80%
 ( THUNDER RUMBLES )
 
-00:05:23.560 --> 00:05:26.960 line:77% align:left position:18% size:62%
+00:05:23.560 --> 00:05:26.960 line:77% align:left position:18%
 58 and 1.
-<c.black>.....</c>MAN: Alright. Got ya.
+&nbsp;     MAN: Alright. Got ya.
 
-00:05:28.280 --> 00:05:29.960 line:77% align:left position:16% size:64%
+00:05:28.280 --> 00:05:29.960 line:77% align:left position:16%
 Alright, send Sonya.
 Don't let her out.
 
-00:05:30.040 --> 00:05:32.080 line:77% align:left position:16% size:64%
+00:05:30.040 --> 00:05:32.080 line:77% align:left position:16%
 I just wanna...
 just wanna watch her action.
 
-00:05:34.040 --> 00:05:36.080 line:83% align:left position:18% size:62%
+00:05:34.040 --> 00:05:36.080 line:83% align:left position:18%
 (Horse whinnies)
 
-00:05:47.560 --> 00:05:49.000 line:83% align:left position:18% size:62%
+00:05:47.560 --> 00:05:49.000 line:83% align:left position:18%
 I like him.
 
 00:05:50.040 --> 00:05:51.680 line:83% align:middle position:50% size:80%
@@ -203,64 +126,64 @@ I like her too.
 00:06:04.240 --> 00:06:07.440 line:83% align:middle position:50% size:80%
 ( PEOPLE CHATTER, HORSES WHINNY )
 
-00:06:07.520 --> 00:06:09.160 line:77% align:left position:16% size:64%
+00:06:07.520 --> 00:06:09.160 line:77% align:left position:16%
 MAN: Can I get
 a bucket of multigrain,
 
-00:06:09.240 --> 00:06:10.800 line:83% align:left position:18% size:62%
+00:06:09.240 --> 00:06:10.800 line:83% align:left position:18%
 stall number three, please?
 
 00:06:12.160 --> 00:06:13.720 line:83% align:right size:80% position:90%
 Good morning, sir.
 
-00:06:13.800 --> 00:06:15.240 line:83% align:left position:18% size:62%
+00:06:13.800 --> 00:06:15.240 line:83% align:left position:18%
 Good morning!
 
 00:06:15.320 --> 00:06:17.040 line:83% align:right size:80% position:90%
 Balon, remember Cale?
 
-00:06:17.120 --> 00:06:19.240 line:77% align:left position:16% size:64%
+00:06:17.120 --> 00:06:19.240 line:77% align:left position:16%
 Sure.
 She doesn't come around anymore.
 
-00:06:19.320 --> 00:06:21.400 line:83% align:left position:18% size:62%
+00:06:19.320 --> 00:06:21.400 line:83% align:left position:18%
 Wow, honey, you gotten so big.
 
-00:06:22.480 --> 00:06:24.400 line:83% align:left position:18% size:62%
+00:06:22.480 --> 00:06:24.400 line:83% align:left position:18%
 Senorita, buenos dias.
 
-00:06:24.480 --> 00:06:26.600 line:77% align:left position:16% size:64%
-<c.black>.......</c>MR CRANE: Eddie,
+00:06:24.480 --> 00:06:26.600 line:77% align:left position:16%
+&nbsp;       MR CRANE: Eddie,
 let's take a look at...
 
-00:06:26.680 --> 00:06:29.000 line:77% align:left position:18% size:62%
+00:06:26.680 --> 00:06:29.000 line:77% align:left position:18%
 That means 'good morning'.
-<c.black>.........................</c>Morning.
+&nbsp;                         Morning.
 
 00:06:29.080 --> 00:06:31.440 line:77% align:right size:80% position:90%
 He's got legs like steel.
 Take him in.
 
-00:06:33.560 --> 00:06:37.040 line:77% align:left position:16% size:64%
+00:06:33.560 --> 00:06:37.040 line:77% align:left position:16%
 Whoa! Whoa, whoa. What have you
 got there? Have you got some candy?
 
-00:06:37.120 --> 00:06:39.800 line:77% align:left position:16% size:64%
-<c.black>.........................</c>(Whinnies)
+00:06:37.120 --> 00:06:39.800 line:77% align:left position:16%
+&nbsp;                         (Whinnies)
 Hey, Sonya! There you go, Sonya.
 
-00:06:39.880 --> 00:06:42.320 line:83% align:left position:18% size:62%
+00:06:39.880 --> 00:06:42.320 line:83% align:left position:18%
 Ohh, yeah! That's Sonya.
 
-00:06:42.400 --> 00:06:44.160 line:83% align:left position:18% size:62%
+00:06:42.400 --> 00:06:44.160 line:83% align:left position:18%
 She likes candy.
 
 00:06:44.240 --> 00:06:45.960 line:83% align:middle position:50% size:80%
 Sonya likes Twizzlers.
 
-00:06:46.040 --> 00:06:48.040 line:77% align:left position:22% size:58%
+00:06:46.040 --> 00:06:48.040 line:77% align:left position:22%
 Yeah?
-<c.black>.......................</c>Well...
+&nbsp;                       Well...
 
 00:06:49.080 --> 00:06:52.200 line:83% align:right size:80% position:90%
 Who's this? Got a new jockey? Hey?
@@ -268,14 +191,14 @@ Who's this? Got a new jockey? Hey?
 00:06:52.280 --> 00:06:53.880 line:83% align:middle position:50% size:80%
 This is my daughter, Cale.
 
-00:06:53.960 --> 00:06:56.000 line:83% align:left position:68% size:12%
+00:06:53.960 --> 00:06:56.000 line:83% align:left position:68%
 Oh. Hey.
 
 00:06:56.080 --> 00:07:00.040 line:77% align:right size:80% position:90%
 I'm Manolin Vallarta,
 the greatest jockey in the world.
 
-00:07:00.120 --> 00:07:02.320 line:77% align:left position:16% size:64%
+00:07:00.120 --> 00:07:02.320 line:77% align:left position:16%
 (Whispers)
 Fattest jockey in the world.
 
@@ -290,31 +213,31 @@ Look at these clothes.
 This is a barn, not a disco.
 (Speaks Spanish)
 
-00:07:12.640 --> 00:07:14.040 line:83% align:left position:18% size:62%
+00:07:12.640 --> 00:07:14.040 line:83% align:left position:18%
 He likes the way I dress.
 
-00:07:14.120 --> 00:07:15.640 line:83% align:left position:18% size:62%
+00:07:14.120 --> 00:07:15.640 line:83% align:left position:18%
 (Chuckles)
 
-00:07:15.720 --> 00:07:17.240 line:83% align:left position:18% size:62%
+00:07:15.720 --> 00:07:17.240 line:83% align:left position:18%
 Now, you see your daddy?
 
-00:07:17.320 --> 00:07:21.080 line:77% align:left position:16% size:64%
+00:07:17.320 --> 00:07:21.080 line:77% align:left position:16%
 You see how he's feeling the legs?
 You see that?
 
-00:07:21.160 --> 00:07:24.120 line:77% align:left position:16% size:64%
+00:07:21.160 --> 00:07:24.120 line:77% align:left position:16%
 Well, he just want to make sure
 the horse is sound and healthy.
 
-00:07:24.200 --> 00:07:26.600 line:77% align:left position:16% size:64%
+00:07:24.200 --> 00:07:26.600 line:77% align:left position:16%
 Your daddy always say,
 "You listen to a horse,
 
-00:07:26.680 --> 00:07:28.400 line:83% align:left position:18% size:62%
+00:07:26.680 --> 00:07:28.400 line:83% align:left position:18%
 "he will tell you how he feels."
 
-00:07:28.480 --> 00:07:30.480 line:83% align:left position:18% size:62%
+00:07:28.480 --> 00:07:30.480 line:83% align:left position:18%
 OK, thanks, Barney.
 
 00:07:32.160 --> 00:07:33.600 line:83% align:right size:80% position:90%
@@ -332,11 +255,11 @@ please contact the jockey room.
 MR CRANE: Well, I tell you,
 I don't know.
 
-00:07:42.880 --> 00:07:46.600 line:77% align:left position:20% size:60%
+00:07:42.880 --> 00:07:46.600 line:77% align:left position:20%
 The leg feels fine but she keeps...
 she keeps jumping at that.
 
-00:07:46.680 --> 00:07:48.280 line:83% align:left position:18% size:62%
+00:07:46.680 --> 00:07:48.280 line:83% align:left position:18%
 She wants to get back in her stall.
 
 00:07:48.360 --> 00:07:50.640 line:83% align:right size:80% position:90%
@@ -345,26 +268,26 @@ Vamos, Sonya. Vamos.
 00:07:50.720 --> 00:07:52.880 line:83% align:middle position:50% size:80%
 (Speaks Spanish) Sonya!
 
-00:07:52.960 --> 00:07:54.840 line:77% align:left position:18% size:62%
+00:07:52.960 --> 00:07:54.840 line:77% align:left position:18%
 She never does this ever.
-<c.black>..............</c>She gonna race today?
+&nbsp;              She gonna race today?
 
-00:07:54.920 --> 00:07:58.560 line:77% align:left position:18% size:62%
+00:07:54.920 --> 00:07:58.560 line:77% align:left position:18%
 Of course she's gonna race today.
-<c.black>.......</c>Hello, Mr Palmer.
+&nbsp;       Hello, Mr Palmer.
 
-00:08:00.200 --> 00:08:03.040 line:77% align:left position:16% size:64%
-<c.black>..................</c>Nice to see you.
+00:08:00.200 --> 00:08:03.040 line:77% align:left position:16%
+&nbsp;                  Nice to see you.
 Wasn't sure you were coming today.
 
-00:08:04.200 --> 00:08:06.120 line:77% align:left position:28% size:52%
+00:08:04.200 --> 00:08:06.120 line:77% align:left position:28%
 I, er...I don't believe
-<c.black>.......</c>I've ever met...
+&nbsp;       I've ever met...
 
 00:08:06.200 --> 00:08:08.240 line:83% align:middle position:50% size:80%
 Prince Tariq Abal.
 
-00:08:09.760 --> 00:08:13.840 line:77% align:left position:16% size:64%
+00:08:09.760 --> 00:08:13.840 line:77% align:left position:16%
 Well, well. Sonya is just as pretty
 as she is fast.
 
@@ -375,31 +298,31 @@ after I talk to my staff.
 00:08:19.080 --> 00:08:20.480 line:83% align:right size:80% position:90%
 Alright, what's the story here?
 
-00:08:20.560 --> 00:08:22.160 line:83% align:left position:18% size:62%
+00:08:20.560 --> 00:08:22.160 line:83% align:left position:18%
 Well, she's acting funny.
 
-00:08:22.240 --> 00:08:25.400 line:77% align:left position:16% size:64%
+00:08:22.240 --> 00:08:25.400 line:77% align:left position:16%
 Some heat in that right front
 this morning.
 
-00:08:25.480 --> 00:08:27.720 line:83% align:left position:16% size:64%
+00:08:25.480 --> 00:08:27.720 line:83% align:left position:16%
 I'm not sure she wants to run today.
 
 00:08:27.800 --> 00:08:30.360 line:77% align:right size:80% position:90%
 I don't feel any heat in that leg.
 What did the vet say?
 
-00:08:30.440 --> 00:08:32.600 line:77% align:left position:16% size:64%
+00:08:30.440 --> 00:08:32.600 line:77% align:left position:16%
 The vet and the paddock judge
 took a look at her.
 
-00:08:32.680 --> 00:08:34.080 line:83% align:left position:16% size:64%
+00:08:32.680 --> 00:08:34.080 line:83% align:left position:16%
 They passed her as fine, but...
 
 00:08:34.160 --> 00:08:35.680 line:83% align:right size:80% position:90%
 Well, good. That's all that matters.
 
-00:08:35.760 --> 00:08:38.800 line:77% align:left position:16% size:64%
+00:08:35.760 --> 00:08:38.800 line:77% align:left position:16%
 Sir, I'm just saying I don't...
 I don't think she should go today.
 
@@ -407,7 +330,7 @@ I don't think she should go today.
 Prince Tariq flew his personal 737
 8,000 miles for what?
 
-00:08:44.680 --> 00:08:47.720 line:77% align:left position:16% size:64%
+00:08:44.680 --> 00:08:47.720 line:77% align:left position:16%
 I dunno - to win
 the Jansen Handicap, I guess.
 
@@ -422,11 +345,11 @@ when he can see one of his horses
 run against one of
 his brother's horses.
 
-00:08:54.440 --> 00:08:56.760 line:77% align:left position:16% size:64%
+00:08:54.440 --> 00:08:56.760 line:77% align:left position:16%
 Mr Palmer, we're messing with
 a champion two-year-old here,
 
-00:08:56.840 --> 00:08:58.520 line:77% align:left position:16% size:64%
+00:08:56.840 --> 00:08:58.520 line:77% align:left position:16%
 who's won her first two races
 this year.
 
@@ -434,15 +357,15 @@ this year.
 Well, this'll make three. She's
 a little star. No doubt about it.
 
-00:09:02.080 --> 00:09:03.640 line:77% align:left position:16% size:64%
+00:09:02.080 --> 00:09:03.640 line:77% align:left position:16%
 She's a lot more than a star,
 Everett.
 
-00:09:04.720 --> 00:09:06.280 line:77% align:left position:16% size:64%
+00:09:04.720 --> 00:09:06.280 line:77% align:left position:16%
 Look, I'm just
 listening to the horse.
 
-00:09:06.360 --> 00:09:08.520 line:77% align:left position:16% size:64%
+00:09:06.360 --> 00:09:08.520 line:77% align:left position:16%
 She's telling me
 she could do better with some rest.
 
@@ -476,15 +399,15 @@ Picking her races - my job.
 00:09:30.040 --> 00:09:31.480 line:83% align:right size:80% position:90%
 Are we good?
 
-00:09:32.520 --> 00:09:33.960 line:77% align:left position:18% size:62%
+00:09:32.520 --> 00:09:33.960 line:77% align:left position:18%
 Yeah, we're good.
-<c.black>..............................</c>Good.
+&nbsp;                              Good.
 
 00:09:34.040 --> 00:09:35.640 line:83% align:right size:80% position:90%
 She's morning-line favourite.
 
-00:09:37.040 --> 00:09:38.480 line:77% align:left position:24% size:56%
-<c.black>.......................</c>Let's go.
+00:09:37.040 --> 00:09:38.480 line:77% align:left position:24%
+&nbsp;                       Let's go.
 (Whinnies)
 
 00:09:38.560 --> 00:09:40.800 line:77% align:right size:80% position:90%
@@ -512,37 +435,37 @@ now coming onto the track.
 Number 2, Ocean's Blend,
 carrying two pounds overweight.
 
-00:10:08.160 --> 00:10:09.840 line:77% align:left position:32% size:48%
-<c.black>.....</c>Number 8...
+00:10:08.160 --> 00:10:09.840 line:77% align:left position:32%
+&nbsp;     Number 8...
 Do you own a horse, sweetie?
 
 00:10:11.080 --> 00:10:12.720 line:83% align:right size:80% position:90%
 This is just for owners.
 
-00:10:12.760 --> 00:10:14.120 line:83% align:left position:18% size:62%
+00:10:12.760 --> 00:10:14.120 line:83% align:left position:18%
 MR CRANE: Cale.
 
-00:10:15.160 --> 00:10:16.600 line:83% align:left position:26% size:54%
+00:10:15.160 --> 00:10:16.600 line:83% align:left position:26%
 Cale.
 
-00:10:19.720 --> 00:10:21.200 line:83% align:left position:66% size:14%
+00:10:19.720 --> 00:10:21.200 line:83% align:left position:66%
 (Chuckles)
 
-00:10:21.240 --> 00:10:23.240 line:77% align:left position:18% size:62%
+00:10:21.240 --> 00:10:23.240 line:77% align:left position:18%
 Hey, hey! Yeow!
-<c.black>.............</c>Hey!
+&nbsp;             Hey!
 
-00:10:23.320 --> 00:10:25.120 line:77% align:left position:16% size:64%
-<c.black>.......................</c>I'll be back.
+00:10:23.320 --> 00:10:25.120 line:77% align:left position:16%
+&nbsp;                       I'll be back.
 Yes, sir.
 
-00:10:26.200 --> 00:10:28.880 line:77% align:left position:16% size:64%
+00:10:26.200 --> 00:10:28.880 line:77% align:left position:16%
 See her, honey? Look at that.
 Number 5. Right there.
 
-00:10:28.960 --> 00:10:30.880 line:77% align:left position:18% size:62%
+00:10:28.960 --> 00:10:30.880 line:77% align:left position:18%
 That's our girl.
-<c.black>.........</c>Think she'll win?
+&nbsp;         Think she'll win?
 
 00:10:30.960 --> 00:10:34.200 line:77% align:middle position:50% size:80%
 I got £10 that says she's gonna win.
@@ -554,7 +477,7 @@ I got £10 that says she's gonna win.
 00:10:43.080 --> 00:10:46.600 line:83% align:middle position:50% size:80%
 (Horse whinnies)
 
-00:10:49.320 --> 00:10:50.800 line:83% align:left position:18% size:62%
+00:10:49.320 --> 00:10:50.800 line:83% align:left position:18%
 Here we go, baby.
 
 00:10:56.480 --> 00:10:58.480 line:83% align:middle position:50% size:80%
@@ -563,21 +486,21 @@ Here we go, baby.
 00:11:03.840 --> 00:11:05.640 line:83% align:middle position:50% size:80%
 Easy. Nice and easy, now.
 
-00:11:18.240 --> 00:11:20.480 line:77% align:left position:38% size:42%
+00:11:18.240 --> 00:11:20.480 line:77% align:left position:38%
 MANOLIN: Yeah, yeah, yes!
 Come on, sweetheart! Yeah!
 
 00:11:20.560 --> 00:11:22.000 line:83% align:middle position:50% size:80%
 Go, Sonya!
 
-00:11:26.840 --> 00:11:30.240 line:77% align:left position:16% size:64%
+00:11:26.840 --> 00:11:30.240 line:77% align:left position:16%
 Well, maybe this is your day.
 Come on.
 
-00:11:38.840 --> 00:11:40.280 line:83% align:left position:18% size:62%
+00:11:38.840 --> 00:11:40.280 line:83% align:left position:18%
 Bring it home, baby.
 
-00:11:41.840 --> 00:11:43.240 line:83% align:left position:18% size:62%
+00:11:41.840 --> 00:11:43.240 line:83% align:left position:18%
 Come on, Sonya.
 
 00:11:49.160 --> 00:11:50.840 line:83% align:middle position:50% size:80%
@@ -586,7 +509,7 @@ Come on, Sonya.
 00:11:50.920 --> 00:11:52.840 line:83% align:middle position:50% size:80%
 ( CROWD GASPS )
 
-00:12:08.040 --> 00:12:10.600 line:83% align:left position:18% size:62%
+00:12:08.040 --> 00:12:10.600 line:83% align:left position:18%
 (Whinnies weakly)
 
 00:12:13.440 --> 00:12:14.880 line:83% align:right size:80% position:90%
@@ -609,13 +532,13 @@ Doc. Balon. Manny. Whoa!
 00:12:37.720 --> 00:12:39.880 line:83% align:middle position:50% size:80%
 Easy, girl, easy. Come on. It's OK.
 
-00:12:39.960 --> 00:12:43.760 line:77% align:left position:18% size:62%
+00:12:39.960 --> 00:12:43.760 line:77% align:left position:18%
 Not here. Not here. Take her
 back to her stall, but not here.
 
-00:12:43.840 --> 00:12:45.960 line:77% align:left position:18% size:62%
+00:12:43.840 --> 00:12:45.960 line:77% align:left position:18%
 Come on.
-<c.black>..........................</c>Attagirl.
+&nbsp;                          Attagirl.
 
 00:12:46.040 --> 00:12:48.360 line:83% align:middle position:50% size:80%
 (Sonya whinnies in distress)
@@ -623,65 +546,65 @@ Come on.
 00:12:52.080 --> 00:12:54.080 line:83% align:middle position:50% size:80%
 ( RAIN FALLS )
 
-00:12:54.160 --> 00:12:56.160 line:77% align:left position:16% size:64%
+00:12:54.160 --> 00:12:56.160 line:77% align:left position:16%
 Ben, I can't put her down
 until you sign this.
 
-00:12:56.240 --> 00:12:58.000 line:77% align:left position:30% size:50%
+00:12:56.240 --> 00:12:58.000 line:77% align:left position:30%
 No, Dan. I want to get
-<c.black>....</c>some X-rays taken.
+&nbsp;    some X-rays taken.
 
-00:12:58.080 --> 00:13:00.040 line:77% align:left position:26% size:54%
+00:12:58.080 --> 00:13:00.040 line:77% align:left position:26%
 Cale, come here. Come on.
 Stay out of the way.
 
-00:13:00.120 --> 00:13:02.200 line:77% align:left position:16% size:64%
+00:13:00.120 --> 00:13:02.200 line:77% align:left position:16%
 What's the point, Ben?
 She's finished.
 
-00:13:02.280 --> 00:13:03.840 line:77% align:left position:18% size:62%
+00:13:02.280 --> 00:13:03.840 line:77% align:left position:18%
 (Sonya whinnies)
-<c.black>.............</c>I do not believe this.
+&nbsp;             I do not believe this.
 
-00:13:03.920 --> 00:13:07.640 line:77% align:left position:18% size:62%
+00:13:03.920 --> 00:13:07.640 line:77% align:left position:18%
 I told him!
-<c.black>..</c>What? What did you tell me?
+&nbsp;  What? What did you tell me?
 
-00:13:07.720 --> 00:13:10.040 line:77% align:left position:22% size:58%
+00:13:07.720 --> 00:13:10.040 line:77% align:left position:22%
 I warned you she wasn't right.
-<c.black>.......</c>You put the saddle on her.
+&nbsp;       You put the saddle on her.
 
-00:13:10.120 --> 00:13:12.200 line:77% align:left position:18% size:62%
+00:13:10.120 --> 00:13:12.200 line:77% align:left position:18%
 What?! Wait a minute.
-<c.black>...........</c>Ben, look, I understand.
+&nbsp;           Ben, look, I understand.
 
 00:13:12.280 --> 00:13:14.240 line:77% align:right size:80% position:90%
 It's sad when these things happen
 in the racing business.
 
-00:13:14.320 --> 00:13:16.520 line:77% align:left position:22% size:58%
+00:13:14.320 --> 00:13:16.520 line:77% align:left position:22%
 Sad?!
-<c.black>....</c>Yes, sad. This is an athlete.
+&nbsp;    Yes, sad. This is an athlete.
 
-00:13:16.600 --> 00:13:20.040 line:77% align:left position:16% size:64%
+00:13:16.600 --> 00:13:20.040 line:77% align:left position:16%
 Well, then you just knowingly
 killed a £750,000 athlete.
 
-00:13:20.120 --> 00:13:21.880 line:77% align:left position:18% size:62%
+00:13:20.120 --> 00:13:21.880 line:77% align:left position:18%
 We need to make a move.
-<c.black>...................</c>PALMER: Tell me.
+&nbsp;                   PALMER: Tell me.
 
 00:13:21.960 --> 00:13:23.400 line:83% align:right size:80% position:90%
 It's her cannon bone, Mr Palmer.
 
-00:13:23.480 --> 00:13:25.920 line:77% align:left position:18% size:62%
+00:13:23.480 --> 00:13:25.920 line:77% align:left position:18%
 You pushed her.
 She'd have run in the Breeders' Cup.
 
 00:13:26.000 --> 00:13:27.400 line:83% align:right size:80% position:90%
 She was special!
 
-00:13:27.480 --> 00:13:30.320 line:77% align:left position:16% size:64%
+00:13:27.480 --> 00:13:30.320 line:77% align:left position:16%
 And now she's got a broken leg
 and it's over, so let it go.
 
@@ -689,102 +612,102 @@ and it's over, so let it go.
 You don't care about anybody,
 do you? Horses or people.
 
-00:13:38.080 --> 00:13:39.680 line:83% align:left position:18% size:62%
+00:13:38.080 --> 00:13:39.680 line:83% align:left position:18%
 Well, in fact, I do, Ben,
 
-00:13:39.760 --> 00:13:42.520 line:77% align:left position:16% size:64%
+00:13:39.760 --> 00:13:42.520 line:77% align:left position:16%
 and that's why I'm giving you
 the opportunity to find a new job.
 
-00:13:42.600 --> 00:13:43.920 line:77% align:left position:16% size:64%
-<c.black>..................</c>Are you firing me?
+00:13:42.600 --> 00:13:43.920 line:77% align:left position:16%
+&nbsp;                  Are you firing me?
 That's right.
 
-00:13:43.960 --> 00:13:45.560 line:83% align:left position:18% size:62%
+00:13:43.960 --> 00:13:45.560 line:83% align:left position:18%
 You can take your Mexicans with you.
 
-00:13:49.880 --> 00:13:52.760 line:83% align:left position:18% size:62%
+00:13:49.880 --> 00:13:52.760 line:83% align:left position:18%
 They're men, Palmer. They got names.
 
 00:13:52.840 --> 00:13:54.400 line:83% align:middle position:50% size:80%
 (Sonya whinnies)
 
-00:13:54.480 --> 00:13:56.040 line:83% align:left position:18% size:62%
+00:13:54.480 --> 00:13:56.040 line:83% align:left position:18%
 You owe me money.
 
-00:13:56.120 --> 00:13:58.720 line:77% align:left position:20% size:60%
+00:13:56.120 --> 00:13:58.720 line:77% align:left position:20%
 You'll get your cheque first of
 the month, like everybody else.
 
-00:13:58.760 --> 00:14:01.040 line:77% align:left position:16% size:64%
+00:13:58.760 --> 00:14:01.040 line:77% align:left position:16%
 No, you pay me now.
 £9,000 for the last three months.
 
 00:14:03.360 --> 00:14:05.360 line:83% align:right size:80% position:90%
 Here's £6,000. £6,000.
 
-00:14:05.440 --> 00:14:07.840 line:77% align:left position:16% size:64%
-<c.black>...............</c>Take it or leave it.
+00:14:05.440 --> 00:14:07.840 line:77% align:left position:16%
+&nbsp;               Take it or leave it.
 I'll leave it. We agreed on £9,000.
 
-00:14:07.920 --> 00:14:09.440 line:77% align:left position:18% size:62%
+00:14:07.920 --> 00:14:09.440 line:77% align:left position:18%
 You're £3,000 short.
-<c.black>.............</c>You wait for a cheque.
+&nbsp;             You wait for a cheque.
 
-00:14:09.520 --> 00:14:11.040 line:77% align:left position:18% size:62%
+00:14:09.520 --> 00:14:11.040 line:77% align:left position:18%
 I'm not waiting for a cheque!
-<c.black>.......</c>(Sonya whinnies)
+&nbsp;       (Sonya whinnies)
 
-00:14:11.080 --> 00:14:12.920 line:77% align:left position:36% size:44%
+00:14:11.080 --> 00:14:12.920 line:77% align:left position:36%
 For God's sake,
 PLEASE put that horse down!
 
-00:14:13.000 --> 00:14:14.880 line:77% align:left position:18% size:62%
+00:14:13.000 --> 00:14:14.880 line:77% align:left position:18%
 Dan, Dan, Dan, wait!
-<c.black>...........</c>(Snorts)
+&nbsp;           (Snorts)
 
 00:14:18.000 --> 00:14:20.120 line:83% align:right size:80% position:90%
 I'll take the £6,000 and the horse.
 
-00:14:21.560 --> 00:14:24.720 line:77% align:left position:16% size:64%
+00:14:21.560 --> 00:14:24.720 line:77% align:left position:16%
 £6,000 and a dead horse and
 I never have to hear from you again?
 
-00:14:24.800 --> 00:14:26.560 line:77% align:left position:16% size:64%
-<c.black>.......................</c>That's right.
+00:14:24.800 --> 00:14:26.560 line:77% align:left position:16%
+&nbsp;                       That's right.
 Take the money.
 
 00:14:26.640 --> 00:14:28.160 line:83% align:middle position:50% size:80%
 (Sonya whinnies)
 
-00:14:28.240 --> 00:14:31.160 line:77% align:left position:16% size:64%
+00:14:28.240 --> 00:14:31.160 line:77% align:left position:16%
 Sedate her, Dan.
 Put her down heavy for the night.
 
-00:14:31.240 --> 00:14:33.800 line:77% align:left position:16% size:64%
+00:14:31.240 --> 00:14:33.800 line:77% align:left position:16%
 It'll cost you £400
 just to dispose of her body.
 
 00:14:33.840 --> 00:14:35.280 line:83% align:right size:80% position:90%
 Balon, hook up a trailer, would you?
 
-00:14:35.320 --> 00:14:37.320 line:77% align:left position:16% size:64%
+00:14:35.320 --> 00:14:37.320 line:77% align:left position:16%
 You got a hard head, Ben,
 just like your old man.
 
-00:14:37.400 --> 00:14:40.400 line:77% align:left position:16% size:64%
-<c.black>.......</c>Cale, go on out to the truck.
+00:14:37.400 --> 00:14:40.400 line:77% align:left position:16%
+&nbsp;       Cale, go on out to the truck.
 On a horse farm with no horses.
 
 00:14:40.480 --> 00:14:42.800 line:77% align:right size:80% position:90%
 Go on. Manny,
 take her out to the truck.
 
-00:14:42.880 --> 00:14:45.240 line:77% align:left position:16% size:64%
+00:14:42.880 --> 00:14:45.240 line:77% align:left position:16%
 Delusional. It's like a disease
 with you Cranes.
 
-00:14:45.320 --> 00:14:47.760 line:77% align:left position:16% size:64%
+00:14:45.320 --> 00:14:47.760 line:77% align:left position:16%
 Better get out of here
 before it rubs off on her.
 
@@ -794,25 +717,25 @@ before it rubs off on her.
 00:14:52.400 --> 00:14:55.360 line:83% align:middle position:50% size:80%
 ( RAIN FALLS )
 
-00:14:59.760 --> 00:15:01.520 line:77% align:left position:18% size:62%
+00:14:59.760 --> 00:15:01.520 line:77% align:left position:18%
 BEN: Manny!
-<c.black>...........................</c>Yeah?
+&nbsp;                           Yeah?
 
-00:15:01.600 --> 00:15:03.240 line:83% align:left position:18% size:62%
+00:15:01.600 --> 00:15:03.240 line:83% align:left position:18%
 Go get the old man.
 
-00:15:03.320 --> 00:15:05.240 line:83% align:left position:18% size:62%
+00:15:03.320 --> 00:15:05.240 line:83% align:left position:18%
 Tell him it's an emergency.
 
-00:15:14.520 --> 00:15:16.720 line:77% align:left position:16% size:64%
+00:15:14.520 --> 00:15:16.720 line:77% align:left position:16%
 Alright, Balon, we need
 the heavy winch and the sling
 
-00:15:16.800 --> 00:15:18.200 line:83% align:left position:18% size:62%
+00:15:16.800 --> 00:15:18.200 line:83% align:left position:18%
 to get her in this stall.
 
-00:15:18.280 --> 00:15:20.840 line:77% align:left position:16% size:64%
-<c.black>............</c>BALON: OK, where's that?
+00:15:18.280 --> 00:15:20.840 line:77% align:left position:16%
+&nbsp;            BALON: OK, where's that?
 It's in the back stall there.
 
 00:15:20.920 --> 00:15:22.520 line:83% align:middle position:50% size:80%
@@ -822,20 +745,20 @@ BALON: Oh, OK. I got it.
 Where have you been?
 God, I've been so worried.
 
-00:15:26.440 --> 00:15:28.560 line:77% align:left position:16% size:64%
-<c.black>....................</c>What's going on?
+00:15:26.440 --> 00:15:28.560 line:77% align:left position:16%
+&nbsp;                    What's going on?
 I had a horse go down.
 
-00:15:28.640 --> 00:15:30.480 line:77% align:left position:16% size:64%
-<c.black>.........................</c>Oh, my God.
+00:15:28.640 --> 00:15:30.480 line:77% align:left position:16%
+&nbsp;                         Oh, my God.
 OK, anything else, boss?
 
 00:15:30.560 --> 00:15:32.560 line:77% align:right size:80% position:90%
 Yeah, give Balon a hand back there,
 will you?
 
-00:15:32.640 --> 00:15:34.760 line:77% align:left position:42% size:38%
-<c.black>..............</c>Manny.
+00:15:32.640 --> 00:15:34.760 line:77% align:left position:42%
+&nbsp;              Manny.
 Balon.
 
 00:15:34.840 --> 00:15:37.080 line:77% align:right size:80% position:90%
@@ -854,11 +777,11 @@ Goodnight.
 00:15:53.680 --> 00:15:56.200 line:83% align:right size:80% position:90%
 I never ask you for anything.
 
-00:15:56.280 --> 00:15:58.960 line:77% align:left position:16% size:64%
+00:15:56.280 --> 00:15:58.960 line:77% align:left position:16%
 That's right.
 I haven't heard from you in months.
 
-00:15:59.040 --> 00:16:00.880 line:77% align:left position:16% size:64%
+00:15:59.040 --> 00:16:00.880 line:77% align:left position:16%
 That's why your business
 is so great.
 
@@ -866,13 +789,13 @@ is so great.
 I got a filly in there
 with a broken cannon bone, Pop.
 
-00:16:05.440 --> 00:16:06.880 line:83% align:left position:18% size:62%
+00:16:05.440 --> 00:16:06.880 line:83% align:left position:18%
 Thoroughbred?
 
-00:16:08.360 --> 00:16:09.800 line:83% align:left position:18% size:62%
+00:16:08.360 --> 00:16:09.800 line:83% align:left position:18%
 Racer?
 
-00:16:15.680 --> 00:16:16.880 line:83% align:left position:18% size:62%
+00:16:15.680 --> 00:16:16.880 line:83% align:left position:18%
 Put her down.
 
 00:16:20.840 --> 00:16:23.720 line:77% align:right size:80% position:90%
@@ -887,67 +810,67 @@ so it couldn't move.
 The leg healed
 and that horse was fine.
 
-00:16:27.480 --> 00:16:29.680 line:83% align:left position:18% size:62%
+00:16:27.480 --> 00:16:29.680 line:83% align:left position:18%
 That was a long time ago.
 
-00:16:29.760 --> 00:16:31.480 line:77% align:left position:16% size:64%
+00:16:29.760 --> 00:16:31.480 line:77% align:left position:16%
 You were just a little boy,
 Benjamin.
 
 00:16:32.520 --> 00:16:35.240 line:83% align:right size:80% position:90%
 But I remember it. It worked.
 
-00:16:36.680 --> 00:16:39.560 line:83% align:left position:18% size:62%
+00:16:36.680 --> 00:16:39.560 line:83% align:left position:18%
 He was an old lead pony.
 
-00:16:39.640 --> 00:16:42.600 line:77% align:left position:16% size:64%
+00:16:39.640 --> 00:16:42.600 line:77% align:left position:16%
 Healed just enough to walk around
 for a few more years
 
-00:16:42.680 --> 00:16:45.520 line:83% align:left position:18% size:62%
+00:16:42.680 --> 00:16:45.520 line:83% align:left position:18%
 before I finally put him down.
 
-00:16:45.600 --> 00:16:48.160 line:77% align:left position:16% size:64%
+00:16:45.600 --> 00:16:48.160 line:77% align:left position:16%
 Which is what you'd do
 if you had any sense at all.
 
 00:16:58.080 --> 00:16:59.680 line:83% align:middle position:50% size:80%
 Let's get her in the stall.
 
-00:17:01.360 --> 00:17:04.560 line:77% align:left position:16% size:64%
-<c.black>...............................</c>Cale.
+00:17:01.360 --> 00:17:04.560 line:77% align:left position:16%
+&nbsp;                               Cale.
 He wanted me to help them, Mom.
 
-00:17:04.640 --> 00:17:06.600 line:77% align:left position:16% size:64%
+00:17:04.640 --> 00:17:06.600 line:77% align:left position:16%
 Cale, I'm gonna
 spend the night with her.
 
-00:17:06.680 --> 00:17:08.360 line:83% align:left position:18% size:62%
+00:17:06.680 --> 00:17:08.360 line:83% align:left position:18%
 You go on inside with Mom, now.
 
-00:17:09.840 --> 00:17:11.480 line:77% align:left position:22% size:58%
+00:17:09.840 --> 00:17:11.480 line:77% align:left position:22%
 Alright.
-<c.black>......</c>Right up there?
+&nbsp;      Right up there?
 
-00:17:11.560 --> 00:17:13.280 line:77% align:left position:18% size:62%
+00:17:11.560 --> 00:17:13.280 line:77% align:left position:18%
 Yep. Alright.
-<c.black>.........</c>Right, Manny?
+&nbsp;         Right, Manny?
 
-00:17:13.360 --> 00:17:16.080 line:77% align:left position:18% size:62%
+00:17:13.360 --> 00:17:16.080 line:77% align:left position:18%
 You got the big winch?
-<c.black>.......</c>Yeah, yeah, yeah.
+&nbsp;       Yeah, yeah, yeah.
 
-00:17:17.320 --> 00:17:19.520 line:83% align:left position:18% size:62%
+00:17:17.320 --> 00:17:19.520 line:83% align:left position:18%
 Let's hook it up. Come on.
 
-00:17:41.960 --> 00:17:43.400 line:83% align:left position:30% size:50%
+00:17:41.960 --> 00:17:43.400 line:83% align:left position:30%
 (Exhales)
 
-00:17:46.120 --> 00:17:48.480 line:77% align:left position:16% size:64%
-<c.black>............</c>DOC: Was it a hard fall?
+00:17:46.120 --> 00:17:48.480 line:77% align:left position:16%
+&nbsp;            DOC: Was it a hard fall?
 Well, hard enough.
 
-00:17:48.560 --> 00:17:51.640 line:77% align:left position:16% size:64%
+00:17:48.560 --> 00:17:51.640 line:77% align:left position:16%
 She didn't get bumped or anything.
 She...she just went down.
 
@@ -961,9 +884,9 @@ and my X-rays confirm it.
 It's a spiral fracture
 of the cannon bone.
 
-00:17:58.040 --> 00:18:00.720 line:77% align:left position:18% size:62%
+00:17:58.040 --> 00:18:00.720 line:77% align:left position:18%
 But it is non-displaced.
-<c.black>...</c>She'll never race again?
+&nbsp;   She'll never race again?
 
 00:18:01.760 --> 00:18:04.520 line:83% align:right size:80% position:90%
 No, honey. But she might walk again.
@@ -976,18 +899,18 @@ Try and keep her calm.
 Stable rest.
 That cast I put on her should hold.
 
-00:18:11.640 --> 00:18:13.520 line:83% align:left position:18% size:62%
+00:18:11.640 --> 00:18:13.520 line:83% align:left position:18%
 I'll go real easy on her, Doc.
 
-00:18:13.600 --> 00:18:15.200 line:77% align:left position:32% size:48%
-<c.black>.........</c>Stay close on this.
+00:18:13.600 --> 00:18:15.200 line:77% align:left position:32%
+&nbsp;         Stay close on this.
 BEN: You got it.
 
-00:18:15.280 --> 00:18:18.400 line:77% align:left position:16% size:64%
+00:18:15.280 --> 00:18:18.400 line:77% align:left position:16%
 Alright, let's pull
 all the harness stuff.
 
-00:18:18.480 --> 00:18:20.760 line:77% align:left position:16% size:64%
+00:18:18.480 --> 00:18:20.760 line:77% align:left position:16%
 Put the straps, the pulley
 in the tack room.
 
@@ -995,16 +918,16 @@ in the tack room.
 Ben, when Mr Palmer fired you and us
 yesterday, well...
 
-00:18:24.840 --> 00:18:26.880 line:83% align:left position:18% size:62%
+00:18:24.840 --> 00:18:26.880 line:83% align:left position:18%
 Well, we all don't have no jobs.
 
-00:18:26.960 --> 00:18:30.000 line:83% align:left position:18% size:62%
+00:18:26.960 --> 00:18:30.000 line:83% align:left position:18%
 I'm sorry, guys. I forgot. Here.
 
-00:18:30.080 --> 00:18:31.720 line:83% align:left position:18% size:62%
+00:18:30.080 --> 00:18:31.720 line:83% align:left position:18%
 Here's £1,000 each.
 
-00:18:35.040 --> 00:18:36.480 line:83% align:left position:18% size:62%
+00:18:35.040 --> 00:18:36.480 line:83% align:left position:18%
 What's wrong?
 
 00:18:37.520 --> 00:18:39.680 line:83% align:right size:80% position:90%
@@ -1017,14 +940,14 @@ race no more so...
 00:18:42.320 --> 00:18:43.760 line:83% align:middle position:50% size:80%
 So why are we gonna hang around
 
-00:18:43.840 --> 00:18:45.720 line:77% align:left position:24% size:56%
-<c.black>...........</c>and help you get
+00:18:43.840 --> 00:18:45.720 line:77% align:left position:24%
+&nbsp;           and help you get
 a broken racehorse to walk?
 
-00:18:46.960 --> 00:18:48.800 line:83% align:left position:16% size:64%
+00:18:46.960 --> 00:18:48.800 line:83% align:left position:16%
 You know who this horse was sired by?
 
-00:18:50.040 --> 00:18:53.240 line:83% align:left position:16% size:64%
+00:18:50.040 --> 00:18:53.240 line:83% align:left position:16%
 Dreamcatcher. You know who that was?
 
 00:18:56.200 --> 00:18:58.000 line:83% align:right size:80% position:90%
@@ -1045,14 +968,14 @@ to breed her to a decent stud,
 sell that yearling for,
 I dunno, maybe...
 
-00:19:13.000 --> 00:19:17.480 line:77% align:left position:16% size:64%
+00:19:13.000 --> 00:19:17.480 line:77% align:left position:16%
 If it's a colt with good
 confirmation, maybe £300,000.
 
 00:19:17.560 --> 00:19:19.400 line:83% align:right size:80% position:90%
 BEN: £300,000.
 
-00:19:19.480 --> 00:19:22.560 line:77% align:left position:28% size:52%
+00:19:19.480 --> 00:19:22.560 line:77% align:left position:28%
 You two be interested
 in a piece of £300,000?
 
@@ -1066,7 +989,7 @@ How about it, Pop?
 BALON: Looks good to me.
 Another one done.
 
-00:19:36.080 --> 00:19:38.360 line:83% align:left position:18% size:62%
+00:19:36.080 --> 00:19:38.360 line:83% align:left position:18%
 BEN: Come on, take it up.
 
 00:19:38.440 --> 00:19:40.600 line:83% align:right size:80% position:90%
@@ -1078,18 +1001,18 @@ Got it.
 00:19:44.120 --> 00:19:47.560 line:83% align:right size:80% position:90%
 Good girl. Good Sonya.
 
-00:19:51.200 --> 00:19:52.600 line:83% align:left position:18% size:62%
+00:19:51.200 --> 00:19:52.600 line:83% align:left position:18%
 (Whinnies)
 
 00:19:52.680 --> 00:19:55.320 line:83% align:right size:80% position:90%
 Easy. Easy, girl. Easy, girl.
 
-00:19:55.400 --> 00:19:56.840 line:83% align:left position:68% size:12%
+00:19:55.400 --> 00:19:56.840 line:83% align:left position:68%
 Come on.
 
-00:20:02.520 --> 00:20:05.440 line:77% align:left position:34% size:46%
+00:20:02.520 --> 00:20:05.440 line:77% align:left position:34%
 (Sonya whinnies)
-<c.black>...........</c>One, two, three.
+&nbsp;           One, two, three.
 
 00:20:05.520 --> 00:20:07.000 line:83% align:middle position:50% size:80%
 (Whinnies)
@@ -1097,10 +1020,10 @@ Come on.
 00:20:08.560 --> 00:20:10.600 line:83% align:right size:80% position:90%
 (Children call goodbye)
 
-00:20:16.280 --> 00:20:18.120 line:83% align:left position:18% size:62%
+00:20:16.280 --> 00:20:18.120 line:83% align:left position:18%
 One, two, three.
 
-00:20:22.200 --> 00:20:23.880 line:83% align:left position:18% size:62%
+00:20:22.200 --> 00:20:23.880 line:83% align:left position:18%
 OK, that's good. That's good. OK.
 
 00:20:23.960 --> 00:20:25.440 line:83% align:right size:80% position:90%
@@ -1109,7 +1032,7 @@ BALON: She's OK.
 00:20:28.080 --> 00:20:29.800 line:83% align:right size:80% position:90%
 She's OK.
 
-00:21:01.840 --> 00:21:03.840 line:83% align:left position:18% size:62%
+00:21:01.840 --> 00:21:03.840 line:83% align:left position:18%
 (Sonya nickers quietly)
 
 00:21:12.720 --> 00:21:14.280 line:83% align:middle position:50% size:80%
@@ -1118,21 +1041,21 @@ She's OK.
 00:21:14.440 --> 00:21:17.080 line:83% align:middle position:50% size:80%
 (Whinnies and snorts)
 
-00:21:18.480 --> 00:21:20.400 line:83% align:left position:18% size:62%
+00:21:18.480 --> 00:21:20.400 line:83% align:left position:18%
 Whoa, whoa, whoa! Are you alright?
 
-00:21:20.480 --> 00:21:21.920 line:77% align:left position:34% size:46%
+00:21:20.480 --> 00:21:21.920 line:77% align:left position:34%
 I'm fine.
-<c.black>...............</c>Huh? You OK?
+&nbsp;               Huh? You OK?
 
-00:21:22.000 --> 00:21:24.680 line:83% align:left position:18% size:62%
+00:21:22.000 --> 00:21:24.680 line:83% align:left position:18%
 BALON: Sonya, take it easy. Come on.
 
-00:21:24.760 --> 00:21:26.240 line:77% align:left position:18% size:62%
+00:21:24.760 --> 00:21:26.240 line:77% align:left position:18%
 It's OK, honey.
-<c.black>..........</c>How is she?
+&nbsp;          How is she?
 
-00:21:26.320 --> 00:21:28.680 line:83% align:left position:18% size:62%
+00:21:26.320 --> 00:21:28.680 line:83% align:left position:18%
 She's OK.
 
 00:21:28.760 --> 00:21:31.680 line:77% align:right size:80% position:90%
@@ -1146,12 +1069,12 @@ She's what I do for work now,
 so you're gonna have to
 leave her be, alright?
 
-00:21:37.960 --> 00:21:40.000 line:83% align:left position:18% size:62%
+00:21:37.960 --> 00:21:40.000 line:83% align:left position:18%
 Sorry.
 
-00:21:41.520 --> 00:21:44.000 line:77% align:left position:18% size:62%
+00:21:41.520 --> 00:21:44.000 line:77% align:left position:18%
 Are you sure you're alright?
-<c.black>..........................</c>Fine.
+&nbsp;                          Fine.
 
 00:21:54.440 --> 00:21:56.080 line:83% align:middle position:50% size:80%
 (Snorts quietly)
@@ -1174,7 +1097,7 @@ Are you sure you're alright?
 00:23:15.560 --> 00:23:18.320 line:83% align:middle position:50% size:80%
 (Munches)
 
-00:23:36.320 --> 00:23:37.760 line:83% align:left position:18% size:62%
+00:23:36.320 --> 00:23:37.760 line:83% align:left position:18%
 (Sonya munches)
 
 00:23:44.400 --> 00:23:45.880 line:83% align:middle position:50% size:80%
@@ -1183,21 +1106,21 @@ Are you sure you're alright?
 00:23:46.920 --> 00:23:48.360 line:83% align:middle position:50% size:80%
 (Nickers)
 
-00:23:53.600 --> 00:23:56.960 line:77% align:left position:42% size:38%
+00:23:53.600 --> 00:23:56.960 line:77% align:left position:42%
 (Whinnies)
-<c.black>....</c>(Footsteps retreat)
+&nbsp;    (Footsteps retreat)
 
-00:23:57.040 --> 00:23:59.320 line:83% align:left position:18% size:62%
+00:23:57.040 --> 00:23:59.320 line:83% align:left position:18%
 (Whinnies quietly)
 
 00:24:13.000 --> 00:24:15.760 line:83% align:middle position:50% size:80%
 ( DOOR CREAKS )
 
-00:24:21.120 --> 00:24:23.160 line:77% align:left position:16% size:64%
-<c.black>........................</c>Here you go.
+00:24:21.120 --> 00:24:23.160 line:77% align:left position:16%
+&nbsp;                        Here you go.
 Thank you.
 
-00:24:26.720 --> 00:24:29.440 line:77% align:left position:16% size:64%
+00:24:26.720 --> 00:24:29.440 line:77% align:left position:16%
 Make all that money and get to
 eat as much pie as you want?
 
@@ -1205,28 +1128,28 @@ eat as much pie as you want?
 (Chuckles)
 Yeah, you can't find a better job.
 
-00:24:31.560 --> 00:24:33.480 line:77% align:left position:20% size:60%
-<c.black>.........................</c>(Laughs)
+00:24:31.560 --> 00:24:33.480 line:77% align:left position:20%
+&nbsp;                         (Laughs)
 (Laughs)
 
-00:24:34.520 --> 00:24:36.680 line:77% align:left position:16% size:64%
+00:24:34.520 --> 00:24:36.680 line:77% align:left position:16%
 Manny's gonna take me
 to watch him ride a racehorse
 
-00:24:36.760 --> 00:24:39.200 line:77% align:left position:16% size:64%
+00:24:36.760 --> 00:24:39.200 line:77% align:left position:16%
 and then tonight I'm gonna
 muck out Sonya's stall.
 
-00:24:39.280 --> 00:24:41.040 line:83% align:left position:18% size:62%
+00:24:39.280 --> 00:24:41.040 line:83% align:left position:18%
 Thinking about painting it.
 
 00:24:41.120 --> 00:24:42.560 line:83% align:right size:80% position:90%
 Nice to have a horse, huh?
 
-00:24:43.720 --> 00:24:45.840 line:83% align:left position:18% size:62%
+00:24:43.720 --> 00:24:45.840 line:83% align:left position:18%
 Especially after Dad said,
 
-00:24:45.920 --> 00:24:49.160 line:77% align:left position:16% size:64%
+00:24:45.920 --> 00:24:49.160 line:77% align:left position:16%
 "There will never be another horse
 on this farm as long as I live."
 
@@ -1240,7 +1163,7 @@ everything Pop says.
 00:24:56.640 --> 00:24:58.640 line:83% align:right size:80% position:90%
 There's two sides to every story.
 
-00:24:58.720 --> 00:25:02.320 line:77% align:left position:16% size:64%
+00:24:58.720 --> 00:25:02.320 line:77% align:left position:16%
 Pop said Dad's the best horseman.
 Says he has a gift.
 
@@ -1250,7 +1173,7 @@ Well, that's true.
 00:25:06.040 --> 00:25:07.480 line:83% align:right size:80% position:90%
 We all know that's true.
 
-00:25:20.800 --> 00:25:22.960 line:77% align:left position:48% size:32%
+00:25:20.800 --> 00:25:22.960 line:77% align:left position:48%
 Hey.
 Hello.
 
@@ -1260,13 +1183,13 @@ Whoa, Zephyr. Whoa, boy.
 00:25:25.880 --> 00:25:27.760 line:83% align:right size:80% position:90%
 Thanks, Mike.
 
-00:25:29.080 --> 00:25:31.600 line:77% align:left position:16% size:64%
-<c.black>......</c>What did you think about that?
+00:25:29.080 --> 00:25:31.600 line:77% align:left position:16%
+&nbsp;      What did you think about that?
 That was fast.
 
-00:25:31.680 --> 00:25:34.880 line:77% align:left position:18% size:62%
+00:25:31.680 --> 00:25:34.880 line:77% align:left position:18%
 Nice boots.
-<c.black>.....................</c>Ah, thank you.
+&nbsp;                     Ah, thank you.
 
 00:25:34.960 --> 00:25:37.520 line:77% align:right size:80% position:90%
 Just saddled a couple of horses
@@ -1275,134 +1198,134 @@ for a few owners.
 00:25:43.560 --> 00:25:45.280 line:83% align:middle position:50% size:80%
 (Sighs)
 
-00:25:45.360 --> 00:25:47.080 line:77% align:left position:46% size:34%
-<c.black>....</c>Pretty cool, huh?
+00:25:45.360 --> 00:25:47.080 line:77% align:left position:46%
+&nbsp;    Pretty cool, huh?
 Yeah.
 
 00:25:52.440 --> 00:25:54.600 line:83% align:right size:80% position:90%
 You ever ride in races?
 
-00:25:56.200 --> 00:25:58.120 line:83% align:left position:18% size:62%
+00:25:56.200 --> 00:25:58.120 line:83% align:left position:18%
 Couple of times I did.
 
-00:25:58.200 --> 00:25:59.760 line:83% align:left position:18% size:62%
+00:25:58.200 --> 00:25:59.760 line:83% align:left position:18%
 But no more.
 
 00:25:59.840 --> 00:26:01.280 line:83% align:right size:80% position:90%
 Why?
 
-00:26:01.360 --> 00:26:03.520 line:83% align:left position:18% size:62%
+00:26:01.360 --> 00:26:03.520 line:83% align:left position:18%
 Ah...
 
-00:26:03.600 --> 00:26:06.520 line:83% align:left position:18% size:62%
+00:26:03.600 --> 00:26:06.520 line:83% align:left position:18%
 ..I have bad dreams.
 
-00:26:12.800 --> 00:26:15.880 line:77% align:left position:16% size:64%
+00:26:12.800 --> 00:26:15.880 line:77% align:left position:16%
 Three years ago
 I got my first real race.
 
-00:26:15.960 --> 00:26:17.840 line:83% align:left position:18% size:62%
+00:26:15.960 --> 00:26:17.840 line:83% align:left position:18%
 I ran fifth.
 
 00:26:19.080 --> 00:26:21.040 line:83% align:right size:80% position:90%
 What was the name of the horse?
 
-00:26:22.680 --> 00:26:25.240 line:83% align:left position:18% size:62%
+00:26:22.680 --> 00:26:25.240 line:83% align:left position:18%
 Downtown Swing.
 
-00:26:26.520 --> 00:26:27.920 line:83% align:left position:18% size:62%
+00:26:26.520 --> 00:26:27.920 line:83% align:left position:18%
 He was amazing.
 
 00:26:28.040 --> 00:26:29.760 line:83% align:right size:80% position:90%
 Did you ever ride him again?
 
-00:26:29.840 --> 00:26:32.760 line:77% align:left position:16% size:64%
+00:26:29.840 --> 00:26:32.760 line:77% align:left position:16%
 Yeah. In his second race
 I was flying into that first turn.
 
-00:26:33.800 --> 00:26:36.840 line:77% align:left position:16% size:64%
+00:26:33.800 --> 00:26:36.840 line:77% align:left position:16%
 Then I looked under my arm
 to see if I was clear on the rail.
 
-00:26:36.880 --> 00:26:40.120 line:77% align:left position:16% size:64%
+00:26:36.880 --> 00:26:40.120 line:77% align:left position:16%
 When I looked back up,
 there was a horse swerving into me.
 
-00:26:40.200 --> 00:26:43.520 line:77% align:left position:16% size:64%
+00:26:40.200 --> 00:26:43.520 line:77% align:left position:16%
 My left foot came outta the iron,
 I fell to the ground
 
-00:26:43.600 --> 00:26:46.200 line:83% align:left position:18% size:62%
+00:26:43.600 --> 00:26:46.200 line:83% align:left position:18%
 and I got run over by three horses.
 
-00:26:47.440 --> 00:26:49.560 line:83% align:left position:18% size:62%
+00:26:47.440 --> 00:26:49.560 line:83% align:left position:18%
 Broke both shoulders,
 
-00:26:49.640 --> 00:26:51.360 line:83% align:left position:18% size:62%
+00:26:49.640 --> 00:26:51.360 line:83% align:left position:18%
 sternum,
 
-00:26:51.440 --> 00:26:53.000 line:83% align:left position:18% size:62%
+00:26:51.440 --> 00:26:53.000 line:83% align:left position:18%
 four ribs,
 
-00:26:53.080 --> 00:26:54.520 line:83% align:left position:18% size:62%
+00:26:53.080 --> 00:26:54.520 line:83% align:left position:18%
 a punctured lung.
 
 00:26:56.080 --> 00:26:57.760 line:83% align:right size:80% position:90%
 You never raced again?
 
-00:26:59.360 --> 00:27:01.520 line:83% align:left position:18% size:62%
+00:26:59.360 --> 00:27:01.520 line:83% align:left position:18%
 (Sighs) 
 
-00:27:01.600 --> 00:27:04.920 line:77% align:left position:16% size:64%
+00:27:01.600 --> 00:27:04.920 line:77% align:left position:16%
 You know,
 at night when I fall asleep...
 
-00:27:06.560 --> 00:27:09.400 line:77% align:left position:16% size:64%
+00:27:06.560 --> 00:27:09.400 line:77% align:left position:16%
 ..I dream I'm in a big race
 on a very fast horse.
 
-00:27:10.720 --> 00:27:14.560 line:77% align:left position:16% size:64%
+00:27:10.720 --> 00:27:14.560 line:77% align:left position:16%
 I look to my left foot, it slips out
 of the iron and I begin to fall.
 
-00:27:14.640 --> 00:27:17.840 line:77% align:left position:16% size:64%
+00:27:14.640 --> 00:27:17.840 line:77% align:left position:16%
 But before I hit the ground,
 I wake up.
 
-00:27:19.040 --> 00:27:21.840 line:77% align:left position:16% size:64%
-<c.black>..</c>But you still exercise racehorses.
+00:27:19.040 --> 00:27:21.840 line:77% align:left position:16%
+&nbsp;  But you still exercise racehorses.
 Yeah.
 
-00:27:21.960 --> 00:27:24.880 line:83% align:left position:18% size:62%
+00:27:21.960 --> 00:27:24.880 line:83% align:left position:18%
 It's just...
 
-00:27:24.960 --> 00:27:26.800 line:83% align:left position:18% size:62%
+00:27:24.960 --> 00:27:26.800 line:83% align:left position:18%
 ..it's just me and the horse,
 
-00:27:26.880 --> 00:27:30.600 line:83% align:left position:18% size:62%
+00:27:26.880 --> 00:27:30.600 line:83% align:left position:18%
 alone on the track, free,
 
-00:27:30.680 --> 00:27:32.680 line:83% align:left position:18% size:62%
+00:27:30.680 --> 00:27:32.680 line:83% align:left position:18%
 no-one to bother us.
 
-00:27:32.760 --> 00:27:34.640 line:83% align:left position:18% size:62%
+00:27:32.760 --> 00:27:34.640 line:83% align:left position:18%
 It's much better that way.
 
 00:27:35.880 --> 00:27:37.560 line:77% align:right size:80% position:90%
 I'm sorry about your nightmares,
 Manny.
 
-00:27:37.640 --> 00:27:39.080 line:83% align:left position:18% size:62%
+00:27:37.640 --> 00:27:39.080 line:83% align:left position:18%
 It's OK.
 
-00:27:40.320 --> 00:27:42.880 line:77% align:left position:16% size:64%
+00:27:40.320 --> 00:27:42.880 line:77% align:left position:16%
 It's God's way of telling me
 no more racing.
 
-00:28:01.040 --> 00:28:03.360 line:83% align:left position:18% size:62%
+00:28:01.040 --> 00:28:03.360 line:83% align:left position:18%
 (Sonya whinnies)
 
-00:28:08.320 --> 00:28:10.840 line:83% align:left position:18% size:62%
+00:28:08.320 --> 00:28:10.840 line:83% align:left position:18%
 (Munches)
 
 00:28:12.000 --> 00:28:13.600 line:83% align:middle position:50% size:80%
@@ -1411,7 +1334,7 @@ no more racing.
 00:28:19.400 --> 00:28:21.000 line:83% align:middle position:50% size:80%
 (Sonya whinnies)
 
-00:28:30.560 --> 00:28:32.080 line:83% align:left position:18% size:62%
+00:28:30.560 --> 00:28:32.080 line:83% align:left position:18%
 From Mom.
 
 00:28:32.160 --> 00:28:34.080 line:83% align:right size:80% position:90%
@@ -1420,18 +1343,18 @@ I'm good. Just put it down.
 00:28:45.440 --> 00:28:46.880 line:83% align:middle position:50% size:80%
 Cale.
 
-00:28:48.600 --> 00:28:51.040 line:77% align:left position:16% size:64%
+00:28:48.600 --> 00:28:51.040 line:77% align:left position:16%
 Can you grab that roll of wire
 underneath the fence there?
 
 00:28:51.120 --> 00:28:52.640 line:83% align:middle position:50% size:80%
 Yeah.
 
-00:28:58.720 --> 00:29:01.080 line:77% align:left position:16% size:64%
-<c.black>............</c>Just hang onto it there.
+00:28:58.720 --> 00:29:01.080 line:77% align:left position:16%
+&nbsp;            Just hang onto it there.
 OK.
 
-00:29:06.120 --> 00:29:07.880 line:77% align:left position:16% size:64%
+00:29:06.120 --> 00:29:07.880 line:77% align:left position:16%
 Pop said
 this farm used to be beautiful.
 
@@ -1442,8 +1365,8 @@ This farm WAS beautiful.
 200 acres.
 One of the nicest in Versailles.
 
-00:29:17.760 --> 00:29:19.960 line:77% align:left position:16% size:64%
-<c.black>............</c>See all that over there?
+00:29:17.760 --> 00:29:19.960 line:77% align:left position:16%
+&nbsp;            See all that over there?
 Yeah.
 
 00:29:21.480 --> 00:29:22.920 line:83% align:right size:80% position:90%
@@ -1456,14 +1379,14 @@ some really nice race mares.
 00:29:33.720 --> 00:29:36.640 line:83% align:right size:80% position:90%
 Big, beautiful female horses.
 
-00:29:36.680 --> 00:29:40.240 line:77% align:left position:16% size:64%
+00:29:36.680 --> 00:29:40.240 line:77% align:left position:16%
 Wave Land, Blue Jezebel
 and Miss Muffet.
 
 00:29:40.320 --> 00:29:42.000 line:83% align:right size:80% position:90%
 That's right.
 
-00:29:44.640 --> 00:29:47.920 line:77% align:left position:16% size:64%
+00:29:44.640 --> 00:29:47.920 line:77% align:left position:16%
 Pop said he built those stalls
 and filled them with horses.
 
@@ -1471,7 +1394,7 @@ and filled them with horses.
 Yeah, he made a good living
 selling yearlings.
 
-00:29:51.440 --> 00:29:54.040 line:77% align:left position:16% size:64%
+00:29:51.440 --> 00:29:54.040 line:77% align:left position:16%
 But you wanted to keep yearlings
 and race them, right?
 
@@ -1485,11 +1408,11 @@ We had some horses born on this farm
 go on to win big races
 for somebody else.
 
-00:30:04.000 --> 00:30:05.960 line:77% align:left position:16% size:64%
+00:30:04.000 --> 00:30:05.960 line:77% align:left position:16%
 So you got Pop
 to keep some of the yearlings
 
-00:30:06.040 --> 00:30:07.520 line:83% align:left position:18% size:62%
+00:30:06.040 --> 00:30:07.520 line:83% align:left position:18%
 so you could train 'em, race 'em?
 
 00:30:07.600 --> 00:30:10.760 line:77% align:right size:80% position:90%
@@ -1499,7 +1422,7 @@ They're not free.
 00:30:10.840 --> 00:30:13.280 line:83% align:right size:80% position:90%
 I'm gonna brush down Sonya.
 
-00:30:25.760 --> 00:30:27.240 line:83% align:left position:30% size:50%
+00:30:25.760 --> 00:30:27.240 line:83% align:left position:30%
 Cale Crane?
 
 00:30:27.280 --> 00:30:28.720 line:83% align:middle position:50% size:80%
@@ -1527,25 +1450,25 @@ And a magic horse.
 00:30:45.440 --> 00:30:47.960 line:83% align:middle position:50% size:80%
 ( GENTLE MUSIC )
 
-00:31:13.560 --> 00:31:15.040 line:83% align:left position:18% size:62%
+00:31:13.560 --> 00:31:15.040 line:83% align:left position:18%
 'Bye!
 
-00:31:30.160 --> 00:31:32.000 line:83% align:left position:18% size:62%
+00:31:30.160 --> 00:31:32.000 line:83% align:left position:18%
 She can stand on it.
 
-00:31:32.080 --> 00:31:35.400 line:77% align:left position:16% size:64%
+00:31:32.080 --> 00:31:35.400 line:77% align:left position:16%
 Not for long...
 but she can stand on it.
 
-00:31:38.760 --> 00:31:41.200 line:77% align:left position:16% size:64%
+00:31:38.760 --> 00:31:41.200 line:77% align:left position:16%
 I'll run a couple more tests
 in the morning, Ben,
 
-00:31:41.280 --> 00:31:43.600 line:77% align:left position:16% size:64%
+00:31:41.280 --> 00:31:43.600 line:77% align:left position:16%
 but I don't see any reason
 she can't breed - she looks good.
 
-00:31:43.680 --> 00:31:47.280 line:77% align:left position:16% size:64%
+00:31:43.680 --> 00:31:47.280 line:77% align:left position:16%
 You helped her, Cale.
 She's gonna have a baby! Yeah!
 
@@ -1555,20 +1478,20 @@ I'll see you Friday.
 00:31:51.680 --> 00:31:53.920 line:83% align:right size:80% position:90%
 Well, I'm gonna call in a favour.
 
-00:31:57.440 --> 00:31:59.320 line:83% align:left position:18% size:62%
+00:31:57.440 --> 00:31:59.320 line:83% align:left position:18%
 (Whispers) Go, Cale.
 
-00:31:59.400 --> 00:32:01.200 line:77% align:left position:18% size:62%
+00:31:59.400 --> 00:32:01.200 line:77% align:left position:18%
 (Makes horse noises)
-<c.black>...............................</c>Go!
+&nbsp;                               Go!
 
-00:32:10.200 --> 00:32:11.880 line:83% align:left position:18% size:62%
+00:32:10.200 --> 00:32:11.880 line:83% align:left position:18%
 So where are you going?
 
 00:32:11.960 --> 00:32:14.400 line:83% align:right size:80% position:90%
 Gonna go see an old friend.
 
-00:32:19.720 --> 00:32:21.280 line:83% align:left position:18% size:62%
+00:32:19.720 --> 00:32:21.280 line:83% align:left position:18%
 About a stud for Sonya?
 
 00:32:21.320 --> 00:32:24.320 line:83% align:right size:80% position:90%
@@ -1577,10 +1500,10 @@ Yeah, about a stud.
 00:32:40.760 --> 00:32:42.200 line:83% align:right size:80% position:90%
 You wanna come?
 
-00:32:43.240 --> 00:32:45.600 line:83% align:left position:18% size:62%
+00:32:43.240 --> 00:32:45.600 line:83% align:left position:18%
 Yeah, I'll come.
 
-00:33:13.560 --> 00:33:17.360 line:77% align:left position:16% size:64%
+00:33:13.560 --> 00:33:17.360 line:77% align:left position:16%
 Fusaichi Pegasus,
 who won the Kentucky Derby.
 
@@ -1600,31 +1523,31 @@ who won the Breeders' Cup Juvenile.
 00:33:31.840 --> 00:33:34.200 line:83% align:middle position:50% size:80%
 Did you learn all that from Pop too?
 
-00:33:34.280 --> 00:33:36.560 line:83% align:left position:18% size:62%
+00:33:34.280 --> 00:33:36.560 line:83% align:left position:18%
 He's a beautiful horse.
 
 00:33:36.640 --> 00:33:39.600 line:83% align:right size:80% position:90%
 Hey, Bill, it's good to see you.
 
-00:33:39.720 --> 00:33:41.120 line:83% align:left position:18% size:62%
+00:33:39.720 --> 00:33:41.120 line:83% align:left position:18%
 Good to see you.
 
-00:33:41.200 --> 00:33:42.760 line:77% align:left position:36% size:44%
+00:33:41.200 --> 00:33:42.760 line:77% align:left position:36%
 This is my daughter, Cale.
-<c.black>..................</c>Hi.
+&nbsp;                  Hi.
 
-00:33:42.840 --> 00:33:45.320 line:77% align:left position:18% size:62%
+00:33:42.840 --> 00:33:45.320 line:77% align:left position:18%
 Nice to meet you, Cale.
-<c.black>..............</c>Nice to meet you too.
+&nbsp;              Nice to meet you too.
 
-00:33:45.400 --> 00:33:47.240 line:83% align:left position:18% size:62%
+00:33:45.400 --> 00:33:47.240 line:83% align:left position:18%
 So, Ben, you call me two months ago
 
-00:33:47.320 --> 00:33:49.560 line:77% align:left position:16% size:64%
+00:33:47.320 --> 00:33:49.560 line:77% align:left position:16%
 telling me you've got this race mare
 needs to be covered,
 
-00:33:49.640 --> 00:33:51.640 line:77% align:left position:16% size:64%
+00:33:49.640 --> 00:33:51.640 line:77% align:left position:16%
 you need a favour,
 then I don't hear from you.
 
@@ -1639,7 +1562,7 @@ but she's ready to go now.
 So, are you still gonna be able
 to help me out here?
 
-00:33:59.360 --> 00:34:00.840 line:83% align:left position:18% size:62%
+00:33:59.360 --> 00:34:00.840 line:83% align:left position:18%
 Right over here.
 
 00:34:02.440 --> 00:34:04.000 line:83% align:right size:80% position:90%
@@ -1652,25 +1575,25 @@ for the world's greatest stud?
 00:34:06.720 --> 00:34:09.320 line:83% align:right size:80% position:90%
 Come on, Todd, bring him on out.
 
-00:34:12.920 --> 00:34:14.520 line:83% align:left position:18% size:62%
+00:34:12.920 --> 00:34:14.520 line:83% align:left position:18%
 That's not...
 
-00:34:15.720 --> 00:34:18.240 line:77% align:left position:18% size:62%
+00:34:15.720 --> 00:34:18.240 line:77% align:left position:18%
 What is that?
-<c.black>..........</c>This here's Thunderpants.
+&nbsp;          This here's Thunderpants.
 
-00:34:18.280 --> 00:34:22.040 line:77% align:left position:16% size:64%
+00:34:18.280 --> 00:34:22.040 line:77% align:left position:16%
 Honey,
 Thunderpants is a teaser pony.
 
-00:34:22.120 --> 00:34:26.000 line:77% align:left position:16% size:64%
+00:34:22.120 --> 00:34:26.000 line:77% align:left position:16%
 He's gonna help Sonya get ready
 to go into the breeding shed
 
-00:34:26.080 --> 00:34:27.600 line:83% align:left position:16% size:64%
+00:34:26.080 --> 00:34:27.600 line:83% align:left position:16%
 with the stallion.
 
-00:34:27.680 --> 00:34:29.280 line:83% align:left position:18% size:62%
+00:34:27.680 --> 00:34:29.280 line:83% align:left position:18%
 Thank you, Bill.
 
 00:34:29.360 --> 00:34:31.440 line:83% align:right size:80% position:90%
@@ -1686,13 +1609,13 @@ I picked for ya?
 00:34:36.520 --> 00:34:39.400 line:83% align:right size:80% position:90%
 Cale, meet Grand Slam.
 
-00:34:41.040 --> 00:34:42.520 line:83% align:left position:18% size:62%
+00:34:41.040 --> 00:34:42.520 line:83% align:left position:18%
 Grand Slam?
 
-00:34:44.520 --> 00:34:46.160 line:83% align:left position:18% size:62%
+00:34:44.520 --> 00:34:46.160 line:83% align:left position:18%
 Unbelievable.
 
-00:34:52.440 --> 00:34:54.920 line:83% align:left position:18% size:62%
+00:34:52.440 --> 00:34:54.920 line:83% align:left position:18%
 So...what do you think?
 
 00:34:56.280 --> 00:34:57.760 line:83% align:right size:80% position:90%
@@ -1701,53 +1624,53 @@ So...what do you think?
 00:34:57.840 --> 00:34:59.880 line:83% align:right size:80% position:90%
 Well, I think it's Grand Slam.
 
-00:34:59.960 --> 00:35:01.640 line:83% align:left position:18% size:62%
+00:34:59.960 --> 00:35:01.640 line:83% align:left position:18%
 (Chuckles)
 
-00:35:01.720 --> 00:35:04.400 line:77% align:left position:16% size:64%
+00:35:01.720 --> 00:35:04.400 line:77% align:left position:16%
 Everyone at Ashford
 has a lot of respect for your family.
 
-00:35:04.480 --> 00:35:05.960 line:83% align:left position:16% size:64%
+00:35:04.480 --> 00:35:05.960 line:83% align:left position:16%
 I explained your situation
 
-00:35:06.040 --> 00:35:08.200 line:77% align:left position:16% size:64%
+00:35:06.040 --> 00:35:08.200 line:77% align:left position:16%
 and they want to do you
 the favour of a lifetime.
 
 00:35:08.280 --> 00:35:09.800 line:83% align:right size:80% position:90%
 I just...I don't know what to say.
 
-00:35:09.840 --> 00:35:11.760 line:77% align:left position:16% size:64%
+00:35:09.840 --> 00:35:11.760 line:77% align:left position:16%
 Say you'll have your filly here
 first week in May.
 
 00:35:11.840 --> 00:35:13.240 line:83% align:right size:80% position:90%
 You got it.
 
-00:35:13.320 --> 00:35:14.920 line:77% align:left position:16% size:64%
+00:35:13.320 --> 00:35:14.920 line:77% align:left position:16%
 That week's the only shot you get.
-<c.black>.................................</c>OK.
+&nbsp;                                 OK.
 
-00:35:15.000 --> 00:35:16.400 line:83% align:left position:16% size:64%
+00:35:15.000 --> 00:35:16.400 line:83% align:left position:16%
 He's booked till next year.
 
-00:35:16.480 --> 00:35:20.040 line:77% align:left position:16% size:64%
+00:35:16.480 --> 00:35:20.040 line:77% align:left position:16%
 And you've gotta send me half of
 the £15,000 by the end of the week.
 
 00:35:21.360 --> 00:35:24.080 line:83% align:right size:80% position:90%
 That's, ah...£15,000. Ah...
 
-00:35:24.160 --> 00:35:28.600 line:77% align:left position:16% size:64%
+00:35:24.160 --> 00:35:28.600 line:77% align:left position:16%
 Well, Grand Slam's normal stud fees
 are £200,000.
 
-00:35:28.680 --> 00:35:30.480 line:77% align:left position:16% size:64%
+00:35:28.680 --> 00:35:30.480 line:77% align:left position:16%
 We're waiving that completely.
-<c.black>................</c>Yeah, I know, but...
+&nbsp;                Yeah, I know, but...
 
-00:35:30.560 --> 00:35:32.840 line:77% align:left position:16% size:64%
+00:35:30.560 --> 00:35:32.840 line:77% align:left position:16%
 The £15,000 doesn't even cover
 our costs and insurance.
 
@@ -1766,13 +1689,13 @@ to cover all the expenses,
 00:35:42.200 --> 00:35:43.560 line:83% align:right size:80% position:90%
 whatever they are.
 
-00:35:43.640 --> 00:35:46.320 line:83% align:left position:18% size:62%
+00:35:43.640 --> 00:35:46.320 line:83% align:left position:18%
 We...we just don't do that.
 
-00:35:46.400 --> 00:35:47.960 line:83% align:left position:18% size:62%
+00:35:46.400 --> 00:35:47.960 line:83% align:left position:18%
 Not in a case like this.
 
-00:35:49.360 --> 00:35:51.120 line:77% align:left position:16% size:64%
+00:35:49.360 --> 00:35:51.120 line:77% align:left position:16%
 Are you saying
 you want to call it off?
 
@@ -1782,7 +1705,7 @@ No, it's...
 00:35:54.200 --> 00:35:56.000 line:83% align:right size:80% position:90%
 Bill, I don't have the money.
 
-00:35:57.400 --> 00:36:01.800 line:77% align:left position:16% size:64%
+00:35:57.400 --> 00:36:01.800 line:77% align:left position:16%
 I'm sorry, Ben.
 I didn't fully know your situation.
 
@@ -1800,13 +1723,13 @@ Let's go, honey.
 POP: I've never seen
 Grand Slam up close.
 
-00:36:21.760 --> 00:36:23.680 line:83% align:left position:18% size:62%
+00:36:21.760 --> 00:36:23.680 line:83% align:left position:18%
 CALE: He's got muscles everywhere.
 
 00:36:23.760 --> 00:36:25.240 line:83% align:right size:80% position:90%
 What did he say?
 
-00:36:27.800 --> 00:36:29.280 line:83% align:left position:18% size:62%
+00:36:27.800 --> 00:36:29.280 line:83% align:left position:18%
 He's a horse.
 
 00:36:29.320 --> 00:36:31.160 line:83% align:right size:80% position:90%
@@ -1815,10 +1738,10 @@ I know. What did he say?
 00:36:33.760 --> 00:36:36.080 line:83% align:right size:80% position:90%
 "I am a great champion."
 
-00:36:37.640 --> 00:36:39.680 line:83% align:left position:18% size:62%
+00:36:37.640 --> 00:36:39.680 line:83% align:left position:18%
 "When I ran, the ground shook,
 
-00:36:39.760 --> 00:36:42.400 line:77% align:left position:16% size:64%
+00:36:39.760 --> 00:36:42.400 line:77% align:left position:16%
 "the sky opened
 and mere mortals parted..."
 
@@ -1829,7 +1752,7 @@ and mere mortals parted..."
 "And I met my owner
 in the winner's circle."
 
-00:36:47.120 --> 00:36:49.320 line:77% align:left position:16% size:64%
+00:36:47.120 --> 00:36:49.320 line:77% align:left position:16%
 "Where he put a blanket of flowers
 on my back."
 
@@ -1843,7 +1766,7 @@ Sport of kings, you know that?
 They call horseracing
 the sport of kings.
 
-00:36:58.360 --> 00:37:00.600 line:77% align:left position:16% size:64%
+00:36:58.360 --> 00:37:00.600 line:77% align:left position:16%
 So when are you going to take me
 to the races?
 
@@ -1851,7 +1774,7 @@ to the races?
 I don't go anymore.
 Haven't been in years.
 
-00:37:08.160 --> 00:37:11.040 line:77% align:left position:16% size:64%
+00:37:08.160 --> 00:37:11.040 line:77% align:left position:16%
 So I can take the racing form
 and 'The Blood-Horse', right?
 
@@ -1859,21 +1782,21 @@ and 'The Blood-Horse', right?
 Your dad doesn't want
 me teaching you about horses.
 
-00:37:13.800 --> 00:37:16.560 line:83% align:left position:18% size:62%
+00:37:13.800 --> 00:37:16.560 line:83% align:left position:18%
 So I should leave 'em?
 
 00:37:16.600 --> 00:37:18.680 line:77% align:right size:80% position:90%
 You should stuff 'em
 under your shirt.
 
-00:37:18.720 --> 00:37:20.440 line:83% align:left position:18% size:62%
+00:37:18.720 --> 00:37:20.440 line:83% align:left position:18%
 (Laughs) OK.
 
 00:37:23.960 --> 00:37:25.640 line:77% align:right size:80% position:90%
 Cale, in that cabinet
 above the sink...
 
-00:37:26.680 --> 00:37:28.320 line:83% align:left position:18% size:62%
+00:37:26.680 --> 00:37:28.320 line:83% align:left position:18%
 Yeah.
 
 00:37:28.400 --> 00:37:30.000 line:83% align:right size:80% position:90%
@@ -1882,8 +1805,8 @@ Yeah.
 00:37:30.080 --> 00:37:31.480 line:83% align:middle position:50% size:80%
 Mm-hm.
 
-00:37:31.560 --> 00:37:33.960 line:77% align:left position:16% size:64%
-<c.black>.....</c>Bring it to your dad, would ya?
+00:37:31.560 --> 00:37:33.960 line:77% align:left position:16%
+&nbsp;     Bring it to your dad, would ya?
 Sure.
 
 00:37:34.040 --> 00:37:35.600 line:83% align:middle position:50% size:80%
@@ -1892,23 +1815,23 @@ Goodnight.
 00:37:35.680 --> 00:37:37.120 line:83% align:right size:80% position:90%
 Goodnight.
 
-00:37:47.360 --> 00:37:50.680 line:77% align:left position:16% size:64%
-<c.black>..</c>Pop wanted me to give this to you.
+00:37:47.360 --> 00:37:50.680 line:77% align:left position:16%
+&nbsp;  Pop wanted me to give this to you.
 Thanks, hon.
 
-00:37:50.760 --> 00:37:53.600 line:77% align:left position:16% size:64%
+00:37:50.760 --> 00:37:53.600 line:77% align:left position:16%
 I'm gonna eat my dessert in the barn.
-<c.black>.....</c>Alright.
+&nbsp;     Alright.
 
-00:38:06.600 --> 00:38:08.280 line:83% align:left position:18% size:62%
+00:38:06.600 --> 00:38:08.280 line:83% align:left position:18%
 (Sighs)
 
-00:38:12.480 --> 00:38:14.200 line:77% align:left position:16% size:64%
-<c.black>.........</c>BEN: What the hell is this?
+00:38:12.480 --> 00:38:14.200 line:77% align:left position:16%
+&nbsp;         BEN: What the hell is this?
 POP: Coffee can.
 
-00:38:14.280 --> 00:38:16.480 line:77% align:left position:16% size:64%
-<c.black>............</c>You expect me to use it?
+00:38:14.280 --> 00:38:16.480 line:77% align:left position:16%
+&nbsp;            You expect me to use it?
 It's the only flavour I got.
 
 00:38:16.520 --> 00:38:19.920 line:77% align:right size:80% position:90%
@@ -1922,17 +1845,17 @@ sell this farm off bit by bit
 00:38:24.600 --> 00:38:26.400 line:83% align:right size:80% position:90%
 till there was nothing left.
 
-00:38:26.480 --> 00:38:30.280 line:77% align:left position:16% size:64%
-<c.black>.............</c>Why are you doing this?
+00:38:26.480 --> 00:38:30.280 line:77% align:left position:16%
+&nbsp;             Why are you doing this?
 Damned if I know.
 
-00:38:32.160 --> 00:38:33.600 line:83% align:left position:18% size:62%
+00:38:32.160 --> 00:38:33.600 line:83% align:left position:18%
 Breed the horse, Ben.
 
-00:38:35.160 --> 00:38:36.560 line:83% align:left position:18% size:62%
+00:38:35.160 --> 00:38:36.560 line:83% align:left position:18%
 Picking up that filly
 
-00:38:36.640 --> 00:38:38.560 line:77% align:left position:16% size:64%
+00:38:36.640 --> 00:38:38.560 line:77% align:left position:16%
 was the gutsiest thing
 I've seen you do in years.
 
@@ -1943,35 +1866,35 @@ Don't talk to me about guts.
 I took the biggest swing I could
 and I struck out.
 
-00:38:42.360 --> 00:38:44.160 line:77% align:left position:18% size:62%
+00:38:42.360 --> 00:38:44.160 line:77% align:left position:18%
 Then you gave up.
-<c.black>......................</c>I broke, Pop!
+&nbsp;                      I broke, Pop!
 
 00:38:44.240 --> 00:38:46.200 line:83% align:right size:80% position:90%
 What do you expect me to do?
 
-00:38:46.280 --> 00:38:47.960 line:83% align:left position:18% size:62%
+00:38:46.280 --> 00:38:47.960 line:83% align:left position:18%
 I expect you to take the money,
 
-00:38:48.000 --> 00:38:50.800 line:77% align:left position:16% size:64%
+00:38:48.000 --> 00:38:50.800 line:77% align:left position:16%
 trust your instincts,
 and breed the horse.
 
 00:38:50.880 --> 00:38:52.320 line:83% align:right size:80% position:90%
 You told me to put her down.
 
-00:38:52.400 --> 00:38:54.080 line:77% align:left position:16% size:64%
+00:38:52.400 --> 00:38:54.080 line:77% align:left position:16%
 But you didn't, did you?
 'Cause you're a horseman.
 
 00:38:54.120 --> 00:38:55.640 line:83% align:right size:80% position:90%
 Oh, don't blow smoke...
 
-00:38:55.680 --> 00:38:58.360 line:77% align:left position:16% size:64%
+00:38:55.680 --> 00:38:58.360 line:77% align:left position:16%
 Are you gonna spend your life
 shovelling horse squat for sheiks
 
-00:38:58.440 --> 00:39:00.440 line:77% align:left position:16% size:64%
+00:38:58.440 --> 00:39:00.440 line:77% align:left position:16%
 or are you gonna
 get back in the game?
 
@@ -1979,10 +1902,10 @@ get back in the game?
 Don't think I don't know what's
 going on here with you and Cale.
 
-00:39:09.000 --> 00:39:11.120 line:83% align:left position:18% size:62%
+00:39:09.000 --> 00:39:11.120 line:83% align:left position:18%
 It's in her blood, Ben.
 
-00:39:11.200 --> 00:39:12.960 line:83% align:left position:18% size:62%
+00:39:11.200 --> 00:39:12.960 line:83% align:left position:18%
 Cale's a beautiful kid.
 
 00:39:13.040 --> 00:39:14.640 line:83% align:right size:80% position:90%
@@ -1992,9 +1915,9 @@ And I don't want this life for her,
 so stop filling her head
 with horse stories.
 
-00:39:16.480 --> 00:39:18.960 line:77% align:left position:18% size:62%
+00:39:16.480 --> 00:39:18.960 line:77% align:left position:18%
 Horse stories are all I got.
-<c.black>...</c>Good, then keep 'em to yourself.
+&nbsp;   Good, then keep 'em to yourself.
 
 00:39:19.040 --> 00:39:20.800 line:77% align:right size:80% position:90%
 I'll pay you back
@@ -2009,35 +1932,35 @@ Any chance you'll keep the foal?
 00:39:37.000 --> 00:39:38.560 line:83% align:right size:80% position:90%
 Race him or her?
 
-00:39:38.640 --> 00:39:40.520 line:83% align:left position:18% size:62%
+00:39:38.640 --> 00:39:40.520 line:83% align:left position:18%
 No, we're gonna sell the foal.
 
-00:39:40.600 --> 00:39:43.000 line:83% align:left position:18% size:62%
+00:39:40.600 --> 00:39:43.000 line:83% align:left position:18%
 But we'll still have Sonador.
 
 00:39:43.080 --> 00:39:44.760 line:83% align:right size:80% position:90%
 Sonador?
 
-00:39:44.840 --> 00:39:47.200 line:83% align:left position:16% size:64%
+00:39:44.840 --> 00:39:47.200 line:83% align:left position:16%
 Yeah, that's her full name - Sonador.
 
 00:39:50.720 --> 00:39:52.200 line:83% align:right size:80% position:90%
 Sonador.
 
-00:39:52.280 --> 00:39:54.080 line:83% align:left position:18% size:62%
+00:39:52.280 --> 00:39:54.080 line:83% align:left position:18%
 It's Spanish.
 
-00:39:54.160 --> 00:39:56.480 line:83% align:left position:18% size:62%
+00:39:54.160 --> 00:39:56.480 line:83% align:left position:18%
 Spanish for 'dreamer'.
 
 00:39:59.000 --> 00:40:00.720 line:83% align:right size:80% position:90%
 Goodnight, Dreamer.
 
-00:40:02.280 --> 00:40:04.840 line:77% align:left position:16% size:64%
-<c.black>.......................</c>OK, I got it.
+00:40:02.280 --> 00:40:04.840 line:77% align:left position:16%
+&nbsp;                       OK, I got it.
 I'm going to Pop's.
 
-00:40:12.360 --> 00:40:16.160 line:77% align:left position:16% size:64%
+00:40:12.360 --> 00:40:16.160 line:77% align:left position:16%
 Lil, how many days did they give you
 down at the diner?
 
@@ -2047,56 +1970,56 @@ I got Monday, Wednesday and Friday
 00:40:19.800 --> 00:40:22.080 line:83% align:right size:80% position:90%
 but I could take more.
 
-00:40:22.160 --> 00:40:24.560 line:77% align:left position:16% size:64%
+00:40:22.160 --> 00:40:24.560 line:77% align:left position:16%
 Palmer called around -
 pretty much shut me out everywhere.
 
-00:40:24.600 --> 00:40:26.280 line:83% align:left position:18% size:62%
+00:40:24.600 --> 00:40:26.280 line:83% align:left position:18%
 I can't find any work.
 
-00:40:29.600 --> 00:40:31.640 line:83% align:left position:16% size:64%
+00:40:29.600 --> 00:40:31.640 line:83% align:left position:16%
 I'm gonna have to take down the sign.
 
 00:40:32.480 --> 00:40:34.120 line:83% align:right size:80% position:90%
 The real estate sign?
 
-00:40:34.200 --> 00:40:36.000 line:83% align:left position:18% size:62%
+00:40:34.200 --> 00:40:36.000 line:83% align:left position:18%
 It's all been sold.
 
-00:40:36.080 --> 00:40:38.800 line:77% align:left position:16% size:64%
+00:40:36.080 --> 00:40:38.800 line:77% align:left position:16%
 Only land we got left to sell
 we're sitting on.
 
-00:40:38.840 --> 00:40:41.040 line:77% align:left position:16% size:64%
+00:40:38.840 --> 00:40:41.040 line:77% align:left position:16%
 Here's the first letter
 of foreclosure.
 
-00:40:47.040 --> 00:40:48.880 line:77% align:left position:18% size:62%
+00:40:47.040 --> 00:40:48.880 line:77% align:left position:18%
 Morning.
-<c.black>..........</c>DOC FLEMING: Hello, Cale.
+&nbsp;          DOC FLEMING: Hello, Cale.
 
-00:40:49.000 --> 00:40:51.480 line:77% align:left position:18% size:62%
+00:40:49.000 --> 00:40:51.480 line:77% align:left position:18%
 BALON: Hey, Doc.
-<c.black>......................</c>Balon. Manny.
+&nbsp;                      Balon. Manny.
 
-00:40:51.760 --> 00:40:52.960 line:77% align:left position:24% size:56%
+00:40:51.760 --> 00:40:52.960 line:77% align:left position:24%
 Sonya's gonna make us some money,
 huh?
 
-00:40:53.120 --> 00:40:55.000 line:77% align:left position:20% size:60%
+00:40:53.120 --> 00:40:55.000 line:77% align:left position:20%
 This horse,
 she gonna make a special baby, huh?
 
-00:40:55.080 --> 00:40:57.400 line:77% align:left position:16% size:64%
-<c.black>..................</c>Is Ben around?
+00:40:55.080 --> 00:40:57.400 line:77% align:left position:16%
+&nbsp;                  Is Ben around?
 Yeah, right here.
 
 00:40:57.480 --> 00:40:59.720 line:77% align:middle position:50% size:80%
 Alright, I just got off the phone
 with Bill.
 
-00:40:59.800 --> 00:41:02.320 line:77% align:left position:16% size:64%
-<c.black>...........</c>We're back on.
+00:40:59.800 --> 00:41:02.320 line:77% align:left position:16%
+&nbsp;           We're back on.
 BALON: Oh, yes!
 
 00:41:02.400 --> 00:41:03.880 line:83% align:middle position:50% size:80%
@@ -2106,13 +2029,13 @@ Gonna breed her to Grand Slam.
 Ben, I've completed my tests
 and I've got some bad news for you.
 
-00:41:08.840 --> 00:41:10.520 line:83% align:left position:18% size:62%
+00:41:08.840 --> 00:41:10.520 line:83% align:left position:18%
 What?
 
 00:41:10.600 --> 00:41:12.320 line:83% align:right size:80% position:90%
 She's infertile.
 
-00:41:15.920 --> 00:41:17.800 line:83% align:left position:18% size:62%
+00:41:15.920 --> 00:41:17.800 line:83% align:left position:18%
 She's not gonna have a baby now?
 
 00:41:17.880 --> 00:41:20.040 line:77% align:right size:80% position:90%
@@ -2125,57 +2048,57 @@ I'm sorry, guys.
 00:41:34.520 --> 00:41:35.920 line:83% align:right size:80% position:90%
 (Quietly) Sorry, Sonya.
 
-00:41:36.000 --> 00:41:37.720 line:83% align:left position:48% size:32%
+00:41:36.000 --> 00:41:37.720 line:83% align:left position:48%
 It's OK.
 
-00:41:56.000 --> 00:41:57.440 line:83% align:left position:18% size:62%
+00:41:56.000 --> 00:41:57.440 line:83% align:left position:18%
 It's almost dawn.
 
-00:41:58.480 --> 00:42:00.920 line:83% align:left position:18% size:62%
+00:41:58.480 --> 00:42:00.920 line:83% align:left position:18%
 You've been up all night.
 
 00:42:01.000 --> 00:42:04.880 line:77% align:right size:80% position:90%
 What was I thinking, Lil,
 trying to breed that horse?
 
-00:42:06.720 --> 00:42:08.240 line:83% align:left position:18% size:62%
+00:42:06.720 --> 00:42:08.240 line:83% align:left position:18%
 Cale loves that horse.
 
 00:42:08.360 --> 00:42:10.760 line:77% align:right size:80% position:90%
 That's good 'cause that little filly
 just ruined us.
 
-00:42:11.880 --> 00:42:15.480 line:77% align:left position:16% size:64%
+00:42:11.880 --> 00:42:15.480 line:77% align:left position:16%
 That little filly is the best thing
 that's ever happened around here.
 
 00:42:15.560 --> 00:42:17.280 line:83% align:right size:80% position:90%
 Oh, come on, Lil.
 
-00:42:17.360 --> 00:42:20.200 line:77% align:left position:16% size:64%
+00:42:17.360 --> 00:42:20.200 line:77% align:left position:16%
 Since she's been in that barn,
 we have a family
 
-00:42:20.280 --> 00:42:22.600 line:83% align:left position:18% size:62%
+00:42:20.280 --> 00:42:22.600 line:83% align:left position:18%
 for the first time in years.
 
-00:42:22.680 --> 00:42:25.640 line:77% align:left position:16% size:64%
+00:42:22.680 --> 00:42:25.640 line:77% align:left position:16%
 Look, I'll work seven days a week
 at the diner
 
-00:42:25.720 --> 00:42:27.840 line:77% align:left position:16% size:64%
+00:42:25.720 --> 00:42:27.840 line:77% align:left position:16%
 if it means you'll spend time
 with your daughter.
 
-00:42:27.880 --> 00:42:30.800 line:77% align:left position:16% size:64%
+00:42:27.880 --> 00:42:30.800 line:77% align:left position:16%
 Can't you see
 how much she wants to be with you?
 
-00:42:33.520 --> 00:42:37.720 line:77% align:left position:16% size:64%
+00:42:33.520 --> 00:42:37.720 line:77% align:left position:16%
 And I know
 that your dad disappointed you
 
-00:42:37.760 --> 00:42:40.960 line:77% align:left position:16% size:64%
+00:42:37.760 --> 00:42:40.960 line:77% align:left position:16%
 but that does not mean
 that you have to disappoint her.
 
@@ -2183,26 +2106,26 @@ that you have to disappoint her.
 This has nothing
 to do with my father.
 
-00:42:42.800 --> 00:42:44.280 line:77% align:left position:16% size:64%
+00:42:42.800 --> 00:42:44.280 line:77% align:left position:16%
 It has everything
 to do with your father.
 
 00:42:44.320 --> 00:42:45.880 line:83% align:right size:80% position:90%
 You're wrong!
 
-00:42:45.960 --> 00:42:48.120 line:77% align:left position:16% size:64%
+00:42:45.960 --> 00:42:48.120 line:77% align:left position:16%
 Truth is, if Cale
 hadn't have been with me that night,
 
-00:42:48.200 --> 00:42:49.800 line:77% align:left position:16% size:64%
+00:42:48.200 --> 00:42:49.800 line:77% align:left position:16%
 I'd have left that horse
 on the track
 
-00:42:49.880 --> 00:42:52.920 line:77% align:left position:16% size:64%
+00:42:49.880 --> 00:42:52.920 line:77% align:left position:16%
 or let them put the horse down.
 Then I'd still have my job.
 
-00:42:54.160 --> 00:42:56.240 line:83% align:left position:18% size:62%
+00:42:54.160 --> 00:42:56.240 line:83% align:left position:18%
 Cale, I...
 
 00:43:06.320 --> 00:43:07.880 line:83% align:middle position:50% size:80%
@@ -2214,46 +2137,46 @@ Cale.
 00:43:09.560 --> 00:43:11.400 line:83% align:middle position:50% size:80%
 Come on, Cale.
 
-00:43:12.720 --> 00:43:14.440 line:83% align:left position:18% size:62%
+00:43:12.720 --> 00:43:14.440 line:83% align:left position:18%
 Honey, can I come in?
 
-00:43:14.520 --> 00:43:17.240 line:77% align:left position:16% size:64%
+00:43:14.520 --> 00:43:17.240 line:77% align:left position:16%
 Come on.
 Let's just give her some time.
 
-00:43:17.360 --> 00:43:21.000 line:83% align:left position:18% size:62%
+00:43:17.360 --> 00:43:21.000 line:83% align:left position:18%
 Cale? Come on, honey, open the door.
 
-00:43:21.080 --> 00:43:23.000 line:83% align:left position:18% size:62%
+00:43:21.080 --> 00:43:23.000 line:83% align:left position:18%
 (Knocks) Please.
 
-00:43:23.120 --> 00:43:24.880 line:77% align:left position:16% size:64%
+00:43:23.120 --> 00:43:24.880 line:77% align:left position:16%
 She'll come downstairs
 when she's ready.
 
-00:43:39.440 --> 00:43:40.920 line:83% align:left position:18% size:62%
+00:43:39.440 --> 00:43:40.920 line:83% align:left position:18%
 We're gonna run away.
 
-00:43:43.120 --> 00:43:45.560 line:83% align:left position:18% size:62%
+00:43:43.120 --> 00:43:45.560 line:83% align:left position:18%
 (Sniffs) We're gonna run far away.
 
-00:44:02.400 --> 00:44:04.040 line:83% align:left position:60% size:20%
+00:44:02.400 --> 00:44:04.040 line:83% align:left position:60%
 There you go.
 
-00:44:05.760 --> 00:44:07.560 line:83% align:left position:18% size:62%
+00:44:05.760 --> 00:44:07.560 line:83% align:left position:18%
 Just gonna go for a little walk.
 
-00:44:11.080 --> 00:44:12.360 line:83% align:left position:18% size:62%
+00:44:11.080 --> 00:44:12.360 line:83% align:left position:18%
 Cale.
 
-00:44:12.480 --> 00:44:13.920 line:77% align:left position:36% size:44%
-<c.black>...........</c>( DOOR SLAMS )
+00:44:12.480 --> 00:44:13.920 line:77% align:left position:36%
+&nbsp;           ( DOOR SLAMS )
 (Whinnies)
 
 00:44:16.360 --> 00:44:18.040 line:83% align:middle position:50% size:80%
 Stop, Sonya!
 
-00:44:18.120 --> 00:44:19.640 line:83% align:left position:18% size:62%
+00:44:18.120 --> 00:44:19.640 line:83% align:left position:18%
 Sonya, stop!
 
 00:44:27.000 --> 00:44:29.000 line:83% align:middle position:50% size:80%
@@ -2262,7 +2185,7 @@ Sonya, stop!
 00:44:40.080 --> 00:44:41.560 line:83% align:middle position:50% size:80%
 Hang on, Cale.
 
-00:44:48.920 --> 00:44:49.920 line:83% align:left position:18% size:62%
+00:44:48.920 --> 00:44:49.920 line:83% align:left position:18%
 Cale!
 
 00:44:51.120 --> 00:44:52.520 line:83% align:right size:80% position:90%
@@ -2271,10 +2194,10 @@ Dad, she won't stop!
 00:44:52.600 --> 00:44:54.040 line:83% align:right size:80% position:90%
 I can't make her stop!
 
-00:44:58.040 --> 00:44:59.960 line:83% align:left position:18% size:62%
+00:44:58.040 --> 00:44:59.960 line:83% align:left position:18%
 Cale, hang on.
 
-00:45:03.120 --> 00:45:04.440 line:83% align:left position:18% size:62%
+00:45:03.120 --> 00:45:04.440 line:83% align:left position:18%
 Easy.
 
 00:45:10.480 --> 00:45:12.440 line:83% align:middle position:50% size:80%
@@ -2283,44 +2206,44 @@ Cale, Cale!
 00:45:12.520 --> 00:45:14.800 line:83% align:middle position:50% size:80%
 Jump! Jump!
 
-00:45:19.720 --> 00:45:22.680 line:83% align:left position:18% size:62%
+00:45:19.720 --> 00:45:22.680 line:83% align:left position:18%
 I gotcha. I gotcha. I gotcha.
 
-00:45:22.760 --> 00:45:25.920 line:77% align:left position:18% size:62%
+00:45:22.760 --> 00:45:25.920 line:77% align:left position:18%
 Are you alright? Are you OK?
-<c.black>..........................</c>Yes.
+&nbsp;                          Yes.
 
-00:45:30.840 --> 00:45:32.600 line:77% align:left position:16% size:64%
-<c.black>..........................</c>Is she OK?
+00:45:30.840 --> 00:45:32.600 line:77% align:left position:16%
+&nbsp;                          Is she OK?
 It's alright. I've got her.
 
-00:45:38.360 --> 00:45:40.200 line:83% align:left position:18% size:62%
+00:45:38.360 --> 00:45:40.200 line:83% align:left position:18%
 Oh!
 
-00:45:40.280 --> 00:45:42.960 line:83% align:left position:18% size:62%
+00:45:40.280 --> 00:45:42.960 line:83% align:left position:18%
 It's alright, baby. It's OK.
 
-00:45:45.400 --> 00:45:47.360 line:77% align:left position:18% size:62%
+00:45:45.400 --> 00:45:47.360 line:77% align:left position:18%
 Are you OK, honey? 
-<c.black>....................</c>(Shakily) Ye...
+&nbsp;                    (Shakily) Ye...
 
-00:45:47.440 --> 00:45:48.880 line:77% align:left position:18% size:62%
+00:45:47.440 --> 00:45:48.880 line:77% align:left position:18%
 Huh?
-<c.black>..................</c>Yes.
+&nbsp;                  Yes.
 
-00:45:53.720 --> 00:45:55.640 line:83% align:left position:32% size:48%
+00:45:53.720 --> 00:45:55.640 line:83% align:left position:32%
 Hey, Ben?
 
-00:45:57.520 --> 00:45:58.920 line:83% align:left position:18% size:62%
+00:45:57.520 --> 00:45:58.920 line:83% align:left position:18%
 Ben, how's Cale doing?
 
-00:45:59.000 --> 00:46:00.400 line:77% align:left position:32% size:48%
+00:45:59.000 --> 00:46:00.400 line:77% align:left position:32%
 She's alright.
-<c.black>.............</c>She OK?
+&nbsp;             She OK?
 
-00:46:00.480 --> 00:46:02.640 line:77% align:left position:28% size:52%
+00:46:00.480 --> 00:46:02.640 line:77% align:left position:28%
 Yeah, she's...she's fine.
-<c.black>.......................</c>Oh, OK.
+&nbsp;                       Oh, OK.
 
 00:46:02.720 --> 00:46:04.640 line:77% align:right size:80% position:90%
 Can we talk to you
@@ -2329,11 +2252,11 @@ for a minute, boss?
 00:46:04.720 --> 00:46:06.200 line:83% align:middle position:50% size:80%
 Right. How's Sonya?
 
-00:46:06.280 --> 00:46:10.200 line:77% align:left position:16% size:64%
+00:46:06.280 --> 00:46:10.200 line:77% align:left position:16%
 She was running back and forth
 along the fence and, ah...
 
-00:46:10.280 --> 00:46:12.280 line:77% align:left position:16% size:64%
+00:46:10.280 --> 00:46:12.280 line:77% align:left position:16%
 ..we were following her
 in the truck...
 
@@ -2351,7 +2274,7 @@ I don't know, a quarter-mile.
 00:46:18.280 --> 00:46:19.800 line:83% align:right size:80% position:90%
 Well, she, um...
 
-00:46:19.880 --> 00:46:22.800 line:83% align:left position:18% size:62%
+00:46:19.880 --> 00:46:22.800 line:83% align:left position:18%
 She was gettin' faster and faster.
 
 00:46:22.960 --> 00:46:24.800 line:77% align:right size:80% position:90%
@@ -2364,7 +2287,7 @@ What are you...?
 00:46:29.360 --> 00:46:31.000 line:83% align:middle position:50% size:80%
 Are you saying she should race?
 
-00:46:44.320 --> 00:46:46.160 line:83% align:left position:18% size:62%
+00:46:44.320 --> 00:46:46.160 line:83% align:left position:18%
 You can load her up, John.
 
 00:46:47.480 --> 00:46:50.560 line:77% align:middle position:50% size:80%
@@ -2374,12 +2297,12 @@ the same way as Sonya.
 00:46:50.640 --> 00:46:52.440 line:83% align:right size:80% position:90%
 Same fracture, same location.
 
-00:46:52.520 --> 00:46:53.920 line:83% align:left position:18% size:62%
+00:46:52.520 --> 00:46:53.920 line:83% align:left position:18%
 Who's Mariah's Storm?
 
-00:46:54.000 --> 00:46:56.040 line:77% align:left position:24% size:56%
+00:46:54.000 --> 00:46:56.040 line:77% align:left position:24%
 She was a great racehorse.
-<c.black>...................</c>She sure was.
+&nbsp;                   She sure was.
 
 00:46:56.120 --> 00:46:57.520 line:83% align:middle position:50% size:80%
 Made a big comeback too.
@@ -2395,9 +2318,9 @@ When I saw Sonya's X-rays,
 I thought I ought to
 show it to you, Ben.
 
-00:47:03.240 --> 00:47:05.200 line:77% align:left position:18% size:62%
+00:47:03.240 --> 00:47:05.200 line:77% align:left position:18%
 That bone is healed.
-<c.black>.........</c>Oh, yeah, that leg's good.
+&nbsp;         Oh, yeah, that leg's good.
 
 00:47:05.280 --> 00:47:07.920 line:77% align:right size:80% position:90%
 But getting her back into
@@ -2406,37 +2329,37 @@ racing shape, that's up to you.
 00:47:08.000 --> 00:47:09.560 line:83% align:right size:80% position:90%
 Good luck.
 
-00:47:09.640 --> 00:47:11.240 line:83% align:left position:18% size:62%
+00:47:09.640 --> 00:47:11.240 line:83% align:left position:18%
 Thanks a lot, Doc.
 
-00:47:11.320 --> 00:47:13.080 line:77% align:left position:50% size:30%
-<c.black>.........</c>Yep. 'Bye.
+00:47:11.320 --> 00:47:13.080 line:77% align:left position:50%
+&nbsp;         Yep. 'Bye.
 Goodbye.
 
 00:47:43.280 --> 00:47:45.320 line:83% align:right size:80% position:90%
 Well, she's not favouring that leg.
 
-00:47:48.120 --> 00:47:49.560 line:83% align:left position:18% size:62%
+00:47:48.120 --> 00:47:49.560 line:83% align:left position:18%
 How's she look?
 
 00:47:49.640 --> 00:47:51.600 line:83% align:right size:80% position:90%
 She looks big.
 
-00:47:51.680 --> 00:47:54.360 line:77% align:left position:18% size:62%
+00:47:51.680 --> 00:47:54.360 line:77% align:left position:18%
 Big as in strong?
-<c.black>.................</c>No, big as in fat.
+&nbsp;                 No, big as in fat.
 
-00:47:55.760 --> 00:47:57.480 line:83% align:left position:18% size:62%
+00:47:55.760 --> 00:47:57.480 line:83% align:left position:18%
 That's mean.
 
-00:47:57.560 --> 00:47:59.360 line:83% align:left position:18% size:62%
+00:47:57.560 --> 00:47:59.360 line:83% align:left position:18%
 That's mean. You shouldn't say that.
 
 00:47:59.480 --> 00:48:02.200 line:77% align:right size:80% position:90%
 Well, she's been eating
 too many popsicles.
 
-00:48:02.320 --> 00:48:04.160 line:83% align:left position:18% size:62%
+00:48:02.320 --> 00:48:04.160 line:83% align:left position:18%
 (Laughs) What?
 
 00:48:04.280 --> 00:48:06.680 line:77% align:right size:80% position:90%
@@ -2446,24 +2369,24 @@ I knew about that, did you?
 00:48:06.760 --> 00:48:08.240 line:83% align:right size:80% position:90%
 (Chuckles)
 
-00:48:15.760 --> 00:48:17.960 line:77% align:left position:46% size:34%
+00:48:15.760 --> 00:48:17.960 line:77% align:left position:46%
 37:02.
-<c.black>......</c>37:02.
+&nbsp;      37:02.
 
-00:48:18.000 --> 00:48:19.520 line:83% align:left position:18% size:62%
+00:48:18.000 --> 00:48:19.520 line:83% align:left position:18%
 36.
 
 00:48:40.280 --> 00:48:41.840 line:83% align:right size:80% position:90%
 What do you think?
 
-00:48:43.720 --> 00:48:46.280 line:83% align:left position:18% size:62%
+00:48:43.720 --> 00:48:46.280 line:83% align:left position:18%
 Well, in five weeks,
 
-00:48:46.360 --> 00:48:50.360 line:77% align:left position:16% size:64%
+00:48:46.360 --> 00:48:50.360 line:77% align:left position:16%
 the best she's done
 is three furlongs in 37 seconds.
 
-00:48:52.600 --> 00:48:54.480 line:83% align:left position:18% size:62%
+00:48:52.600 --> 00:48:54.480 line:83% align:left position:18%
 Not fast enough to win much, is it?
 
 00:48:54.560 --> 00:48:56.720 line:83% align:right size:80% position:90%
@@ -2472,10 +2395,10 @@ Maybe a cheap claimer
 00:48:56.800 --> 00:48:58.640 line:83% align:right size:80% position:90%
 or Bluegrass Downs.
 
-00:48:59.680 --> 00:49:01.720 line:83% align:left position:18% size:62%
+00:48:59.680 --> 00:49:01.720 line:83% align:left position:18%
 She was a Graded Stakes horse.
 
-00:49:01.800 --> 00:49:04.920 line:83% align:left position:18% size:62%
+00:49:01.800 --> 00:49:04.920 line:83% align:left position:18%
 Now she's a claimer.
 
 00:49:05.000 --> 00:49:08.240 line:77% align:right size:80% position:90%
@@ -2485,10 +2408,10 @@ to run her in one.
 00:49:08.320 --> 00:49:11.640 line:83% align:right size:80% position:90%
 See if she perks up in a real race.
 
-00:49:11.720 --> 00:49:13.560 line:83% align:left position:18% size:62%
+00:49:11.720 --> 00:49:13.560 line:83% align:left position:18%
 Yeah, I've been thinking about that.
 
-00:49:14.880 --> 00:49:16.960 line:77% align:left position:16% size:64%
+00:49:14.880 --> 00:49:16.960 line:77% align:left position:16%
 You don't think
 anybody would claim her, do you?
 
@@ -2496,10 +2419,10 @@ anybody would claim her, do you?
 Would you buy a horse
 that broke its leg?
 
-00:49:22.760 --> 00:49:24.760 line:83% align:left position:18% size:62%
+00:49:22.760 --> 00:49:24.760 line:83% align:left position:18%
 Well, she might win.
 
-00:49:27.840 --> 00:49:30.160 line:83% align:left position:18% size:62%
+00:49:27.840 --> 00:49:30.160 line:83% align:left position:18%
 Could be easy money.
 
 00:49:30.240 --> 00:49:33.720 line:77% align:middle position:50% size:80%
@@ -2514,16 +2437,16 @@ from the extreme outside.
 Coming from behind into the race,
 Sonador.
 
-00:49:41.600 --> 00:49:44.080 line:77% align:left position:28% size:52%
+00:49:41.600 --> 00:49:44.080 line:77% align:left position:28%
 Little lady looks pretty good.
-<c.black>........</c>Yeah.
+&nbsp;        Yeah.
 
-00:49:47.800 --> 00:49:50.040 line:77% align:left position:36% size:44%
+00:49:47.800 --> 00:49:50.040 line:77% align:left position:36%
 Come on, Sonya.
-<c.black>.........</c>Come on, Sonador.
+&nbsp;         Come on, Sonador.
 
-00:49:50.120 --> 00:49:51.680 line:77% align:left position:26% size:54%
-<c.black>................</c>Come on.
+00:49:50.120 --> 00:49:51.680 line:77% align:left position:26%
+&nbsp;                Come on.
 Can you see her?
 
 00:49:51.800 --> 00:49:53.600 line:77% align:middle position:50% size:80%
@@ -2537,17 +2460,17 @@ And Sonador's on the far outside.
 Then we have, back in fifth,
 All for Nothing...
 
-00:49:58.240 --> 00:50:00.040 line:83% align:left position:18% size:62%
+00:49:58.240 --> 00:50:00.040 line:83% align:left position:18%
 Come on, baby.
 
 00:50:00.120 --> 00:50:01.760 line:83% align:right size:80% position:90%
 Come on, Mike, change her lead now.
 
-00:50:01.880 --> 00:50:04.520 line:83% align:left position:18% size:62%
+00:50:01.880 --> 00:50:04.520 line:83% align:left position:18%
 ..coming around the far turn...
 
-00:50:04.600 --> 00:50:06.360 line:77% align:left position:34% size:46%
-<c.black>..............</c>Come on!
+00:50:04.600 --> 00:50:06.360 line:77% align:left position:34%
+&nbsp;              Come on!
 Come on, girl!
 
 00:50:06.480 --> 00:50:08.560 line:77% align:middle position:50% size:80%
@@ -2565,7 +2488,7 @@ Only three furlongs to go now.
 Major Easy and Obvious Favorite
 are nose-to-nose...
 
-00:50:15.880 --> 00:50:18.760 line:77% align:left position:48% size:32%
+00:50:15.880 --> 00:50:18.760 line:77% align:left position:48%
 Show her the stick.
 Get her out of there.
 
@@ -2575,13 +2498,13 @@ Get her out of there.
 00:50:27.720 --> 00:50:29.480 line:83% align:middle position:50% size:80%
 (Horse whinnies)
 
-00:50:32.480 --> 00:50:33.960 line:77% align:left position:34% size:46%
-<c.black>....</c>(Squeals)
+00:50:32.480 --> 00:50:33.960 line:77% align:left position:34%
+&nbsp;    (Squeals)
 Third!
 
-00:50:34.000 --> 00:50:35.320 line:77% align:left position:30% size:50%
+00:50:34.000 --> 00:50:35.320 line:77% align:left position:30%
 Third.
-<c.black>......</c>Third.
+&nbsp;      Third.
 
 00:50:45.680 --> 00:50:48.720 line:77% align:right size:80% position:90%
 01:13 - a little slow,
@@ -2594,75 +2517,75 @@ I think she would've won, sir.
 00:50:52.040 --> 00:50:53.680 line:83% align:middle position:50% size:80%
 Whoo! (Laughs)
 
-00:50:54.960 --> 00:50:57.200 line:77% align:left position:16% size:64%
+00:50:54.960 --> 00:50:57.200 line:77% align:left position:16%
 It's third place.
 So, what does she get?
 
 00:50:57.280 --> 00:50:58.880 line:83% align:middle position:50% size:80%
 £1,100.
 
-00:50:58.960 --> 00:51:01.120 line:77% align:left position:18% size:62%
+00:50:58.960 --> 00:51:01.120 line:77% align:left position:18%
 Sonador. Ben Crane?
-<c.black>...................</c>Yeah.
+&nbsp;                   Yeah.
 
-00:51:01.200 --> 00:51:05.000 line:77% align:left position:18% size:62%
+00:51:01.200 --> 00:51:05.000 line:77% align:left position:18%
 Claim.
-<c.black>....</c>What?! You gotta be kidding me.
+&nbsp;    What?! You gotta be kidding me.
 
-00:51:05.080 --> 00:51:07.520 line:77% align:left position:16% size:64%
-<c.black>.............</c>Claim?
+00:51:05.080 --> 00:51:07.520 line:77% align:left position:16%
+&nbsp;             Claim?
 Wait a second. Hang on a minute.
 
 00:51:07.600 --> 00:51:09.160 line:83% align:right size:80% position:90%
 You said she wouldn't get claimed.
 
-00:51:09.240 --> 00:51:10.840 line:83% align:left position:18% size:62%
+00:51:09.240 --> 00:51:10.840 line:83% align:left position:18%
 Cale, listen to me.
 
 00:51:10.920 --> 00:51:14.120 line:77% align:right size:80% position:90%
 What was the tag?
 How much did you get for her?
 
-00:51:15.480 --> 00:51:16.920 line:83% align:left position:18% size:62%
+00:51:15.480 --> 00:51:16.920 line:83% align:left position:18%
 £15,000.
 
 00:51:19.280 --> 00:51:20.960 line:83% align:right size:80% position:90%
 You just sold Sonador.
 
-00:51:25.320 --> 00:51:26.800 line:83% align:left position:18% size:62%
+00:51:25.320 --> 00:51:26.800 line:83% align:left position:18%
 I don't believe this.
 
-00:51:51.480 --> 00:51:52.920 line:83% align:left position:28% size:52%
+00:51:51.480 --> 00:51:52.920 line:83% align:left position:28%
 Cale...
 
-00:51:54.480 --> 00:51:56.440 line:83% align:left position:18% size:62%
+00:51:54.480 --> 00:51:56.440 line:83% align:left position:18%
 ..I wasn't trying to sell Sonya.
 
-00:51:58.840 --> 00:52:02.080 line:77% align:left position:16% size:64%
+00:51:58.840 --> 00:52:02.080 line:77% align:left position:16%
 Out of a hundred horses that
 could have been claimed tonight,
 
-00:52:02.160 --> 00:52:03.560 line:83% align:left position:16% size:64%
+00:52:02.160 --> 00:52:03.560 line:83% align:left position:16%
 you know how many got claimed?
 
-00:52:03.640 --> 00:52:05.080 line:83% align:left position:18% size:62%
+00:52:03.640 --> 00:52:05.080 line:83% align:left position:18%
 Two.
 
-00:52:06.480 --> 00:52:09.200 line:77% align:left position:16% size:64%
+00:52:06.480 --> 00:52:09.200 line:77% align:left position:16%
 Do you understand
 that you've got to claim the horse
 
-00:52:09.280 --> 00:52:10.840 line:83% align:left position:18% size:62%
+00:52:09.280 --> 00:52:10.840 line:83% align:left position:18%
 before the race is even run?
 
-00:52:10.920 --> 00:52:14.480 line:77% align:left position:16% size:64%
+00:52:10.920 --> 00:52:14.480 line:77% align:left position:16%
 I just figured there's no way anybody
 would take a chance on a filly
 
-00:52:14.560 --> 00:52:16.120 line:83% align:left position:18% size:62%
+00:52:14.560 --> 00:52:16.120 line:83% align:left position:18%
 that had already broken her leg.
 
-00:52:16.160 --> 00:52:17.520 line:83% align:left position:62% size:18%
+00:52:16.160 --> 00:52:17.520 line:83% align:left position:62%
 (Sighs)
 
 00:52:17.600 --> 00:52:19.560 line:83% align:right size:80% position:90%
@@ -2671,10 +2594,10 @@ I guess there was some chance.
 00:52:20.640 --> 00:52:22.080 line:83% align:right size:80% position:90%
 She's gone.
 
-00:52:30.040 --> 00:52:31.960 line:83% align:left position:18% size:62%
+00:52:30.040 --> 00:52:31.960 line:83% align:left position:18%
 She was a good horse, Cale.
 
-00:52:32.040 --> 00:52:33.560 line:83% align:left position:18% size:62%
+00:52:32.040 --> 00:52:33.560 line:83% align:left position:18%
 I'm gonna miss her too.
 
 00:52:33.640 --> 00:52:35.560 line:77% align:right size:80% position:90%
@@ -2688,20 +2611,20 @@ some of your money back.
 00:52:38.120 --> 00:52:40.160 line:83% align:right size:80% position:90%
 I get it. It's business.
 
-00:52:41.720 --> 00:52:43.120 line:83% align:left position:18% size:62%
+00:52:41.720 --> 00:52:43.120 line:83% align:left position:18%
 That's right. It is.
 
-00:52:43.240 --> 00:52:44.840 line:83% align:left position:64% size:16%
+00:52:43.240 --> 00:52:44.840 line:83% align:left position:64%
 (Sighs)
 
-00:52:44.920 --> 00:52:46.880 line:77% align:left position:16% size:64%
+00:52:44.920 --> 00:52:46.880 line:77% align:left position:16%
 But I wasn't trying
 to sell Sonya, OK?
 
-00:52:47.000 --> 00:52:48.400 line:83% align:left position:54% size:26%
+00:52:47.000 --> 00:52:48.400 line:83% align:left position:54%
 You lied to me.
 
-00:52:49.680 --> 00:52:52.600 line:77% align:left position:16% size:64%
+00:52:49.680 --> 00:52:52.600 line:77% align:left position:16%
 You said I'd always have Sonador.
 You stood right there and said it.
 
@@ -2726,10 +2649,10 @@ in the world right now is for sale.
 00:53:03.760 --> 00:53:05.120 line:83% align:right size:80% position:90%
 Get that.
 
-00:53:05.200 --> 00:53:07.480 line:83% align:left position:18% size:62%
+00:53:05.200 --> 00:53:07.480 line:83% align:left position:18%
 She wasn't just some racehorse.
 
-00:53:09.400 --> 00:53:11.000 line:83% align:left position:24% size:56%
+00:53:09.400 --> 00:53:11.000 line:83% align:left position:24%
 She was our horse.
 
 00:53:20.280 --> 00:53:23.240 line:83% align:right size:80% position:90%
@@ -2746,9 +2669,9 @@ Remember?
 You said you could go to
 Cale's school for parents night.
 
-00:53:41.200 --> 00:53:42.640 line:77% align:left position:18% size:62%
+00:53:41.200 --> 00:53:42.640 line:77% align:left position:18%
 8:00. I'll be there.
-<c.black>............................</c>Mm-hmm.
+&nbsp;                            Mm-hmm.
 
 00:53:48.480 --> 00:53:49.920 line:83% align:right size:80% position:90%
 Have a good time.
@@ -2777,8 +2700,8 @@ WOMAN: Thank you, Ms Richardson.
 00:54:08.200 --> 00:54:09.760 line:83% align:right size:80% position:90%
 Thank you.
 
-00:54:11.680 --> 00:54:13.240 line:77% align:left position:32% size:48%
-<c.black>..................</c>Ben Crane.
+00:54:11.680 --> 00:54:13.240 line:77% align:left position:32%
+&nbsp;                  Ben Crane.
 Yes, ma'am.
 
 00:54:13.320 --> 00:54:14.840 line:83% align:right size:80% position:90%
@@ -2793,14 +2716,14 @@ It's right there in the blue folder.
 00:54:20.040 --> 00:54:21.480 line:83% align:right size:80% position:90%
 Come on up.
 
-00:54:36.680 --> 00:54:38.080 line:83% align:left position:18% size:62%
+00:54:36.680 --> 00:54:38.080 line:83% align:left position:18%
 (Reads) "Once upon a time,
 
-00:54:38.160 --> 00:54:41.720 line:77% align:left position:16% size:64%
-<c.black>....</c>"there was a noble king
+00:54:38.160 --> 00:54:41.720 line:77% align:left position:16%
+&nbsp;    "there was a noble king
 who lived in a beautiful castle
 
-00:54:41.800 --> 00:54:43.480 line:83% align:left position:22% size:58%
+00:54:41.800 --> 00:54:43.480 line:83% align:left position:22%
 "overlooking green fields.
 
 00:54:44.520 --> 00:54:47.000 line:77% align:middle position:50% size:80%
@@ -2895,8 +2818,8 @@ it would be their deaths.
 00:55:59.120 --> 00:56:00.960 line:83% align:middle position:50% size:80%
 "But the horse reached the top.
 
-00:56:02.920 --> 00:56:05.680 line:77% align:left position:16% size:64%
-<c.black>........</c>"And at the top,
+00:56:02.920 --> 00:56:05.680 line:77% align:left position:16%
+&nbsp;        "And at the top,
 they found his kingdom restored.
 
 00:56:09.680 --> 00:56:12.600 line:83% align:middle position:50% size:80%
@@ -2909,46 +2832,46 @@ greeted the king with pie and coffee.
 00:56:20.520 --> 00:56:21.960 line:83% align:middle position:50% size:80%
 "By Cale Crane."
 
-00:56:28.240 --> 00:56:29.680 line:77% align:left position:20% size:60%
+00:56:28.240 --> 00:56:29.680 line:77% align:left position:20%
 Can we keep these?
-<c.black>..............................</c>Yes.
+&nbsp;                              Yes.
 
-00:56:55.680 --> 00:56:58.040 line:83% align:left position:18% size:62%
+00:56:55.680 --> 00:56:58.040 line:83% align:left position:18%
 I read your story tonight at school.
 
 00:57:01.400 --> 00:57:03.000 line:83% align:right size:80% position:90%
 The stupid one about the king?
 
-00:57:09.200 --> 00:57:10.640 line:83% align:left position:22% size:58%
+00:57:09.200 --> 00:57:10.640 line:83% align:left position:22%
 Yeah. The stupid king.
 
-00:57:12.800 --> 00:57:14.240 line:83% align:left position:36% size:44%
+00:57:12.800 --> 00:57:14.240 line:83% align:left position:36%
 (Sighs)
 
-00:57:17.080 --> 00:57:18.840 line:83% align:left position:18% size:62%
+00:57:17.080 --> 00:57:18.840 line:83% align:left position:18%
 I make mistakes, Cale.
 
-00:57:20.880 --> 00:57:22.320 line:83% align:left position:34% size:46%
+00:57:20.880 --> 00:57:22.320 line:83% align:left position:34%
 I'm sorry.
 
 00:57:28.000 --> 00:57:30.240 line:83% align:right size:80% position:90%
 So you like the stupid king?
 
-00:57:33.040 --> 00:57:34.840 line:83% align:left position:18% size:62%
+00:57:33.040 --> 00:57:34.840 line:83% align:left position:18%
 Yeah. I like the stupid king.
 
 00:57:38.000 --> 00:57:39.760 line:83% align:right size:80% position:90%
 I love the stupid king.
 
-00:57:41.760 --> 00:57:43.200 line:83% align:left position:18% size:62%
+00:57:41.760 --> 00:57:43.200 line:83% align:left position:18%
 He loves you too.
 
-00:58:04.080 --> 00:58:06.360 line:77% align:left position:16% size:64%
+00:58:04.080 --> 00:58:06.360 line:77% align:left position:16%
 Ben, there's some guy here
 to see ya.
 
-00:58:09.240 --> 00:58:10.640 line:77% align:left position:22% size:58%
-<c.black>..............</c>Cale.
+00:58:09.240 --> 00:58:10.640 line:77% align:left position:22%
+&nbsp;              Cale.
 Hmm?
 
 00:58:10.720 --> 00:58:12.120 line:83% align:right size:80% position:90%
@@ -2964,26 +2887,26 @@ out of the trailer? Thanks a lot.
 00:58:28.160 --> 00:58:29.560 line:83% align:middle position:50% size:80%
 Sonya!
 
-00:58:29.640 --> 00:58:31.040 line:83% align:left position:66% size:14%
+00:58:29.640 --> 00:58:31.040 line:83% align:left position:66%
 Sonya!
 
 00:58:31.120 --> 00:58:32.560 line:83% align:right size:80% position:90%
 You came home!
 
-00:58:34.560 --> 00:58:36.000 line:83% align:left position:18% size:62%
+00:58:34.560 --> 00:58:36.000 line:83% align:left position:18%
 I'm so glad you're back.
 
 00:58:37.080 --> 00:58:38.480 line:83% align:middle position:50% size:80%
 How did you get her back?
 
-00:58:38.560 --> 00:58:40.520 line:77% align:left position:26% size:54%
+00:58:38.560 --> 00:58:40.520 line:77% align:left position:26%
 Well, it wasn't just me.
 Pop helped out too.
 
 00:58:40.560 --> 00:58:42.480 line:83% align:right size:80% position:90%
 (Sonya whinnies)
 
-00:58:42.520 --> 00:58:43.680 line:83% align:left position:20% size:60%
+00:58:42.520 --> 00:58:43.680 line:83% align:left position:20%
 I did?
 
 00:58:44.760 --> 00:58:47.360 line:77% align:middle position:50% size:80%
@@ -2994,38 +2917,38 @@ out of coffee for a while.
 Alright.
 I got all the paperwork here.
 
-00:58:51.480 --> 00:58:54.880 line:77% align:left position:16% size:64%
+00:58:51.480 --> 00:58:54.880 line:77% align:left position:16%
 Now, Cale,
 I put 51% of Sonador in your name.
 
-00:58:54.960 --> 00:58:58.880 line:77% align:left position:24% size:56%
+00:58:54.960 --> 00:58:58.880 line:77% align:left position:24%
 So from here on out,
 you make all the decisions.
 
-00:58:58.920 --> 00:59:02.120 line:77% align:left position:16% size:64%
-<c.black>.............</c>Don't worry -
+00:58:58.920 --> 00:59:02.120 line:77% align:left position:16%
+&nbsp;             Don't worry -
 I got you in there at 39%.
 
-00:59:02.200 --> 00:59:04.200 line:77% align:left position:16% size:64%
+00:59:02.200 --> 00:59:04.200 line:77% align:left position:16%
 Balon, you and Manny
 can split the other 10%, huh?
 
 00:59:04.280 --> 00:59:05.760 line:83% align:right size:80% position:90%
 What are you saying, Ben?
 
-00:59:05.800 --> 00:59:09.000 line:77% align:left position:16% size:64%
+00:59:05.800 --> 00:59:09.000 line:77% align:left position:16%
 I'm saying as soon as
 she signs this paper,
 
-00:59:09.080 --> 00:59:12.680 line:77% align:left position:16% size:64%
+00:59:09.080 --> 00:59:12.680 line:77% align:left position:16%
 the new owner of Sonador
 is Cale Crane.
 
-00:59:17.800 --> 00:59:20.920 line:77% align:left position:16% size:64%
+00:59:17.800 --> 00:59:20.920 line:77% align:left position:16%
 Welcome to the race business.
 Congratulations.
 
-00:59:21.000 --> 00:59:22.560 line:83% align:left position:18% size:62%
+00:59:21.000 --> 00:59:22.560 line:83% align:left position:18%
 You work for her now.
 
 00:59:22.640 --> 00:59:24.320 line:83% align:middle position:50% size:80%
@@ -3034,36 +2957,36 @@ Oooh.
 00:59:24.360 --> 00:59:26.680 line:83% align:right size:80% position:90%
 BALON: OK, boss.
 
-00:59:26.720 --> 00:59:28.600 line:77% align:left position:46% size:34%
+00:59:26.720 --> 00:59:28.600 line:77% align:left position:46%
 CALE: OK.
-<c.black>..</c>What's it gonna be?
+&nbsp;  What's it gonna be?
 
-00:59:28.680 --> 00:59:30.120 line:77% align:left position:36% size:44%
-<c.black>............</c>CALE: Come on.
+00:59:28.680 --> 00:59:30.120 line:77% align:left position:36%
+&nbsp;            CALE: Come on.
 Let's go, senorita!
 
 00:59:30.200 --> 00:59:31.640 line:83% align:right size:80% position:90%
 Come on!
 
-00:59:36.320 --> 00:59:38.040 line:83% align:left position:42% size:38%
+00:59:36.320 --> 00:59:38.040 line:83% align:left position:42%
 (Yawns)
 
-00:59:45.720 --> 00:59:47.240 line:83% align:left position:18% size:62%
+00:59:45.720 --> 00:59:47.240 line:83% align:left position:18%
 Do you want me to warm her up?
 
-00:59:47.320 --> 00:59:49.560 line:77% align:left position:16% size:64%
+00:59:47.320 --> 00:59:49.560 line:77% align:left position:16%
 And then push her
 for three furlongs? Or maybe four?
 
-00:59:49.640 --> 00:59:51.560 line:77% align:left position:32% size:48%
+00:59:49.640 --> 00:59:51.560 line:77% align:left position:32%
 You just want us
 to blow her out today, right?
 
-00:59:51.640 --> 00:59:53.560 line:77% align:left position:38% size:42%
+00:59:51.640 --> 00:59:53.560 line:77% align:left position:38%
 Then we could start
 to build her up, huh?
 
-00:59:53.600 --> 00:59:56.600 line:83% align:left position:60% size:20%
+00:59:53.600 --> 00:59:56.600 line:83% align:left position:60%
 Um...
 
 00:59:56.680 --> 00:59:58.600 line:83% align:right size:80% position:90%
@@ -3079,27 +3002,27 @@ you let me know, huh?
 01:00:24.840 --> 01:00:26.440 line:83% align:right size:80% position:90%
 Alright. Goodnight.
 
-01:00:28.200 --> 01:00:29.600 line:83% align:left position:66% size:14%
+01:00:28.200 --> 01:00:29.600 line:83% align:left position:66%
 Hey.
 
 01:00:29.680 --> 01:00:31.160 line:83% align:right size:80% position:90%
 You're up kinda late.
 
-01:00:31.200 --> 01:00:33.120 line:83% align:left position:18% size:62%
+01:00:31.200 --> 01:00:33.120 line:83% align:left position:18%
 I'm reading all of Sonya's records.
 
-01:00:34.160 --> 01:00:36.320 line:77% align:left position:16% size:64%
+01:00:34.160 --> 01:00:36.320 line:77% align:left position:16%
 She won over £200,000
 in Graded company.
 
 01:00:36.400 --> 01:00:38.040 line:83% align:right size:80% position:90%
 Oh, yeah. I know.
 
-01:00:38.120 --> 01:00:40.520 line:77% align:left position:16% size:64%
+01:00:38.120 --> 01:00:40.520 line:77% align:left position:16%
 Qualifies her for
 a lot of Stakes races.
 
-01:00:40.640 --> 01:00:42.680 line:77% align:left position:16% size:64%
+01:00:40.640 --> 01:00:42.680 line:77% align:left position:16%
 I was looking through
 the conditions book.
 
@@ -3107,10 +3030,10 @@ the conditions book.
 Well, I'm sure
 you'll figure something out.
 
-01:00:51.080 --> 01:00:53.640 line:83% align:left position:18% size:62%
+01:00:51.080 --> 01:00:53.640 line:83% align:left position:18%
 I want you to help me.
 
-01:00:53.760 --> 01:00:55.320 line:83% align:left position:18% size:62%
+01:00:53.760 --> 01:00:55.320 line:83% align:left position:18%
 I want you to help me train her.
 
 01:00:59.000 --> 01:01:00.440 line:83% align:right size:80% position:90%
@@ -3122,21 +3045,21 @@ Well, you'd be getting a trainer.
 01:01:03.440 --> 01:01:05.840 line:83% align:right size:80% position:90%
 What is it I'd be getting?
 
-01:01:06.880 --> 01:01:08.720 line:77% align:left position:24% size:56%
+01:01:06.880 --> 01:01:08.720 line:77% align:left position:24%
 10%.
-<c.black>.......................</c>20%.
+&nbsp;                       20%.
 
-01:01:08.840 --> 01:01:10.200 line:77% align:left position:26% size:54%
+01:01:08.840 --> 01:01:10.200 line:77% align:left position:26%
 15%
-<c.black>......................</c>Done.
+&nbsp;                      Done.
 
-01:01:10.360 --> 01:01:11.720 line:83% align:left position:22% size:58%
+01:01:10.360 --> 01:01:11.720 line:83% align:left position:22%
 Sign here.
 
 01:01:12.640 --> 01:01:17.200 line:83% align:middle position:50% size:80%
 ( EXCITING MUSIC )
 
-01:01:19.200 --> 01:01:20.600 line:83% align:left position:18% size:62%
+01:01:19.200 --> 01:01:20.600 line:83% align:left position:18%
 BEN: Not too tight.
 
 01:01:20.720 --> 01:01:22.160 line:83% align:right size:80% position:90%
@@ -3148,20 +3071,20 @@ There.
 01:01:23.760 --> 01:01:25.640 line:83% align:middle position:50% size:80%
 BEN: Come on, girl. Come on.
 
-01:01:25.720 --> 01:01:27.320 line:83% align:left position:52% size:28%
+01:01:25.720 --> 01:01:27.320 line:83% align:left position:52%
 Yeah. That's good.
 
 01:01:30.120 --> 01:01:31.560 line:83% align:right size:80% position:90%
 (Chuckles)
 
-01:01:33.400 --> 01:01:35.640 line:83% align:left position:18% size:62%
+01:01:33.400 --> 01:01:35.640 line:83% align:left position:18%
 (Taps glass loudly)
 
 01:01:35.720 --> 01:01:37.280 line:83% align:right size:80% position:90%
 BEN: Alright. Here we go.
 
-01:01:37.360 --> 01:01:38.800 line:77% align:left position:28% size:52%
-<c.black>................</c>Here we go.
+01:01:37.360 --> 01:01:38.800 line:77% align:left position:28%
+&nbsp;                Here we go.
 BALON: Hello. Hello.
 
 01:01:40.080 --> 01:01:41.840 line:83% align:middle position:50% size:80%
@@ -3175,45 +3098,45 @@ all of Sonador's possible races.
 And I've picked one
 I know she can win.
 
-01:01:46.680 --> 01:01:48.080 line:83% align:left position:18% size:62%
+01:01:46.680 --> 01:01:48.080 line:83% align:left position:18%
 LILLY: Really?
 
-01:01:48.200 --> 01:01:49.560 line:77% align:left position:18% size:62%
+01:01:48.200 --> 01:01:49.560 line:77% align:left position:18%
 MANOLIN: Very nice.
-<c.black>.........................</c>POP: Good.
+&nbsp;                         POP: Good.
 
 01:01:49.640 --> 01:01:51.040 line:83% align:right size:80% position:90%
 LILLY: And when is this race?
 
-01:01:51.120 --> 01:01:52.920 line:83% align:left position:18% size:62%
+01:01:51.120 --> 01:01:52.920 line:83% align:left position:18%
 Saturday, October 29.
 
-01:01:53.000 --> 01:01:55.240 line:83% align:left position:18% size:62%
+01:01:53.000 --> 01:01:55.240 line:83% align:left position:18%
 I've gotten the best jockey.
 
-01:01:55.320 --> 01:01:57.040 line:83% align:left position:18% size:62%
+01:01:55.320 --> 01:01:57.040 line:83% align:left position:18%
 His name is Manolin Vallarta.
 
-01:01:59.600 --> 01:02:02.160 line:77% align:left position:18% size:62%
+01:01:59.600 --> 01:02:02.160 line:77% align:left position:18%
 Wait. I'm Manolin Vallarta.
-<c.black>..................</c>LILLY: Good idea.
+&nbsp;                  LILLY: Good idea.
 
-01:02:02.240 --> 01:02:04.800 line:77% align:left position:16% size:64%
+01:02:02.240 --> 01:02:04.800 line:77% align:left position:16%
 You once told me you were
 the greatest jockey in the world.
 
-01:02:04.880 --> 01:02:06.680 line:77% align:left position:18% size:62%
+01:02:04.880 --> 01:02:06.680 line:77% align:left position:18%
 And I believe you.
-<c.black>...............</c>(Laughs)
+&nbsp;               (Laughs)
 
 01:02:06.760 --> 01:02:08.400 line:83% align:middle position:50% size:80%
 Thank you, Cale.
 
-01:02:08.640 --> 01:02:10.680 line:77% align:left position:30% size:50%
+01:02:08.640 --> 01:02:10.680 line:77% align:left position:30%
 Thank you but I can't.
-<c.black>........</c>I'm not ready.
+&nbsp;        I'm not ready.
 
-01:02:10.800 --> 01:02:12.160 line:83% align:left position:18% size:62%
+01:02:10.800 --> 01:02:12.160 line:83% align:left position:18%
 I'm, um...
 
 01:02:12.240 --> 01:02:14.640 line:77% align:right size:80% position:90%
@@ -3230,7 +3153,7 @@ Breeders' Cup Championship, isn't it?
 01:02:19.760 --> 01:02:21.480 line:83% align:right size:80% position:90%
 Biggest day in racing.
 
-01:02:21.560 --> 01:02:24.360 line:77% align:left position:22% size:58%
+01:02:21.560 --> 01:02:24.360 line:77% align:left position:22%
 Yeah. The Breeders' Cup is, what,
 eight races, worth £14 million?
 
@@ -3242,21 +3165,21 @@ in any race
 on the same day
 as the Breeders' Cup.
 
-01:02:28.520 --> 01:02:29.880 line:83% align:left position:30% size:50%
+01:02:28.520 --> 01:02:29.880 line:83% align:left position:30%
 You're right.
 
-01:02:29.960 --> 01:02:32.720 line:77% align:left position:16% size:64%
+01:02:29.960 --> 01:02:32.720 line:77% align:left position:16%
 We shouldn't run in any race
 the same day as Breeders' Cup.
 
-01:02:35.040 --> 01:02:37.400 line:77% align:left position:16% size:64%
+01:02:35.040 --> 01:02:37.400 line:77% align:left position:16%
 That's why we're going to run
 IN the Breeders' Cup.
 
-01:02:37.520 --> 01:02:39.560 line:83% align:left position:26% size:54%
+01:02:37.520 --> 01:02:39.560 line:83% align:left position:26%
 BALON: Whoa-ho!
 
-01:02:39.640 --> 01:02:41.520 line:83% align:left position:18% size:62%
+01:02:39.640 --> 01:02:41.520 line:83% align:left position:18%
 MANOLIN: That sounds delicious.
 
 01:02:41.600 --> 01:02:45.040 line:77% align:right size:80% position:90%
@@ -3266,13 +3189,13 @@ show up with your horse
 01:02:45.120 --> 01:02:46.520 line:83% align:right size:80% position:90%
 at the Breeders' Cup, honey,
 
-01:02:46.600 --> 01:02:48.840 line:77% align:left position:22% size:58%
-<c.black>....</c>and say, "Hey, I'm here.
+01:02:46.600 --> 01:02:48.840 line:77% align:left position:22%
+&nbsp;    and say, "Hey, I'm here.
 I wanna run in the Classic."
 
-01:02:48.920 --> 01:02:51.160 line:77% align:left position:28% size:52%
+01:02:48.920 --> 01:02:51.160 line:77% align:left position:28%
 It doesn't work that way.
-<c.black>.......</c>It'd be nice if it did.
+&nbsp;       It'd be nice if it did.
 
 01:02:51.400 --> 01:02:52.960 line:77% align:middle position:50% size:80%
 Do you know what
@@ -3282,37 +3205,37 @@ the selection process is?
 Uh...14 horses. First seven
 or greatest Stakes wins, points.
 
-01:02:57.840 --> 01:03:01.400 line:77% align:left position:26% size:54%
-<c.black>.......</c>Last seven are...
+01:02:57.840 --> 01:03:01.400 line:77% align:left position:26%
+&nbsp;       Last seven are...
 No. No. I don't, really.
 
-01:03:01.480 --> 01:03:03.840 line:77% align:left position:16% size:64%
+01:03:01.480 --> 01:03:03.840 line:77% align:left position:16%
 The last seven are based on
 overall performance during the year.
 
-01:03:03.920 --> 01:03:06.200 line:77% align:left position:16% size:64%
+01:03:03.920 --> 01:03:06.200 line:77% align:left position:16%
 But they do have the ability
 to make a judgment call.
 
-01:03:06.240 --> 01:03:08.160 line:83% align:left position:18% size:62%
+01:03:06.240 --> 01:03:08.160 line:83% align:left position:18%
 I might take a shot.
 
-01:03:08.240 --> 01:03:11.520 line:77% align:left position:16% size:64%
+01:03:08.240 --> 01:03:11.520 line:77% align:left position:16%
 It's a long shot
 but why not Sonador?
 
-01:03:13.120 --> 01:03:14.520 line:83% align:left position:18% size:62%
+01:03:13.120 --> 01:03:14.520 line:83% align:left position:18%
 Why not us?
 
-01:03:14.600 --> 01:03:16.280 line:77% align:left position:18% size:62%
+01:03:14.600 --> 01:03:16.280 line:77% align:left position:18%
 MANOLIN: Why not? That's right.
-<c.black>.......................</c>LILLY: Yeah!
+&nbsp;                       LILLY: Yeah!
 
-01:03:16.360 --> 01:03:18.760 line:77% align:left position:16% size:64%
+01:03:16.360 --> 01:03:18.760 line:77% align:left position:16%
 BALON: Well, we're going
 to the Breeders' Cup!
 
-01:03:19.880 --> 01:03:22.440 line:77% align:left position:16% size:64%
+01:03:19.880 --> 01:03:22.440 line:77% align:left position:16%
 LILLY: Did you really not know how
 the last seven horses were chosen?
 
@@ -3330,114 +3253,114 @@ huge fees for a race like that, so...
 01:03:31.800 --> 01:03:33.920 line:83% align:right size:80% position:90%
 ..you know, this is a pipedream.
 
-01:03:34.000 --> 01:03:36.600 line:83% align:left position:18% size:62%
+01:03:34.000 --> 01:03:36.600 line:83% align:left position:18%
 Remember dreams, Ben?
 
-01:03:39.600 --> 01:03:41.320 line:83% align:left position:18% size:62%
+01:03:39.600 --> 01:03:41.320 line:83% align:left position:18%
 This one's Cale's.
 
-01:03:41.400 --> 01:03:43.400 line:77% align:left position:18% size:62%
+01:03:41.400 --> 01:03:43.400 line:77% align:left position:18%
 Help her live it.
-<c.black>....................</c>I want to, Lil.
+&nbsp;                    I want to, Lil.
 
-01:03:43.520 --> 01:03:44.880 line:83% align:left position:52% size:28%
+01:03:43.520 --> 01:03:44.880 line:83% align:left position:52%
 I do.
 
 01:03:44.960 --> 01:03:48.520 line:77% align:right size:80% position:90%
 I'm just saying that
 this isn't gonna happen, that's all.
 
-01:03:48.600 --> 01:03:50.000 line:83% align:left position:26% size:54%
+01:03:48.600 --> 01:03:50.000 line:83% align:left position:26%
 So what?
 
-01:03:50.080 --> 01:03:51.480 line:83% align:left position:22% size:58%
+01:03:50.080 --> 01:03:51.480 line:83% align:left position:22%
 So what?
 
-01:03:51.560 --> 01:03:53.960 line:77% align:left position:16% size:64%
+01:03:51.560 --> 01:03:53.960 line:77% align:left position:16%
 Just let it take her
 as far as it can.
 
-01:03:57.120 --> 01:03:58.560 line:83% align:left position:38% size:42%
+01:03:57.120 --> 01:03:58.560 line:83% align:left position:38%
 Alright.
 
 01:03:59.560 --> 01:04:01.120 line:83% align:middle position:50% size:80%
 ( GALLOPING )
 
-01:04:03.240 --> 01:04:04.680 line:83% align:left position:48% size:32%
+01:04:03.240 --> 01:04:04.680 line:83% align:left position:48%
 ( BEEP )
 
-01:04:05.760 --> 01:04:07.480 line:83% align:left position:18% size:62%
+01:04:05.760 --> 01:04:07.480 line:83% align:left position:18%
 Five furlongs in 1:01 and change.
 
 01:04:07.560 --> 01:04:09.240 line:83% align:right size:80% position:90%
 (Sighs) Well, that's better but...
 
-01:04:09.320 --> 01:04:10.720 line:83% align:left position:18% size:62%
+01:04:09.320 --> 01:04:10.720 line:83% align:left position:18%
 She was breezing, Dad.
 
-01:04:10.840 --> 01:04:12.240 line:83% align:left position:18% size:62%
+01:04:10.840 --> 01:04:12.240 line:83% align:left position:18%
 Don't worry.
 
 01:04:22.320 --> 01:04:23.720 line:83% align:right size:80% position:90%
 BEN: Mmm. Perfect.
 
-01:04:24.000 --> 01:04:25.360 line:77% align:left position:30% size:50%
+01:04:24.000 --> 01:04:25.360 line:77% align:left position:30%
 These are good.
-<c.black>.................</c>(Mumbles)
+&nbsp;                 (Mumbles)
 
-01:04:27.720 --> 01:04:29.120 line:77% align:left position:16% size:64%
-<c.black>................</c>CALE: Mmm.
+01:04:27.720 --> 01:04:29.120 line:77% align:left position:16%
+&nbsp;                CALE: Mmm.
 Hey, guys.
 
-01:04:29.200 --> 01:04:32.000 line:77% align:left position:16% size:64%
+01:04:29.200 --> 01:04:32.000 line:77% align:left position:16%
 Oh, wow.
 You guys got my favourite.
 
-01:04:33.840 --> 01:04:35.280 line:83% align:left position:18% size:62%
+01:04:33.840 --> 01:04:35.280 line:83% align:left position:18%
 Balon, where's mine?
 
-01:04:39.160 --> 01:04:40.560 line:83% align:left position:72% size:8%
+01:04:39.160 --> 01:04:40.560 line:83% align:left position:72%
 Yummy.
 
-01:04:40.640 --> 01:04:42.040 line:83% align:left position:32% size:48%
+01:04:40.640 --> 01:04:42.040 line:83% align:left position:32%
 Yay.
 
 01:04:42.120 --> 01:04:43.960 line:83% align:right size:80% position:90%
 Your water.
 
-01:04:44.040 --> 01:04:45.440 line:77% align:left position:18% size:62%
+01:04:44.040 --> 01:04:45.440 line:77% align:left position:18%
 This is an orange.
-<c.black>...........................</c>Mm-hm.
+&nbsp;                           Mm-hm.
 
-01:04:45.520 --> 01:04:48.360 line:83% align:left position:18% size:62%
+01:04:45.520 --> 01:04:48.360 line:83% align:left position:18%
 It looks like a painted golf ball.
 
 01:04:48.440 --> 01:04:50.760 line:77% align:right size:80% position:90%
 Hey, Manny, run her real close
 to the rail, eh?
 
-01:04:50.840 --> 01:04:52.440 line:77% align:left position:26% size:54%
+01:04:50.840 --> 01:04:52.440 line:77% align:left position:26%
 You're doing good, Manny.
-<c.black>..</c>You're doing real good.
+&nbsp;  You're doing real good.
 
-01:04:52.520 --> 01:04:53.920 line:77% align:left position:56% size:24%
-<c.black>.....</c>Oh, man!
+01:04:52.520 --> 01:04:53.920 line:77% align:left position:56%
+&nbsp;     Oh, man!
 Oh!
 
 01:04:54.000 --> 01:04:56.800 line:83% align:right size:80% position:90%
 Oh, no! No. Here, backup.
 
-01:04:56.880 --> 01:04:59.840 line:77% align:left position:38% size:42%
+01:04:56.880 --> 01:04:59.840 line:77% align:left position:38%
 CALE: Oh!
 BALON: Aren't you lucky?
 
-01:05:01.160 --> 01:05:02.720 line:83% align:left position:46% size:34%
+01:05:01.160 --> 01:05:02.720 line:83% align:left position:46%
 Good girl. Yes.
 
 01:05:02.800 --> 01:05:04.560 line:83% align:middle position:50% size:80%
 Come on. Come on, Sonya.
 
-01:05:08.480 --> 01:05:09.920 line:83% align:left position:18% size:62%
+01:05:08.480 --> 01:05:09.920 line:83% align:left position:18%
 BEN: Cale.
 
 01:05:12.360 --> 01:05:13.840 line:83% align:middle position:50% size:80%
@@ -3446,14 +3369,14 @@ I'm up. I'm up.
 01:05:14.000 --> 01:05:17.200 line:83% align:middle position:50% size:80%
 ( MAJESTIC MUSIC )
 
-01:05:35.680 --> 01:05:39.920 line:77% align:left position:18% size:62%
+01:05:35.680 --> 01:05:39.920 line:77% align:left position:18%
 MAN: But, sir, my horse Rapidcat
 is the son of Stormcat -
 
 01:05:40.000 --> 01:05:41.440 line:83% align:middle position:50% size:80%
 the best sire in the world.
 
-01:05:41.520 --> 01:05:43.440 line:77% align:left position:30% size:50%
+01:05:41.520 --> 01:05:43.440 line:77% align:left position:30%
 He deserves to run
 in the Breeders' Cup.
 
@@ -3461,8 +3384,8 @@ in the Breeders' Cup.
 Mr Sadir Abal,
 Rapidcat is 18th on the point list.
 
-01:05:46.840 --> 01:05:50.400 line:77% align:left position:16% size:64%
-<c.black>................</c>We've got 14 spots.
+01:05:46.840 --> 01:05:50.400 line:77% align:left position:16%
+&nbsp;                We've got 14 spots.
 There's not much hope for Rapidcat.
 
 01:05:50.480 --> 01:05:51.880 line:83% align:middle position:50% size:80%
@@ -3474,10 +3397,10 @@ Next.
 01:05:58.360 --> 01:06:00.720 line:83% align:middle position:50% size:80%
 Is Mr Cale Crane here?
 
-01:06:00.800 --> 01:06:02.360 line:83% align:left position:30% size:50%
+01:06:00.800 --> 01:06:02.360 line:83% align:left position:30%
 I'm Cale Crane.
 
-01:06:02.480 --> 01:06:03.840 line:83% align:left position:18% size:62%
+01:06:02.480 --> 01:06:03.840 line:83% align:left position:18%
 Why don't you stand up?
 
 01:06:03.920 --> 01:06:05.520 line:83% align:middle position:50% size:80%
@@ -3501,22 +3424,22 @@ she had 42 points.
 01:06:19.160 --> 01:06:20.560 line:83% align:middle position:50% size:80%
 Yes, sir.
 
-01:06:20.640 --> 01:06:23.080 line:77% align:left position:16% size:64%
+01:06:20.640 --> 01:06:23.080 line:77% align:left position:16%
 She'd have that many points
 this year except she was injured.
 
-01:06:23.200 --> 01:06:24.560 line:83% align:left position:52% size:28%
+01:06:23.200 --> 01:06:24.560 line:83% align:left position:52%
 She was injured?
 
 01:06:24.640 --> 01:06:26.920 line:77% align:right size:80% position:90%
 Well, do you have a vet's report
 says she's sound?
 
-01:06:27.040 --> 01:06:28.680 line:83% align:left position:30% size:50%
+01:06:27.040 --> 01:06:28.680 line:83% align:left position:30%
 Right here, sir.
 
-01:06:30.920 --> 01:06:32.320 line:77% align:left position:32% size:48%
-<c.black>..............</c>Thank you.
+01:06:30.920 --> 01:06:32.320 line:77% align:left position:32%
+&nbsp;              Thank you.
 You're welcome.
 
 01:06:32.400 --> 01:06:34.560 line:77% align:right size:80% position:90%
@@ -3536,11 +3459,11 @@ there's gonna be a fee of £40,000.
 01:06:46.800 --> 01:06:48.560 line:83% align:right size:80% position:90%
 Did you bring a cheque?
 
-01:06:50.200 --> 01:06:52.480 line:77% align:left position:24% size:56%
+01:06:50.200 --> 01:06:52.480 line:77% align:left position:24%
 I mailed it.
-<c.black>....</c>( LAUGHTER )
+&nbsp;    ( LAUGHTER )
 
-01:06:54.160 --> 01:06:55.880 line:83% align:left position:30% size:50%
+01:06:54.160 --> 01:06:55.880 line:83% align:left position:30%
 Today.
 
 01:06:56.000 --> 01:06:57.520 line:83% align:middle position:50% size:80%
@@ -3560,47 +3483,47 @@ that are gonna be due on October 26.
 01:07:05.840 --> 01:07:07.720 line:83% align:right size:80% position:90%
 Are you prepared for that?
 
-01:07:07.800 --> 01:07:11.080 line:77% align:left position:18% size:62%
+01:07:07.800 --> 01:07:11.080 line:77% align:left position:18%
 PALMER: She'll mail it to you.
-<c.black>........</c>( LAUGHTER )
+&nbsp;        ( LAUGHTER )
 
-01:07:13.080 --> 01:07:14.480 line:83% align:left position:22% size:58%
+01:07:13.080 --> 01:07:14.480 line:83% align:left position:22%
 Yes, sir. I am.
 
 01:07:14.560 --> 01:07:17.320 line:77% align:right size:80% position:90%
 Final selection will be
 at 11am tomorrow.
 
-01:07:25.520 --> 01:07:27.120 line:77% align:left position:18% size:62%
+01:07:25.520 --> 01:07:27.120 line:77% align:left position:18%
 Have we got a deal?
-<c.black>............</c>We've got a deal.
+&nbsp;            We've got a deal.
 
 01:07:27.200 --> 01:07:28.640 line:83% align:right size:80% position:90%
 Pleasure doing business with you.
 
-01:07:36.040 --> 01:07:37.680 line:83% align:left position:18% size:62%
+01:07:36.040 --> 01:07:37.680 line:83% align:left position:18%
 (Lilly chuckles)
 
-01:07:41.520 --> 01:07:44.360 line:77% align:left position:16% size:64%
+01:07:41.520 --> 01:07:44.360 line:77% align:left position:16%
 My knight in shining armour
 has come to rescue me?
 
-01:07:45.800 --> 01:07:47.720 line:77% align:left position:18% size:62%
+01:07:45.800 --> 01:07:47.720 line:77% align:left position:18%
 'Bye. I'm gonna take off.
-<c.black>....................</c>PAT: Alright.
+&nbsp;                    PAT: Alright.
 
-01:07:47.800 --> 01:07:49.720 line:77% align:left position:18% size:62%
+01:07:47.800 --> 01:07:49.720 line:77% align:left position:18%
 We'll see you tomorrow.
-<c.black>..............</c>PAT: See you later.
+&nbsp;              PAT: See you later.
 
-01:07:49.800 --> 01:07:51.200 line:83% align:left position:18% size:62%
+01:07:49.800 --> 01:07:51.200 line:83% align:left position:18%
 Is Cale with Pop?
 
 01:07:51.280 --> 01:07:53.720 line:77% align:right size:80% position:90%
 Yeah. They're going over
 race strategies.
 
-01:07:53.800 --> 01:07:56.520 line:83% align:left position:18% size:62%
+01:07:53.800 --> 01:07:56.520 line:83% align:left position:18%
 Oh, she didn't get in?
 
 01:07:56.600 --> 01:07:58.040 line:83% align:right size:80% position:90%
@@ -3610,38 +3533,38 @@ Selection's in the morning.
 How did Cale do
 in front of the committee?
 
-01:08:04.240 --> 01:08:05.800 line:83% align:left position:18% size:62%
+01:08:04.240 --> 01:08:05.800 line:83% align:left position:18%
 The truth? It was rough.
 
-01:08:05.880 --> 01:08:07.960 line:83% align:left position:18% size:62%
+01:08:05.880 --> 01:08:07.960 line:83% align:left position:18%
 She got kicked around pretty good.
 
 01:08:08.040 --> 01:08:09.440 line:83% align:right size:80% position:90%
 Why are you smiling?
 
-01:08:09.520 --> 01:08:11.360 line:83% align:left position:18% size:62%
+01:08:09.520 --> 01:08:11.360 line:83% align:left position:18%
 Because she kicked right back.
 
-01:08:12.800 --> 01:08:14.360 line:83% align:left position:18% size:62%
+01:08:12.800 --> 01:08:14.360 line:83% align:left position:18%
 Yeah, she reminds me of somebody.
 
 01:08:14.440 --> 01:08:15.840 line:83% align:right size:80% position:90%
 (Chuckles)
 
-01:08:15.920 --> 01:08:17.480 line:83% align:left position:18% size:62%
+01:08:15.920 --> 01:08:17.480 line:83% align:left position:18%
 You were right, Lil.
 
 01:08:17.560 --> 01:08:19.840 line:83% align:right size:80% position:90%
 It was great just letting her try.
 
-01:08:21.960 --> 01:08:23.520 line:83% align:left position:18% size:62%
+01:08:21.960 --> 01:08:23.520 line:83% align:left position:18%
 So you're saying that I'm smart?
 
 01:08:23.600 --> 01:08:26.200 line:77% align:right size:80% position:90%
 I'm saying you're smart
 and beautiful.
 
-01:08:28.920 --> 01:08:30.840 line:77% align:left position:16% size:64%
+01:08:28.920 --> 01:08:30.840 line:77% align:left position:16%
 You think she has
 a chance of getting in.
 
@@ -3657,7 +3580,7 @@ Did you hear me?
 01:08:40.840 --> 01:08:42.760 line:83% align:right size:80% position:90%
 (Chuckles) Why are you smiling?
 
-01:08:44.000 --> 01:08:45.960 line:83% align:left position:18% size:62%
+01:08:44.000 --> 01:08:45.960 line:83% align:left position:18%
 I feel like I'm on a date.
 
 01:08:58.280 --> 01:08:59.800 line:83% align:middle position:50% size:80%
@@ -3666,7 +3589,7 @@ BEN: Cale?
 01:08:59.880 --> 01:09:01.560 line:83% align:middle position:50% size:80%
 Time for bed, honey.
 
-01:09:03.720 --> 01:09:06.680 line:77% align:left position:16% size:64%
+01:09:03.720 --> 01:09:06.680 line:77% align:left position:16%
 That works a little better
 than a bucket, now, doesn't it?
 
@@ -3680,9 +3603,9 @@ Sonador winning the Classic?
 01:09:20.480 --> 01:09:22.240 line:83% align:right size:80% position:90%
 Don't you think she can win?
 
-01:09:24.280 --> 01:09:26.520 line:77% align:left position:18% size:62%
+01:09:24.280 --> 01:09:26.520 line:77% align:left position:18%
 Well...
-<c.black>....</c>You've gotta think she can win.
+&nbsp;    You've gotta think she can win.
 
 01:09:26.600 --> 01:09:28.440 line:77% align:right size:80% position:90%
 What's the harm
@@ -3691,16 +3614,16 @@ in thinking she can win?
 01:09:28.520 --> 01:09:30.640 line:83% align:right size:80% position:90%
 Say "I think she can win".
 
-01:09:30.720 --> 01:09:32.120 line:83% align:left position:18% size:62%
+01:09:30.720 --> 01:09:32.120 line:83% align:left position:18%
 I think she can win.
 
-01:09:32.200 --> 01:09:33.600 line:83% align:left position:72% size:8%
+01:09:32.200 --> 01:09:33.600 line:83% align:left position:72%
 Good.
 
 01:09:33.680 --> 01:09:36.640 line:83% align:right size:80% position:90%
 She needs to hear you say that.
 
-01:09:45.200 --> 01:09:47.800 line:77% align:left position:16% size:64%
+01:09:45.200 --> 01:09:47.800 line:77% align:left position:16%
 I would like to see you run
 against those boys.
 
@@ -3772,9 +3695,9 @@ And our last two runners are...
 01:10:52.280 --> 01:10:53.680 line:83% align:middle position:50% size:80%
 (Squeals)
 
-01:10:53.760 --> 01:10:55.560 line:77% align:left position:34% size:46%
+01:10:53.760 --> 01:10:55.560 line:77% align:left position:34%
 ( APPLAUSE )
-<c.black>.........</c>POP: Way to go!
+&nbsp;         POP: Way to go!
 
 01:10:57.680 --> 01:11:01.200 line:83% align:middle position:50% size:80%
 ( JUBILANT MUSIC )
@@ -3782,18 +3705,18 @@ And our last two runners are...
 01:11:07.200 --> 01:11:08.640 line:83% align:right size:80% position:90%
 MAN: Congratulations.
 
-01:11:30.320 --> 01:11:33.800 line:77% align:left position:24% size:56%
-<c.black>..</c>BALON: Lower. Lower. I did it!
+01:11:30.320 --> 01:11:33.800 line:77% align:left position:24%
+&nbsp;  BALON: Lower. Lower. I did it!
 MANNY: No way! No way!
 
-01:11:35.360 --> 01:11:37.440 line:77% align:left position:24% size:56%
-<c.black>........</c>(All laugh)
+01:11:35.360 --> 01:11:37.440 line:77% align:left position:24%
+&nbsp;        (All laugh)
 I can't believe I just did that!
 
-01:11:37.520 --> 01:11:39.720 line:83% align:left position:18% size:62%
+01:11:37.520 --> 01:11:39.720 line:83% align:left position:18%
 Well, I had to see it for myself.
 
-01:11:39.800 --> 01:11:41.280 line:83% align:left position:18% size:62%
+01:11:39.800 --> 01:11:41.280 line:83% align:left position:18%
 It's amazing.
 
 01:11:42.480 --> 01:11:46.000 line:77% align:middle position:50% size:80%
@@ -3844,18 +3767,18 @@ I'll give you...
 01:12:23.960 --> 01:12:25.600 line:83% align:right size:80% position:90%
 ..oh, £20,000 in cash for her.
 
-01:12:25.680 --> 01:12:27.680 line:77% align:left position:16% size:64%
-<c.black>.........</c>(Sonya whinnies)
+01:12:25.680 --> 01:12:27.680 line:77% align:left position:16%
+&nbsp;         (Sonya whinnies)
 20 grand?
 
-01:12:27.760 --> 01:12:29.160 line:83% align:left position:64% size:16%
+01:12:27.760 --> 01:12:29.160 line:83% align:left position:64%
 Yeah.
 
-01:12:29.240 --> 01:12:31.920 line:77% align:left position:16% size:64%
+01:12:29.240 --> 01:12:31.920 line:77% align:left position:16%
 Let's see. Manny,
 that's £1,000 for you.
 
-01:12:32.000 --> 01:12:33.520 line:83% align:left position:16% size:64%
+01:12:32.000 --> 01:12:33.520 line:83% align:left position:16%
 £1,000 for you, Balon.
 
 01:12:33.600 --> 01:12:36.720 line:77% align:middle position:50% size:80%
@@ -3903,17 +3826,17 @@ See, your luck...it's changing.
 01:13:06.480 --> 01:13:08.640 line:83% align:middle position:50% size:80%
 I know what you paid for that horse.
 
-01:13:09.680 --> 01:13:12.120 line:77% align:left position:16% size:64%
-<c.black>...................</c>Are we done here?
+01:13:09.680 --> 01:13:12.120 line:77% align:left position:16%
+&nbsp;                   Are we done here?
 Not my horse, Everett.
 
-01:13:14.280 --> 01:13:15.760 line:83% align:left position:62% size:18%
+01:13:14.280 --> 01:13:15.760 line:83% align:left position:62%
 Hm?
 
 01:13:18.720 --> 01:13:20.800 line:83% align:right size:80% position:90%
 Well, what do you say, honey?
 
-01:13:27.520 --> 01:13:29.920 line:83% align:left position:18% size:62%
+01:13:27.520 --> 01:13:29.920 line:83% align:left position:18%
 I'm not selling her.
 
 01:13:42.480 --> 01:13:45.160 line:83% align:right size:80% position:90%
@@ -3938,27 +3861,27 @@ And if you take this offer...
 01:14:04.040 --> 01:14:05.800 line:83% align:middle position:50% size:80%
 (Sonya whinnies)
 
-01:14:17.880 --> 01:14:21.600 line:77% align:left position:16% size:64%
-<c.black>......</c>Can't believe it.
+01:14:17.880 --> 01:14:21.600 line:77% align:left position:16%
+&nbsp;      Can't believe it.
 Cranes have finally won one.
 
 01:14:31.480 --> 01:14:32.920 line:83% align:middle position:50% size:80%
 Dad...
 
-01:14:35.200 --> 01:14:39.040 line:83% align:left position:18% size:62%
+01:14:35.200 --> 01:14:39.040 line:83% align:left position:18%
 If it was me...
 
-01:14:39.120 --> 01:14:42.400 line:77% align:left position:16% size:64%
+01:14:39.120 --> 01:14:42.400 line:77% align:left position:16%
 ..I'd tell him to take his money
 and his empty trailer
 
-01:14:42.480 --> 01:14:44.920 line:83% align:left position:18% size:62%
+01:14:42.480 --> 01:14:44.920 line:83% align:left position:18%
 and get the hell off our farm.
 
-01:14:46.120 --> 01:14:50.240 line:83% align:left position:18% size:62%
+01:14:46.120 --> 01:14:50.240 line:83% align:left position:18%
 But...that's just me.
 
-01:14:54.440 --> 01:14:57.080 line:77% align:left position:16% size:64%
+01:14:54.440 --> 01:14:57.080 line:77% align:left position:16%
 So you're running the big colt
 Goliath's Boy in the Classic?
 
@@ -3970,14 +3893,14 @@ Goliath's Boy's the favourite.
 And when he wins the Cup,
 it'll be my fifth horse of the year.
 
-01:15:04.320 --> 01:15:07.280 line:77% align:left position:16% size:64%
+01:15:04.320 --> 01:15:07.280 line:77% align:left position:16%
 Do you think Goliath's Boy remembers
 what Sonya's butt looks like?
 
-01:15:08.960 --> 01:15:10.760 line:83% align:left position:80% size:0%
+01:15:08.960 --> 01:15:10.760 line:83% align:left position:80%
 Why?
 
-01:15:10.840 --> 01:15:13.640 line:77% align:left position:16% size:64%
+01:15:10.840 --> 01:15:13.640 line:77% align:left position:16%
 'Cause that's all it's going to be
 seeing of her on race day.
 
@@ -3991,11 +3914,11 @@ That's funny, ain't it?
 01:15:25.280 --> 01:15:27.440 line:83% align:right size:80% position:90%
 Suit yourself.
 
-01:15:34.640 --> 01:15:36.080 line:83% align:left position:42% size:38%
+01:15:34.640 --> 01:15:36.080 line:83% align:left position:42%
 Dad.
 
-01:15:56.200 --> 01:15:57.800 line:77% align:left position:36% size:44%
-<c.black>...................</c>(Sighs)
+01:15:56.200 --> 01:15:57.800 line:77% align:left position:36%
+&nbsp;                   (Sighs)
 Any luck?
 
 01:15:58.840 --> 01:16:01.280 line:77% align:right size:80% position:90%
@@ -4013,23 +3936,23 @@ Called everybody I can think of.
 (Chuckles) You ever seen a kid
 so happy with a horse?
 
-01:16:13.640 --> 01:16:16.000 line:83% align:left position:18% size:62%
+01:16:13.640 --> 01:16:16.000 line:83% align:left position:18%
 Yeah. I have.
 
-01:16:18.160 --> 01:16:21.640 line:83% align:left position:18% size:62%
+01:16:18.160 --> 01:16:21.640 line:83% align:left position:18%
 Pick it up. Come on. Pick it up.
 
-01:16:21.720 --> 01:16:23.160 line:83% align:left position:18% size:62%
+01:16:21.720 --> 01:16:23.160 line:83% align:left position:18%
 Good girl.
 
 01:16:34.000 --> 01:16:38.960 line:77% align:right size:80% position:90%
 There's other races, darling,
 that don't cost so much to enter.
 
-01:16:39.040 --> 01:16:42.320 line:83% align:left position:18% size:62%
+01:16:39.040 --> 01:16:42.320 line:83% align:left position:18%
 (Pants and sighs) Whoo!
 
-01:16:44.560 --> 01:16:47.280 line:77% align:left position:16% size:64%
+01:16:44.560 --> 01:16:47.280 line:77% align:left position:16%
 Lost 15 pounds in three weeks.
 (Slaps stomach)
 
@@ -4047,45 +3970,45 @@ the Breeders' Cup
 to tell them
 we're dropping out of the race.
 
-01:16:57.920 --> 01:16:59.360 line:83% align:left position:38% size:42%
+01:16:57.920 --> 01:16:59.360 line:83% align:left position:38%
 Oh.
 
-01:17:01.960 --> 01:17:04.080 line:83% align:left position:18% size:62%
+01:17:01.960 --> 01:17:04.080 line:83% align:left position:18%
 I had a dream last night, Cale.
 
-01:17:05.760 --> 01:17:07.720 line:83% align:left position:18% size:62%
+01:17:05.760 --> 01:17:07.720 line:83% align:left position:18%
 I was on a horse...
 
-01:17:09.120 --> 01:17:10.600 line:83% align:left position:18% size:62%
+01:17:09.120 --> 01:17:10.600 line:83% align:left position:18%
 ..a fast horse.
 
-01:17:10.680 --> 01:17:14.280 line:77% align:left position:16% size:64%
+01:17:10.680 --> 01:17:14.280 line:77% align:left position:16%
 That horse and me...phew!
 We were flying like angels.
 
 01:17:15.320 --> 01:17:17.240 line:83% align:middle position:50% size:80%
 How'd it end?
 
-01:17:17.320 --> 01:17:19.800 line:83% align:left position:18% size:62%
+01:17:17.320 --> 01:17:19.800 line:83% align:left position:18%
 I woke up and my hunger was gone.
 
-01:17:19.880 --> 01:17:23.400 line:77% align:left position:16% size:64%
+01:17:19.880 --> 01:17:23.400 line:77% align:left position:16%
 It was God...
 telling me to race again.
 
-01:17:24.560 --> 01:17:28.320 line:83% align:left position:18% size:62%
+01:17:24.560 --> 01:17:28.320 line:83% align:left position:18%
 Thank you, Cale. May God bless you.
 
-01:17:32.520 --> 01:17:35.080 line:83% align:left position:24% size:56%
+01:17:32.520 --> 01:17:35.080 line:83% align:left position:24%
 Nobody ever thought we'd get in.
 
 01:17:35.160 --> 01:17:37.000 line:83% align:right size:80% position:90%
 No, they didn't. But you did it.
 
-01:17:38.040 --> 01:17:41.000 line:83% align:left position:18% size:62%
+01:17:38.040 --> 01:17:41.000 line:83% align:left position:18%
 Cale, Pop, c'mon. Get in the truck.
 
-01:17:42.040 --> 01:17:43.680 line:83% align:left position:18% size:62%
+01:17:42.040 --> 01:17:43.680 line:83% align:left position:18%
 C'mon, let's go!
 
 01:17:44.720 --> 01:17:47.680 line:83% align:middle position:50% size:80%
@@ -4113,49 +4036,49 @@ I'm here to see Prince Sadir.
 The Prince is expecting you.
 Please join him.
 
-01:18:33.400 --> 01:18:36.000 line:83% align:left position:18% size:62%
+01:18:33.400 --> 01:18:36.000 line:83% align:left position:18%
 Prince Sadir, I'm Cale Crane.
 
 01:18:37.120 --> 01:18:40.080 line:77% align:middle position:50% size:80%
 I remember you.
 This is my dad and my grandad.
 
-01:18:40.160 --> 01:18:42.600 line:77% align:left position:28% size:52%
-<c.black>....</c>Morning.
+01:18:40.160 --> 01:18:42.600 line:77% align:left position:28%
+&nbsp;    Morning.
 Appreciate you taking my call.
 
-01:18:45.000 --> 01:18:46.680 line:83% align:left position:24% size:56%
+01:18:45.000 --> 01:18:46.680 line:83% align:left position:24%
 £120,000.
 
 01:18:46.720 --> 01:18:50.360 line:77% align:right size:80% position:90%
 £40,000 for the nomination fee
 and £80,000 for the entrance fee.
 
-01:18:53.120 --> 01:18:55.560 line:77% align:left position:16% size:64%
+01:18:53.120 --> 01:18:55.560 line:77% align:left position:16%
 Prince Tariq is sure
 he's going to win.
 
-01:18:55.640 --> 01:18:58.400 line:83% align:left position:18% size:62%
+01:18:55.640 --> 01:18:58.400 line:83% align:left position:18%
 Goliath's Boy is a big, big horse.
 
 01:18:58.480 --> 01:18:59.880 line:83% align:middle position:50% size:80%
 BEN: Goliath's Boy is a bully.
 
-01:18:59.960 --> 01:19:02.400 line:77% align:left position:16% size:64%
-<c.black>.........</c>He's a bluffer
+01:18:59.960 --> 01:19:02.400 line:77% align:left position:16%
+&nbsp;         He's a bluffer
 and her horse knows it.
 
-01:19:04.840 --> 01:19:06.920 line:83% align:left position:18% size:62%
+01:19:04.840 --> 01:19:06.920 line:83% align:left position:18%
 Cale...
 
-01:19:07.000 --> 01:19:08.400 line:83% align:left position:18% size:62%
+01:19:07.000 --> 01:19:08.400 line:83% align:left position:18%
 ..you look me in the eye
 
-01:19:08.480 --> 01:19:10.440 line:77% align:left position:16% size:64%
+01:19:08.480 --> 01:19:10.440 line:77% align:left position:16%
 and you tell me you think
 your horse has a chance
 
-01:19:10.480 --> 01:19:12.400 line:83% align:left position:18% size:62%
+01:19:10.480 --> 01:19:12.400 line:83% align:left position:18%
 of beating my brother's horse.
 
 01:19:13.920 --> 01:19:15.840 line:77% align:right size:80% position:90%
@@ -4186,46 +4109,46 @@ in the winner's circle,
 where I'll put a blanket of flowers
 on your back.
 
-01:20:02.800 --> 01:20:05.200 line:83% align:left position:18% size:62%
+01:20:02.800 --> 01:20:05.200 line:83% align:left position:18%
 Run hard tomorrow.
 
-01:20:05.280 --> 01:20:08.480 line:83% align:left position:18% size:62%
+01:20:05.280 --> 01:20:08.480 line:83% align:left position:18%
 Run hard for my dad.
 
-01:20:08.560 --> 01:20:11.040 line:83% align:left position:18% size:62%
+01:20:08.560 --> 01:20:11.040 line:83% align:left position:18%
 He deserves a good run.
 
-01:20:14.640 --> 01:20:17.280 line:83% align:left position:18% size:62%
+01:20:14.640 --> 01:20:17.280 line:83% align:left position:18%
 ( KNOCK AT DOOR )
 
-01:20:18.320 --> 01:20:21.600 line:77% align:left position:36% size:44%
+01:20:18.320 --> 01:20:21.600 line:77% align:left position:36%
 Pop.
-<c.black>.......</c>POP: Just a minute.
+&nbsp;       POP: Just a minute.
 
 01:20:28.640 --> 01:20:30.200 line:83% align:middle position:50% size:80%
 What?
 
-01:20:30.280 --> 01:20:31.840 line:83% align:left position:18% size:62%
+01:20:30.280 --> 01:20:31.840 line:83% align:left position:18%
 In 21 Breeders' Cup Classics,
 
-01:20:31.920 --> 01:20:34.640 line:77% align:left position:16% size:64%
+01:20:31.920 --> 01:20:34.640 line:77% align:left position:16%
 you know how many fillies
 have ever won it?
 
-01:20:34.680 --> 01:20:36.320 line:83% align:left position:52% size:28%
+01:20:34.680 --> 01:20:36.320 line:83% align:left position:52%
 None.
 
 01:20:36.400 --> 01:20:38.440 line:83% align:middle position:50% size:80%
 Only four fillies ever ran.
 
-01:20:39.480 --> 01:20:40.920 line:83% align:left position:18% size:62%
+01:20:39.480 --> 01:20:40.920 line:83% align:left position:18%
 She's not even ready.
 
-01:20:41.000 --> 01:20:43.120 line:77% align:left position:16% size:64%
+01:20:41.000 --> 01:20:43.120 line:77% align:left position:16%
 Palmer's right.
 This is gonna be an embarrassment.
 
-01:20:44.120 --> 01:20:46.120 line:83% align:left position:18% size:62%
+01:20:44.120 --> 01:20:46.120 line:83% align:left position:18%
 What am I doing here, Pop?
 
 01:20:47.360 --> 01:20:51.160 line:77% align:right size:80% position:90%
@@ -4245,31 +4168,31 @@ A dream damn few ever get to see.
 01:21:04.000 --> 01:21:06.120 line:83% align:right size:80% position:90%
 Damn few. Trust me on that one.
 
-01:21:11.640 --> 01:21:13.960 line:83% align:left position:18% size:62%
+01:21:11.640 --> 01:21:13.960 line:83% align:left position:18%
 Listen, um...
 
-01:21:14.040 --> 01:21:16.760 line:77% align:left position:16% size:64%
+01:21:14.040 --> 01:21:16.760 line:77% align:left position:16%
 ..Lilly and Cale
 are driving down in the morning
 
-01:21:16.840 --> 01:21:19.240 line:77% align:left position:16% size:64%
+01:21:16.840 --> 01:21:19.240 line:77% align:left position:16%
 and Lilly doesn't really know
 where to go, so...
 
-01:21:22.560 --> 01:21:24.680 line:83% align:left position:18% size:62%
+01:21:22.560 --> 01:21:24.680 line:83% align:left position:18%
 ..I want you to come to the race.
 
-01:21:28.160 --> 01:21:31.240 line:77% align:left position:16% size:64%
+01:21:28.160 --> 01:21:31.240 line:77% align:left position:16%
 Pop, as your son,
 I'm asking you to come
 
-01:21:31.320 --> 01:21:33.320 line:83% align:left position:18% size:62%
+01:21:31.320 --> 01:21:33.320 line:83% align:left position:18%
 and be with me and Cale.
 
-01:21:35.400 --> 01:21:37.680 line:83% align:left position:70% size:10%
+01:21:35.400 --> 01:21:37.680 line:83% align:left position:70%
 OK.
 
-01:21:38.480 --> 01:21:40.840 line:83% align:left position:18% size:62%
+01:21:38.480 --> 01:21:40.840 line:83% align:left position:18%
 OK. Good.
 
 01:21:43.600 --> 01:21:45.640 line:83% align:middle position:50% size:80%
@@ -4279,40 +4202,40 @@ Good.
 MANNY: Great job. Good job.
 Oh, yeah. Good job.
 
-01:22:44.280 --> 01:22:46.120 line:77% align:left position:18% size:62%
+01:22:44.280 --> 01:22:46.120 line:77% align:left position:18%
 BALON: You got it?
-<c.black>...............</c>Yeah.
+&nbsp;               Yeah.
 
-01:22:47.520 --> 01:22:49.800 line:83% align:left position:18% size:62%
+01:22:47.520 --> 01:22:49.800 line:83% align:left position:18%
 You look muy bella.
 
 01:22:51.680 --> 01:22:54.680 line:83% align:right size:80% position:90%
 Well, thank you, Balon.
 
-01:22:55.720 --> 01:22:57.880 line:83% align:left position:18% size:62%
+01:22:55.720 --> 01:22:57.880 line:83% align:left position:18%
 I was talking to her.
 
-01:23:04.480 --> 01:23:06.680 line:83% align:left position:18% size:62%
+01:23:04.480 --> 01:23:06.680 line:83% align:left position:18%
 Here you go, Manny.
 
-01:23:06.760 --> 01:23:09.800 line:77% align:left position:16% size:64%
+01:23:06.760 --> 01:23:09.800 line:77% align:left position:16%
 These are the original silks
 of the Crane Race Farm.
 
-01:23:09.880 --> 01:23:11.680 line:83% align:left position:18% size:62%
+01:23:09.880 --> 01:23:11.680 line:83% align:left position:18%
 Buena suerte.
 
 01:23:11.760 --> 01:23:13.560 line:83% align:right size:80% position:90%
 MANNY: Gracias.
 
-01:23:15.440 --> 01:23:18.560 line:77% align:left position:16% size:64%
+01:23:15.440 --> 01:23:18.560 line:77% align:left position:16%
 I'm gonna take this good-looking
 thing up to the Owners Box
 
-01:23:18.640 --> 01:23:20.760 line:83% align:left position:18% size:62%
+01:23:18.640 --> 01:23:20.760 line:83% align:left position:18%
 and show off that hat.
 
-01:23:22.840 --> 01:23:24.520 line:83% align:left position:18% size:62%
+01:23:22.840 --> 01:23:24.520 line:83% align:left position:18%
 Have a great race, Manny.
 
 01:23:24.600 --> 01:23:26.040 line:83% align:right size:80% position:90%
@@ -4322,16 +4245,16 @@ Thank you, Mrs Crane.
 I wish we had
 another couple of weeks.
 
-01:23:42.720 --> 01:23:45.200 line:83% align:left position:18% size:62%
+01:23:42.720 --> 01:23:45.200 line:83% align:left position:18%
 She's ready to run.
 
-01:23:46.480 --> 01:23:49.000 line:83% align:left position:18% size:62%
+01:23:46.480 --> 01:23:49.000 line:83% align:left position:18%
 You saved her life.
 
-01:23:49.080 --> 01:23:51.160 line:83% align:left position:18% size:62%
+01:23:49.080 --> 01:23:51.160 line:83% align:left position:18%
 She's just returning the favour.
 
-01:23:52.200 --> 01:23:55.200 line:83% align:left position:18% size:62%
+01:23:52.200 --> 01:23:55.200 line:83% align:left position:18%
 She's here to run for you.
 
 01:24:02.960 --> 01:24:05.960 line:83% align:middle position:50% size:80%
@@ -4340,11 +4263,11 @@ She's here to run for you.
 01:24:12.760 --> 01:24:14.680 line:83% align:middle position:50% size:80%
 JOURNALISTS: Mr Palmer! Mr Palmer!
 
-01:24:15.920 --> 01:24:17.760 line:77% align:left position:16% size:64%
+01:24:15.920 --> 01:24:17.760 line:77% align:left position:16%
 MAN: What do you expect
 of Goliath's Boy today?
 
-01:24:17.840 --> 01:24:19.360 line:83% align:left position:18% size:62%
+01:24:17.840 --> 01:24:19.360 line:83% align:left position:18%
 What do I expect from Goliath's Boy?
 
 01:24:19.440 --> 01:24:23.520 line:77% align:right size:80% position:90%
@@ -4366,77 +4289,77 @@ with Sonador and Goliath's Boy?
 C'mon, just a little
 photo opportunity.
 
-01:24:35.160 --> 01:24:36.520 line:83% align:left position:58% size:22%
+01:24:35.160 --> 01:24:36.520 line:83% align:left position:58%
 No.
 
-01:24:37.840 --> 01:24:39.240 line:83% align:left position:50% size:30%
+01:24:37.840 --> 01:24:39.240 line:83% align:left position:50%
 (Neighs loudly)
 
-01:24:39.320 --> 01:24:40.760 line:83% align:left position:32% size:48%
+01:24:39.320 --> 01:24:40.760 line:83% align:left position:32%
 (Whinnies)
 
-01:24:42.120 --> 01:24:44.320 line:83% align:left position:16% size:64%
+01:24:42.120 --> 01:24:44.320 line:83% align:left position:16%
 Get him away! (Screams) Get him away!
 
-01:24:44.400 --> 01:24:47.000 line:83% align:left position:16% size:64%
+01:24:44.400 --> 01:24:47.000 line:83% align:left position:16%
 BALON: Sonya! No! No, no, no! No!
 
-01:24:47.040 --> 01:24:48.520 line:83% align:left position:18% size:62%
+01:24:47.040 --> 01:24:48.520 line:83% align:left position:18%
 Get him away!
 
 01:24:51.960 --> 01:24:53.760 line:83% align:right size:80% position:90%
 PALMER: He's alright. I got him.
 
-01:24:54.080 --> 01:24:55.240 line:83% align:left position:18% size:62%
+01:24:54.080 --> 01:24:55.240 line:83% align:left position:18%
 BALON: Control your horse!
 
 01:24:55.320 --> 01:24:57.360 line:83% align:right size:80% position:90%
 PALMER: I got him.
 
-01:24:57.440 --> 01:24:59.360 line:83% align:left position:18% size:62%
+01:24:57.440 --> 01:24:59.360 line:83% align:left position:18%
 BALON: Easy. Sonya. Sonya.
 
 01:24:59.440 --> 01:25:00.640 line:83% align:middle position:50% size:80%
 Bring him.
 
-01:25:03.040 --> 01:25:04.480 line:83% align:left position:18% size:62%
+01:25:03.040 --> 01:25:04.480 line:83% align:left position:18%
 Alright.
 
 01:25:04.520 --> 01:25:06.840 line:83% align:middle position:50% size:80%
 Balon, hold her.
 
-01:25:06.920 --> 01:25:09.440 line:83% align:left position:18% size:62%
+01:25:06.920 --> 01:25:09.440 line:83% align:left position:18%
 BALON: Easy. Gonna be OK.
 
-01:25:09.520 --> 01:25:13.040 line:77% align:left position:18% size:62%
-<c.black>......</c>I don't believe it. I think
+01:25:09.520 --> 01:25:13.040 line:77% align:left position:18%
+&nbsp;      I don't believe it. I think
 I'm feeling heat in that leg now.
 
-01:25:13.080 --> 01:25:16.160 line:77% align:left position:16% size:64%
-<c.black>......</c>I don't know if it's me, or...
+01:25:13.080 --> 01:25:16.160 line:77% align:left position:16%
+&nbsp;      I don't know if it's me, or...
 What? What do you want to do?
 
-01:25:16.240 --> 01:25:19.160 line:83% align:left position:18% size:62%
+01:25:16.240 --> 01:25:19.160 line:83% align:left position:18%
 What do you want to do, boss, huh?
 
-01:25:19.240 --> 01:25:21.320 line:77% align:left position:16% size:64%
+01:25:19.240 --> 01:25:21.320 line:77% align:left position:16%
 What?
 What do you want to do?!
 
 01:25:21.560 --> 01:25:22.640 line:83% align:middle position:50% size:80%
 Get her in here.
 
-01:25:34.160 --> 01:25:35.560 line:83% align:left position:70% size:10%
+01:25:34.160 --> 01:25:35.560 line:83% align:left position:70%
 Dad...
 
-01:25:35.640 --> 01:25:37.440 line:83% align:left position:16% size:64%
+01:25:35.640 --> 01:25:37.440 line:83% align:left position:16%
 What are the chances she gets caught
 
-01:25:37.520 --> 01:25:41.240 line:77% align:left position:16% size:64%
+01:25:37.520 --> 01:25:41.240 line:77% align:left position:16%
 on the same leg we've been trying
 to heal for the past six months?
 
-01:25:41.320 --> 01:25:42.440 line:83% align:left position:18% size:62%
+01:25:41.320 --> 01:25:42.440 line:83% align:left position:18%
 This is...this is beyond bad luck.
 
 01:25:47.760 --> 01:25:49.120 line:83% align:right size:80% position:90%
@@ -4446,52 +4369,52 @@ Are you afraid?
 Are you afraid we're going to
 come in dead last?
 
-01:25:58.000 --> 01:26:00.680 line:77% align:left position:18% size:62%
+01:25:58.000 --> 01:26:00.680 line:77% align:left position:18%
 I'm sorry, sir.
-<c.black>...</c>Where is she? Bring her in here.
+&nbsp;   Where is she? Bring her in here.
 
-01:26:00.720 --> 01:26:02.160 line:83% align:left position:18% size:62%
+01:26:00.720 --> 01:26:02.160 line:83% align:left position:18%
 Sir, it's Sonya...
 
 01:26:02.200 --> 01:26:03.920 line:83% align:right size:80% position:90%
 Balon, just bring her in here.
 
-01:26:04.000 --> 01:26:05.160 line:83% align:left position:18% size:62%
+01:26:04.000 --> 01:26:05.160 line:83% align:left position:18%
 She won't come in.
 
 01:26:05.200 --> 01:26:06.480 line:83% align:middle position:50% size:80%
 (Sonya whinnies)
 
-01:26:09.880 --> 01:26:11.800 line:77% align:left position:16% size:64%
-<c.black>..........</c>Manny, hang on.
+01:26:09.880 --> 01:26:11.800 line:77% align:left position:16%
+&nbsp;          Manny, hang on.
 I don't know, boss.
 
-01:26:11.880 --> 01:26:14.200 line:77% align:left position:18% size:62%
+01:26:11.880 --> 01:26:14.200 line:77% align:left position:18%
 She doesn't want to move.
-<c.black>...........</c>Hold on.
+&nbsp;           Hold on.
 
-01:26:14.280 --> 01:26:16.600 line:77% align:left position:16% size:64%
-<c.black>............</c>Come here.
+01:26:14.280 --> 01:26:16.600 line:77% align:left position:16%
+&nbsp;            Come here.
 Phew!
 
-01:26:16.680 --> 01:26:18.880 line:77% align:left position:16% size:64%
+01:26:16.680 --> 01:26:18.880 line:77% align:left position:16%
 She started kicking
 when I tried to bring her in.
 
-01:26:21.280 --> 01:26:23.080 line:77% align:left position:40% size:40%
-<c.black>........</c>(Sonya whinnies)
+01:26:21.280 --> 01:26:23.080 line:77% align:left position:40%
+&nbsp;        (Sonya whinnies)
 Hold on.
 
-01:26:24.160 --> 01:26:25.600 line:83% align:left position:28% size:52%
+01:26:24.160 --> 01:26:25.600 line:83% align:left position:28%
 Easy now.
 
-01:26:26.640 --> 01:26:28.680 line:83% align:left position:18% size:62%
+01:26:26.640 --> 01:26:28.680 line:83% align:left position:18%
 What do you want?
 
-01:26:31.240 --> 01:26:32.800 line:83% align:left position:24% size:56%
+01:26:31.240 --> 01:26:32.800 line:83% align:left position:24%
 Easy.
 
-01:26:34.880 --> 01:26:36.760 line:83% align:left position:18% size:62%
+01:26:34.880 --> 01:26:36.760 line:83% align:left position:18%
 What's she telling you?
 
 01:26:43.840 --> 01:26:46.400 line:83% align:right size:80% position:90%
@@ -4506,10 +4429,10 @@ Something about...
 01:26:52.280 --> 01:26:53.880 line:83% align:right size:80% position:90%
 the sky parting.
 
-01:26:59.920 --> 01:27:01.400 line:83% align:left position:24% size:56%
+01:26:59.920 --> 01:27:01.400 line:83% align:left position:24%
 She wants to run.
 
-01:27:02.440 --> 01:27:03.840 line:83% align:left position:18% size:62%
+01:27:02.440 --> 01:27:03.840 line:83% align:left position:18%
 Let's go.
 
 01:27:03.880 --> 01:27:06.920 line:83% align:right size:80% position:90%
@@ -4524,30 +4447,30 @@ Come on, girl.
 01:27:18.400 --> 01:27:20.920 line:83% align:right size:80% position:90%
 Got a special package here.
 
-01:27:24.960 --> 01:27:27.160 line:77% align:left position:18% size:62%
+01:27:24.960 --> 01:27:27.160 line:77% align:left position:18%
 Very excited, ain't you?
-<c.black>......................</c>Hello.
+&nbsp;                      Hello.
 
 01:27:27.240 --> 01:27:29.040 line:83% align:right size:80% position:90%
 No, no. Just for owners.
 
-01:27:30.360 --> 01:27:33.320 line:83% align:left position:18% size:62%
+01:27:30.360 --> 01:27:33.320 line:83% align:left position:18%
 I know. That'd be us.
 
 01:27:33.400 --> 01:27:35.520 line:83% align:right size:80% position:90%
 That would be us, yes.
 
-01:27:35.560 --> 01:27:37.080 line:77% align:left position:18% size:62%
+01:27:35.560 --> 01:27:37.080 line:77% align:left position:18%
 Thank you very much.
-<c.black>..........</c>Good luck.
+&nbsp;          Good luck.
 
-01:27:37.160 --> 01:27:39.080 line:77% align:left position:24% size:56%
+01:27:37.160 --> 01:27:39.080 line:77% align:left position:24%
 Thanks.
 Here we go. Here we go.
 
-01:27:39.160 --> 01:27:40.960 line:77% align:left position:18% size:62%
+01:27:39.160 --> 01:27:40.960 line:77% align:left position:18%
 Where are we? Down this way?
-<c.black>.............</c>Yes.
+&nbsp;             Yes.
 
 01:27:41.040 --> 01:27:42.840 line:83% align:middle position:50% size:80%
 This way. Yes.
@@ -4555,12 +4478,12 @@ This way. Yes.
 01:27:42.920 --> 01:27:44.320 line:83% align:middle position:50% size:80%
 ( BUGLE FANFARE )
 
-01:27:44.400 --> 01:27:46.560 line:77% align:left position:16% size:64%
+01:27:44.400 --> 01:27:46.560 line:77% align:left position:16%
 Do you know any of these people?
 'Cause I don't.
 
-01:27:46.640 --> 01:27:47.840 line:77% align:left position:20% size:60%
-<c.black>...........</c>No, I don't.
+01:27:46.640 --> 01:27:47.840 line:77% align:left position:20%
+&nbsp;           No, I don't.
 OK.
 
 01:27:47.880 --> 01:27:49.840 line:83% align:middle position:50% size:80%
@@ -4577,43 +4500,43 @@ for the Grade One
 01:27:55.920 --> 01:27:58.360 line:83% align:middle position:50% size:80%
 the biggest race in North America.
 
-01:27:58.400 --> 01:28:00.520 line:77% align:left position:16% size:64%
-<c.black>...................</c>WOMAN: Good luck.
+01:27:58.400 --> 01:28:00.520 line:77% align:left position:16%
+&nbsp;                   WOMAN: Good luck.
 Thank you.
 
-01:28:01.560 --> 01:28:04.560 line:83% align:left position:18% size:62%
+01:28:01.560 --> 01:28:04.560 line:83% align:left position:18%
 Eighth race. £20 to win on 7.
 
-01:28:04.640 --> 01:28:09.160 line:77% align:left position:16% size:64%
+01:28:04.640 --> 01:28:09.160 line:77% align:left position:16%
 7? That's Sonador.
 That horse is 80 to 1!
 
 01:28:11.080 --> 01:28:14.360 line:83% align:middle position:50% size:80%
 You know what? You're right.
 
-01:28:20.360 --> 01:28:23.600 line:83% align:left position:18% size:62%
+01:28:20.360 --> 01:28:23.600 line:83% align:left position:18%
 £257. Sonador to win.
 
-01:28:24.880 --> 01:28:26.880 line:77% align:left position:16% size:64%
-<c.black>...........</c>You like that?
+01:28:24.880 --> 01:28:26.880 line:77% align:left position:16%
+&nbsp;           You like that?
 (Laughs)
 
-01:28:26.960 --> 01:28:28.720 line:77% align:left position:44% size:36%
+01:28:26.960 --> 01:28:28.720 line:77% align:left position:44%
 (Laughs)
-<c.black>............</c>Good luck.
+&nbsp;            Good luck.
 
-01:28:36.760 --> 01:28:40.000 line:77% align:left position:28% size:52%
-<c.black>........</c>Well, you ready?
+01:28:36.760 --> 01:28:40.000 line:77% align:left position:28%
+&nbsp;        Well, you ready?
 Yeah.
 
-01:28:40.080 --> 01:28:43.240 line:77% align:left position:48% size:32%
+01:28:40.080 --> 01:28:43.240 line:77% align:left position:48%
 Pop.
-<c.black>........</c>£257 to win?
+&nbsp;        £257 to win?
 
 01:28:43.320 --> 01:28:45.680 line:83% align:right size:80% position:90%
 You're crazy!
 
-01:28:45.760 --> 01:28:48.520 line:83% align:left position:24% size:56%
+01:28:45.760 --> 01:28:48.520 line:83% align:left position:24%
 That's for you.
 
 01:28:51.960 --> 01:28:54.160 line:77% align:middle position:50% size:80%
@@ -4725,8 +4648,8 @@ BEN: Get back up.
 01:30:49.040 --> 01:30:50.560 line:83% align:right size:80% position:90%
 Make her settle.
 
-01:31:07.200 --> 01:31:09.720 line:77% align:left position:16% size:64%
-<c.black>.........................</c>She's last.
+01:31:07.200 --> 01:31:09.720 line:77% align:left position:16%
+&nbsp;                         She's last.
 There's a lot of race left.
 
 01:31:09.800 --> 01:31:11.560 line:83% align:right size:80% position:90%
@@ -4735,7 +4658,7 @@ First quarter at 22 and 1.
 01:31:27.280 --> 01:31:29.560 line:83% align:middle position:50% size:80%
 Come on, Sonya!
 
-01:31:29.640 --> 01:31:31.520 line:83% align:left position:18% size:62%
+01:31:29.640 --> 01:31:31.520 line:83% align:left position:18%
 Go, Sonya!
 
 01:31:54.480 --> 01:31:55.880 line:83% align:middle position:50% size:80%
@@ -4787,23 +4710,23 @@ Whoo!
 01:33:21.240 --> 01:33:22.880 line:83% align:middle position:50% size:80%
 Oh, man, I had a dream.
 
-01:33:22.960 --> 01:33:26.280 line:77% align:left position:16% size:64%
+01:33:22.960 --> 01:33:26.280 line:77% align:left position:16%
 It was a dream I didn't
 know the end of until today!
 
-01:33:26.360 --> 01:33:27.880 line:83% align:left position:42% size:38%
+01:33:26.360 --> 01:33:27.880 line:83% align:left position:42%
 Whoo!
 
-01:33:27.960 --> 01:33:29.400 line:83% align:left position:36% size:44%
+01:33:27.960 --> 01:33:29.400 line:83% align:left position:36%
 Yes!
 
-01:33:33.040 --> 01:33:34.480 line:83% align:left position:58% size:22%
+01:33:33.040 --> 01:33:34.480 line:83% align:left position:58%
 Ha!
 
 01:33:36.400 --> 01:33:38.720 line:83% align:right size:80% position:90%
 Thanks, Pop. Thanks for everything.
 
-01:33:38.800 --> 01:33:42.880 line:83% align:left position:32% size:48%
+01:33:38.800 --> 01:33:42.880 line:83% align:left position:32%
 Thank you. £257 at 80 to 1.
 
 01:33:42.960 --> 01:33:45.440 line:83% align:right size:80% position:90%

@@ -130,7 +130,7 @@ class CaptionLine {
 		}
 	}
 	
-	String toVTT(int start)
+	String toVTT(int start, boolean styling)
 	{
 		boolean first_unit = true
 		String output = ""
@@ -141,11 +141,15 @@ class CaptionLine {
 			if (align == LineAlignment.NONE && first_unit) {
 				int length = this.charStart - start
 				if (length > 1) {
-					output += "<c.black>" + "." * length + "</c>"
+					if (styling) {
+						output += "<c.black>" + "." * length + "</c>"
+					} else {
+						output += "&nbsp;" + " " * length - 1
+					}
 				}
 			}
 
-			if (it.colour != "white") {
+			if (it.colour != "white" && styling) {
 				output += "<c." + it.colour + ">" + caption + "</c>"
 			} else {
 				output += caption
