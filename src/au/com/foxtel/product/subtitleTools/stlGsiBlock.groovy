@@ -102,4 +102,8 @@ class StlGsiBlock {
 		
 		(hours * (3600 * 25)) + (minutes * (60 * 25)) + (seconds * 25) + frames
 	}
+
+	String toString() {
+		'[maxNumRows:' + maximumNumberOfRows + ' maxChars:' + maximumNumberOfCharaters + ']'
+	}
 }

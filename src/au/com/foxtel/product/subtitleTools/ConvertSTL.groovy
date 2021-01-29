@@ -8,7 +8,7 @@ import java.nio.ByteBuffer
 
 class ConvertSTL {
 	
-	static void processFile(String stlFile, ArrayList captions)
+	static void processFile(String stlFile, ArrayList captions, int log_level)
 	{
 		File file = new File(stlFile)
 		ByteBuffer contents = ByteBuffer.wrap(file.getBytes())
@@ -16,6 +16,8 @@ class ConvertSTL {
 		byte[] gsiBytes = new byte[1024]
 		contents.get(gsiBytes, 0, 1024)
 		gsiBlock.parse(gsiBytes)
+
+		if (log_level > 0) println(gsiBlock.toString())
 
 		while (contents.position() < contents.capacity())
 		{
@@ -25,7 +27,10 @@ class ConvertSTL {
 				contents.get(ttiBytes, 0, 128)
 				ttiBlock.parse(ttiBytes)
 			}
-			CaptionMessage caption = new CaptionMessage()
+			CaptionMessage caption = new CaptionMessage(gsiBlock.maximumNumberOfRows)
+
+			if (log_level > 0) println(ttiBlock.toString())
+
 			caption.ebuTextField(ttiBlock)
 			if (!caption.lines.isEmpty()) {
 				captions.add(caption)
@@ -189,6 +194,7 @@ STYLE
 		cli.t(args:0, longOpt:'ttml', 'create a TTML file')
 		cli.v(args:0, longOpt:'vtt', 'create a VTT file')
 		cli.ns(args:0, longOpt: 'no-vtt-styling', 'Disable VTT styling')
+		cli.l(type: int, args:1, longOpt:'logging-level', defaultValue:"0",'set the logging level 0 = off',)
 		def options = cli.parse(args)
 
 		ArrayList<CaptionMessage> captions = new ArrayList<CaptionMessage>()
@@ -197,8 +203,9 @@ STYLE
 		boolean vttStyling = !options.ns
 		boolean ttml = options.t
 		boolean vtt = options.v
+		int log_level = options.l
 
-		processFile(file, captions)
+		processFile(file, captions, log_level)
 
 		if (ttml) {
 			def ttml_captions = getTTML(captions, offset)

@@ -1,7 +1,10 @@
 package au.com.foxtel.product.subtitleTools
 
+import org.apache.tools.ant.types.CharSet
+
 import java.nio.ByteBuffer
 import java.nio.CharBuffer
+import java.nio.charset.StandardCharsets
 
 class StlTtiBlock {
 	int subtitleGroupNumber
@@ -53,21 +56,36 @@ class StlTtiBlock {
 	
 	String toString()
 	{
-		"[sn:" + subtitleNumber + " eb:" + extensionBlockNumber + " tcin:" + timecodeIn + " tcout:" + timecodeOut + " text:" + makePrintable(textField) + "]"
+		"[sn:" + subtitleNumber + " eb:" + extensionBlockNumber + " tcin:" + timecodeIn + " tcout:" + timecodeOut + " vp:" + verticalPosition + " text:" + makePrintable(textField) + "]"
 	}
 	
-	static String makePrintable(byte[] text)
-	{
-		String output
-		CharBuffer charBuffer = ByteBuffer.wrap(text).asCharBuffer()
-		charBuffer.each {
-			switch(it.toInteger())
-			{
+	static String makePrintable(byte[] text) {
+		String output = new String()
+//		CharBuffer charBuffer = ByteBuffer.wrap(text).asCharBuffer()
+//		charBuffer.each {
+//			switch(it.toInteger())
+//			{
+//				case 0x20..0x7e:
+//					output += it
+//					break
+//				default:
+//					output += "[#" + Integer.toHexString(it.toInteger()) + "]"
+//			}
+//		}
+//		output
+
+		text.each {
+			int b = it & 0xff
+			switch (b) {
 				case 0x20..0x7e:
-					output += it
+					String chr = new String(b as int[], 0, 1)
+					output += chr
 					break
+				case 143:
+					break
+
 				default:
-					output += "[#" + Integer.toHexString(it.toInteger()) + "]"
+					output += "[#" + (b as byte[]).encodeHex() + "]"
 			}
 		}
 		output

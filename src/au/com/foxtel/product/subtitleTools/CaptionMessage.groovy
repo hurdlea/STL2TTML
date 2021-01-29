@@ -8,7 +8,13 @@ class CaptionMessage {
 	def lines = new ArrayList<CaptionLine>() 
 	int startOfMessage = 0
 	int endOfMessage = 0
+	int maximumRowHeight = 0
+
 	CaptionLine.LineAlignment align
+
+	CaptionMessage(max_rows) {
+		this.maximumRowHeight = max_rows
+	}
 
 	void ebuTextField(StlTtiBlock message)
 	{
@@ -132,7 +138,7 @@ class CaptionMessage {
 		// Render the text
 		output += framesToIsoTime(startOfMessage + offset) + " --> " + 
 				  framesToIsoTime(endOfMessage + offset)   + " " +
-				  "line:" + Math.round(((lines[0].row + 3) / 30) * 100) + "% " +
+				  "line:" + Math.round(((lines[0].row + 3) / (maximumRowHeight + 6)) * 100) + "% " +
 				  "${formatting}\n"
 		lines.each {
 			output += it.toVTT(start, styling)

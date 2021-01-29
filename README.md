@@ -13,6 +13,7 @@ STL2TTML Options:
  -t | -ttml              Create TTML file
  -v | -vtt               Create VTT file
 -ns | -no-vtt-styling    Disable all VTT Styling
+ -l | -log-level         Logging level > 0 to produce output
 ```
  	
 # References
