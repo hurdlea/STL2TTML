@@ -53,26 +53,15 @@ class StlTtiBlock {
 	{
 		(data[0] * (3600 * 25)) + (data[1] * (60 * 25)) + (data[2] * 25) + data[3]
 	}
-	
+
 	String toString()
 	{
-		"[sn:" + subtitleNumber + " eb:" + extensionBlockNumber + " tcin:" + timecodeIn + " tcout:" + timecodeOut + " vp:" + verticalPosition + " text:" + makePrintable(textField) + "]"
+		"[sn:" + subtitleNumber + " eb:" + extensionBlockNumber + " tcin:" + timecodeIn + " tcout:" + timecodeOut + " vp:" + verticalPosition + " text:\"" + makePrintable(textField) + "\"]"
 	}
 	
 	static String makePrintable(byte[] text) {
+		String[] ebuColours = ['black', 'red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'white']
 		String output = new String()
-//		CharBuffer charBuffer = ByteBuffer.wrap(text).asCharBuffer()
-//		charBuffer.each {
-//			switch(it.toInteger())
-//			{
-//				case 0x20..0x7e:
-//					output += it
-//					break
-//				default:
-//					output += "[#" + Integer.toHexString(it.toInteger()) + "]"
-//			}
-//		}
-//		output
 
 		text.each {
 			int b = it & 0xff
@@ -81,9 +70,18 @@ class StlTtiBlock {
 					String chr = new String(b as int[], 0, 1)
 					output += chr
 					break
-				case 143:
+				case 0x8f:
+					// Remove padding bytes
 					break
-
+				case 0x8a:
+					output += '\\n'
+					break
+				case 0x84..0x85:
+					// Remove Boxing specifiers
+					break
+				case 0x00..0x07:
+					output += "[#" + ebuColours[b] + "]"
+					break
 				default:
 					output += "[#" + (b as byte[]).encodeHex() + "]"
 			}
