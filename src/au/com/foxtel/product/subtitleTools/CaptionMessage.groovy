@@ -9,11 +9,17 @@ class CaptionMessage {
 	int startOfMessage = 0
 	int endOfMessage = 0
 	int maximumRowHeight = 0
+	int safeAreaRows = 0
 
 	CaptionLine.LineAlignment align
 
-	CaptionMessage(max_rows) {
+	CaptionMessage(max_rows, safe_area) {
 		this.maximumRowHeight = max_rows
+		if (safe_area > 0 && safe_area < 100) {
+			this.safeAreaRows = (int) Math.ceil((double) max_rows * (double) safe_area / 100)
+		} else {
+			this.safeAreaRows = 0
+		}
 	}
 
 	void ebuTextField(StlTtiBlock message)
@@ -138,7 +144,7 @@ class CaptionMessage {
 		// Render the text
 		output += framesToIsoTime(startOfMessage + offset) + " --> " + 
 				  framesToIsoTime(endOfMessage + offset)   + " " +
-				  "line:" + Math.round(((lines[0].row + 3) / (maximumRowHeight + 6)) * 100) + "% " +
+				  "line:" + Math.round((lines[0].row + this.safeAreaRows) / (maximumRowHeight + (this.safeAreaRows * 2) + 1) * 100) + "% " +
 				  "${formatting}\n"
 		lines.each {
 			output += it.toVTT(start, styling)

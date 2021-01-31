@@ -8,7 +8,7 @@ import java.nio.ByteBuffer
 
 class ConvertSTL {
 	
-	static void processFile(String stlFile, ArrayList captions, int log_level)
+	static void processFile(String stlFile, ArrayList captions, int log_level, int safe_area)
 	{
 		File file = new File(stlFile)
 		ByteBuffer contents = ByteBuffer.wrap(file.getBytes())
@@ -27,7 +27,7 @@ class ConvertSTL {
 				contents.get(ttiBytes, 0, 128)
 				ttiBlock.parse(ttiBytes)
 			}
-			CaptionMessage caption = new CaptionMessage(gsiBlock.maximumNumberOfRows)
+			CaptionMessage caption = new CaptionMessage(gsiBlock.maximumNumberOfRows, safe_area)
 
 			if (log_level > 0) println(ttiBlock.toString())
 
@@ -188,13 +188,14 @@ STYLE
 	}
 
 	static void main(args) {
-		def cli = new CliBuilder(usage: 'STL2TTML -f file [-o offset] [-t false] [-v false] [-ns true]')
-		cli.o(type: int, args:1, longOpt:'offset', defaultValue:"0",'set offset',)
+		def cli = new CliBuilder(usage: 'STL2TTML -f file [-o offset] [-t false] [-v false] [-ns true] [-l 0] [-s 5]')
+		cli.o(type: int, args:1, longOpt:'offset', defaultValue:"0",'set offset')
 		cli.f(type: String, args:1, longOpt:'file', required:true, 'STL file to convert')
 		cli.t(args:0, longOpt:'ttml', 'create a TTML file')
 		cli.v(args:0, longOpt:'vtt', 'create a VTT file')
 		cli.ns(args:0, longOpt: 'no-vtt-styling', 'Disable VTT styling')
-		cli.l(type: int, args:1, longOpt:'logging-level', defaultValue:"0",'set the logging level 0 = off',)
+		cli.l(type: int, args:1, longOpt:'logging-level', defaultValue:"0",'set the logging level 0 = off')
+		cli.s(type: int, args:1, longOpt: 'safe-area-percent', defaultValue: "5", 'set the vertical safe area percentage')
 		def options = cli.parse(args)
 
 		ArrayList<CaptionMessage> captions = new ArrayList<CaptionMessage>()
@@ -204,8 +205,13 @@ STYLE
 		boolean ttml = options.t
 		boolean vtt = options.v
 		int log_level = options.l
+		int safe_area = options.s
 
-		processFile(file, captions, log_level)
+		if (safe_area < 0 || safe_area > 50) {
+			println('Safe area must be between 0 and 50')
+			System.exit(1)
+		}
+		processFile(file, captions, log_level, safe_area)
 
 		if (ttml) {
 			def ttml_captions = getTTML(captions, offset)

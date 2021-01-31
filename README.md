@@ -14,8 +14,9 @@ STL2TTML Options:
  -v | -vtt               Create VTT file
 -ns | -no-vtt-styling    Disable all VTT Styling
  -l | -log-level         Logging level > 0 to produce output
+ -s | -safe-area         VTT Vertical safe area precentage 0 .. 50 
 ```
- 	
+The safe-area option prevents the caption text from being rendered on the very top and bottom of the player area. The default value is set at 5% but can be disabled by setting -s 0 on the command line.
 # References
 - https://tech.ebu.ch/docs/tech/tech3264.pdf
 - https://tech.ebu.ch/docs/tech/tech3360.pdf
