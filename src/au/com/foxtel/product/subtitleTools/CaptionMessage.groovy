@@ -8,11 +8,13 @@ class CaptionMessage {
 	int endOfMessage = 0
 	int maximumRowHeight = 0
 	int safeAreaRows = 0
+	int frame_rate
 
 	CaptionLine.LineAlignment align
 
-	CaptionMessage(max_rows, safe_area) {
+	CaptionMessage(int max_rows, int safe_area, int frame_rate) {
 		this.maximumRowHeight = max_rows
+		this.frame_rate = frame_rate
 		if (safe_area > 0 && safe_area < 100) {
 			this.safeAreaRows = (int) Math.ceil((double) max_rows * (double) safe_area / 100)
 		} else {
@@ -161,15 +163,15 @@ class CaptionMessage {
 		"SOM: " + framesToIsoTime(this.startOfMessage) + " EOM: " + framesToIsoTime(this.endOfMessage) + "\n" + output
 	}
 	
-	static String framesToIsoTime(int frames)
+	String framesToIsoTime(int frames)
 	{
 
 		String output = ""
 		
-		output += sprintf("%02d:", (int) (frames / (3600 * 25)))
-		output += sprintf("%02d:", (int) (frames / (60 * 25)).intValue() % 60)
-		output += sprintf("%02d.", (int) (frames / 25).intValue() % 60)
-		output += sprintf("%03d",  (int) (frames % 25) * 40)
+		output += sprintf("%02d:", (int) (frames / (3600 * this.frame_rate)))
+		output += sprintf("%02d:", (int) (frames / (60 * this.frame_rate)).intValue() % 60)
+		output += sprintf("%02d.", (int) (frames / this.frame_rate).intValue() % 60)
+		output += sprintf("%03d",  ((frames % this.frame_rate) * (1000.0 / this.frame_rate)).intValue())
 		
 		output
 	}

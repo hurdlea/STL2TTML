@@ -33,6 +33,7 @@ class StlGsiBlock {
 	String editorsName
 	String editorsContactDetails
 	String userDefinedArea
+	int frameRate
 	
 	void parse(byte[] data)
 	{
@@ -66,6 +67,23 @@ class StlGsiBlock {
 		this.editorsName = getString(data[309..340])
 		this.editorsContactDetails = getString(data[341..372])
 		this.userDefinedArea = getString(data[448..1023])
+
+		switch (this.diskFormatCode == 'STL25.01') {
+			case 'STL25.01':
+				this.frameRate = 25
+				break
+			case 'STL30.01':
+				this.frameRate = 30
+				break
+			case 'STL50.01':
+				this.frameRate = 50
+				break
+			case 'STL60.01':
+				this.frameRate = 60
+				break
+			default:
+				this.frameRate = 25
+		}
 	}
 	
 	static Date getDate(List<Byte> data)

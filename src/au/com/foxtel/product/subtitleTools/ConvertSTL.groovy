@@ -27,7 +27,9 @@ class ConvertSTL {
 				contents.get(ttiBytes, 0, 128)
 				ttiBlock.parse(ttiBytes)
 			}
-			CaptionMessage caption = new CaptionMessage(gsiBlock.maximumNumberOfRows, safe_area)
+			CaptionMessage caption = new CaptionMessage(
+					gsiBlock.maximumNumberOfRows, safe_area, gsiBlock.frameRate
+			)
 
 			if (log_level > 0) println(ttiBlock.toString())
 
