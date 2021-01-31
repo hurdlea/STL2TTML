@@ -36,7 +36,7 @@ class CaptionLine {
 	public int charStart = 0
 
 	int row
-	private ArrayList<LineFormat> text = new ArrayList<LineFormat>()
+	protected ArrayList<LineFormat> text = new ArrayList<LineFormat>()
 	private String[] ebuColours = ['black', 'red', 'lime', 'yellow', 'blue', 'magenta', 'cyan', 'white']
 
 	def parseEbuText(int row, ArrayList<Byte> line)

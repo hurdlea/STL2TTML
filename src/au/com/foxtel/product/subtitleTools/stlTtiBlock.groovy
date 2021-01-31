@@ -1,11 +1,5 @@
 package au.com.foxtel.product.subtitleTools
 
-import org.apache.tools.ant.types.CharSet
-
-import java.nio.ByteBuffer
-import java.nio.CharBuffer
-import java.nio.charset.StandardCharsets
-
 class StlTtiBlock {
 	int subtitleGroupNumber
 	int subtitleNumber

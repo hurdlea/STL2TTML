@@ -2,8 +2,6 @@ package au.com.foxtel.product.subtitleTools
 
 import groovy.xml.MarkupBuilder
 
-import java.util.stream.Stream
-
 class CaptionMessage {
 	def lines = new ArrayList<CaptionLine>() 
 	int startOfMessage = 0
