@@ -51,17 +51,17 @@ class StlGsiBlock {
 		this.subtitleListReferenceCode = getString(data[208..223])
 		this.creationDate = getDate(data[224..229])
 		this.revisionDate = getDate(data[230..235])
-		this.revisionNumber = getString(data[236..237]).toInteger()
-		this.totalNumberOfTtiBlocks = getString(data[238..242]).toInteger()
-		this.totalNumberOfSubtitles = getString(data[243..247]).toInteger()
-		this.totalNumberOfSubtitleGroups = getString(data[248..250]).toInteger()
-		this.maximumNumberOfCharaters = getString(data[251..252]).toInteger()
-		this.maximumNumberOfRows = getString(data[253..254]).toInteger()
+		this.revisionNumber = getInteger(data[236..237], 'GSI:revisionNumber')
+		this.totalNumberOfTtiBlocks = getInteger(data[238..242], 'GSI:numberOfTtiBlocks')
+		this.totalNumberOfSubtitles = getInteger(data[243..247], 'GSI:numberOfSubtitles')
+		this.totalNumberOfSubtitleGroups = getInteger(data[248..250], 'GSI:numberOfSubtitleGroups')
+		this.maximumNumberOfCharaters = getInteger(data[251..252], 'GSI:numberOfCharacters')
+		this.maximumNumberOfRows = getInteger(data[253..254], 'GSI:maximumNumberOfRows')
 		this.timecodeStatus = data[255].toInteger()
-		this.startOfProgramme = StringToFrames(data[256..263] as byte[])
-		this.firstInCue = StringToFrames(data[264..271] as byte[])
-		this.totalNumberOfDisks = getCharAsString(data[272]).toInteger()
-		this.diskSequenceNumber = getCharAsString(data[273]).toInteger()
+		this.startOfProgramme = StringToFrames(data[256..263] as byte[], 'GSI:startOfProgramme')
+		this.firstInCue = StringToFrames(data[264..271] as byte[], 'GSI:firstInCue')
+		this.totalNumberOfDisks = getIntFromChar(data[272], 'GSI:totalNumberOfDisks')
+		this.diskSequenceNumber = getIntFromChar(data[273], 'GSI:diskSequenceNumber')
 		this.countryOfOrigin = getString(data[274..276])
 		this.publisher = getString(data[277..308])
 		this.editorsName = getString(data[309..340])
@@ -96,27 +96,50 @@ class StlGsiBlock {
 		def format = new SimpleDateFormat("yyMMdd")
 		format.parse(string)
 	}
-	
+
+	static int getInteger(List<Byte> data, String field)
+	{
+		String string = new String(data as byte[], "US-ASCII")
+		string.trim()
+		return stringToInteger(string, field)
+	}
+
 	static String getString(List<Byte> data)
 	{
 		String string = new String(data as byte[], "US-ASCII")
-		//println "[" + string + "]"
 		string.trim()
 	}
-	
-	static String getCharAsString(Byte data)
+
+	static int getIntFromChar(Byte data, String field)
 	{
 		String string = new String(data as byte[], "US-ASCII")
-		//println "[" + string + "]"
 		string.trim()
+		return stringToInteger(string, field)
+	}
+
+	static int stringToInteger(String string, String field) {
+		if (string == '') {
+			System.err.println('ERROR: Tried to convert field: ' + field + ' with null value (spaces) to integer')
+			return 0
+		}
+
+		try {
+			return string.toInteger()
+		} catch (NumberFormatException e) {
+			System.err.println(
+					'ERROR: Tried to convert field: ' + field +
+					' to integer with value [' + string + '] - assuming 0 value. Exception: ' +	e.toString()
+			)
+			return 0
+		}
 	}
 	
-	static int StringToFrames(byte[] data)
+	static int StringToFrames(byte[] data, String field)
 	{
-		int hours = getString(data[0..1]).toInteger() 
-		int minutes = getString(data[2..3]).toInteger() 
-		int seconds = getString(data[4..5]).toInteger() 
-		int frames = getString(data[6..7]).toInteger()
+		int hours = getInteger(data[0..1], field + ':hours')
+		int minutes = getInteger(data[2..3], field + ':minutes')
+		int seconds = getInteger(data[4..5], field + ':seconds')
+		int frames = getInteger(data[6..7], field + ':frames')
 		
 		(hours * (3600 * 25)) + (minutes * (60 * 25)) + (seconds * 25) + frames
 	}
