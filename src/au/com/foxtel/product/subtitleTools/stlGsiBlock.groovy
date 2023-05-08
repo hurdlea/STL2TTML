@@ -33,7 +33,8 @@ class StlGsiBlock {
 	String editorsName
 	String editorsContactDetails
 	String userDefinedArea
-	int frameRate
+	int    frameRate
+	int    autoZeroCueTime
 	
 	void parse(byte[] data)
 	{
@@ -84,6 +85,8 @@ class StlGsiBlock {
 			default:
 				this.frameRate = 25
 		}
+
+		this.autoZeroCueTime = (int)(firstInCue / 3600) * 3600
 	}
 	
 	static Date getDate(List<Byte> data)

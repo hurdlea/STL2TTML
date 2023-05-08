@@ -11,6 +11,11 @@ class StlTtiBlock {
 	int justificationCode
 	int commentFlag
 	byte[] textField
+	int timecodeOffset
+
+	public StlTtiBlock(int offset) {
+		this.timecodeOffset = offset
+	}
 
 	void parse(byte[] record)
 	{
@@ -43,9 +48,9 @@ class StlTtiBlock {
 	}
 
 
-	def static getTimecode(List<Byte> data)
+	def getTimecode(List<Byte> data)
 	{
-		(data[0] * (3600 * 25)) + (data[1] * (60 * 25)) + (data[2] * 25) + data[3]
+		((data[0] * (3600 * 25)) + (data[1] * (60 * 25)) + (data[2] * 25) + data[3]) - timecodeOffset
 	}
 
 	String toString()
@@ -60,24 +65,27 @@ class StlTtiBlock {
 		text.each {
 			int b = it & 0xff
 			switch (b) {
-				case 0x20..0x7e:
-					String chr = new String(b as int[], 0, 1)
-					output += chr
-					break
 				case 0x8f:
 					// Remove padding bytes
 					break
 				case 0x8a:
 					output += '\\n'
 					break
-				case 0x84..0x85:
-					// Remove Boxing specifiers
+				case 0x80..0x85:
+					// Remove Italics, Underline and boxing specifiers
 					break
 				case 0x00..0x07:
 					output += "[#" + ebuColours[b] + "]"
 					break
+				// case 0x20..0x7e:
+				case {(0x0a..0xff).contains(it) || (0x20..0x7e).contains(it)}:
+					// String chr = new String(b as int[], 0, 1)
+					output += CaptionLine.mapCharacter(b)
+					// output += chr
+					break
 				default:
-					output += "[#" + (b as byte[]).encodeHex() + "]"
+					//output += "[#" + (b as byte[]).encodeHex() + "]"
+					break
 			}
 		}
 		output

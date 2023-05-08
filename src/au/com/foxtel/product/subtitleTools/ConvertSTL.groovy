@@ -1,14 +1,12 @@
 package au.com.foxtel.product.subtitleTools
 
-//@GrabConfig(systemClassLoader=true)
-//@Grab('info.picocli:picocli:4.2.0')
 import groovy.cli.commons.CliBuilder
 import groovy.xml.MarkupBuilder
 import java.nio.ByteBuffer
 
 class ConvertSTL {
 	
-	static void processFile(String stlFile, ArrayList captions, int log_level, int safe_area)
+	static void processFile(String stlFile, ArrayList captions, int log_level, int safe_area, boolean autoZero)
 	{
 		File file = new File(stlFile)
 		ByteBuffer contents = ByteBuffer.wrap(file.getBytes())
@@ -21,7 +19,7 @@ class ConvertSTL {
 
 		while (contents.position() < contents.capacity())
 		{
-			StlTtiBlock ttiBlock = new StlTtiBlock()
+			StlTtiBlock ttiBlock = new StlTtiBlock(autoZero ? gsiBlock.autoZeroCueTime: 0)
 			while(ttiBlock.extensionBlockNumber != 0xff) {
 				byte[] ttiBytes = new byte[128]
 				contents.get(ttiBytes, 0, 128)
@@ -34,7 +32,7 @@ class ConvertSTL {
 			if (log_level > 0) println(ttiBlock.toString())
 
 			caption.ebuTextField(ttiBlock)
-			if (!caption.lines.isEmpty()) {
+			if (!caption.lines.isEmpty() && ttiBlock.timecodeOut > 0) {
 				captions.add(caption)
 			}
 		}
@@ -190,8 +188,9 @@ STYLE
 	}
 
 	static void main(args) {
-		def cli = new CliBuilder(usage: 'STL2TTML -f file [-o offset] [-t false] [-v false] [-ns true] [-l 0] [-s 5]')
+		def cli = new CliBuilder(usage: 'STL2TTML')
 		cli.o(type: int, args:1, longOpt:'offset', defaultValue:"0",'set offset')
+		cli.z(args:0, longOpt:'zero-timecode', 'remove non-zero timecode offset from STL source')
 		cli.f(type: String, args:1, longOpt:'file', required:true, 'STL file to convert')
 		cli.t(args:0, longOpt:'ttml', 'create a TTML file')
 		cli.v(args:0, longOpt:'vtt', 'create a VTT file')
@@ -208,12 +207,13 @@ STYLE
 		boolean vtt = options.v
 		int log_level = options.l
 		int safe_area = options.s
+		boolean autoZeroStlTimecode = options.z
 
 		if (safe_area < 0 || safe_area > 50) {
 			println('Safe area must be between 0 and 50')
 			System.exit(1)
 		}
-		processFile(file, captions, log_level, safe_area)
+		processFile(file, captions, log_level, safe_area, autoZeroStlTimecode)
 
 		if (ttml) {
 			def ttml_captions = getTTML(captions, offset)
