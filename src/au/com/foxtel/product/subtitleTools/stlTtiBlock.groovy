@@ -13,7 +13,7 @@ class StlTtiBlock {
 	byte[] textField
 	int timecodeOffset
 
-	public StlTtiBlock(int offset) {
+	StlTtiBlock(int offset) {
 		this.timecodeOffset = offset
 	}
 

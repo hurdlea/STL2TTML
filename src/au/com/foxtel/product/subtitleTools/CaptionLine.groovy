@@ -75,8 +75,7 @@ class CaptionLine {
 					}
 					break
 					
-				case 0x20..0x7e:
-				case 0xa0..0xff: // regular characters
+				case {(0x20..0x7e).contains(it) || (0xa0..0xff).contains(it)}: // regular characters
 					String chr = mapCharacter((int) it & 0xff)
 					format.text += chr
 					break
