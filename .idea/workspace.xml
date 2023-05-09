@@ -27,38 +27,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2fb4ad-83a4-45fa-8f6b-41afe00af7fe" name="Default Changelist" comment="Added detection of GSI numeric fields that contain non-numeric ASCII characters. Now outputs to STDERR the offending field name and assumes a zero-value.">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/STL2TTML_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STL2TTML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/STL2TTML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_parseEbuText_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_parseEbuText_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toString_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toString_closure2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toTTML_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toTTML_closure3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toVTT_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toVTT_closure4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_ebuTextField_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_ebuTextField_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_splitLines_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_splitLines_closure2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_toTTML_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_toTTML_closure3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_toVTT_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_toVTT_closure4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1$_closure4$_closure7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1$_closure4$_closure7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1$_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1$_closure4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getVTT_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getVTT_closure2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/LineFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/LineFormat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlGsiBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlGsiBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlTtiBlock$_makePrintable_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlTtiBlock$_makePrintable_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlTtiBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlTtiBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/au/com/foxtel/product/subtitleTools/ConvertSTL.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/au/com/foxtel/product/subtitleTools/ConvertSTL.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/4751521.stl.ttml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/4751521.stl.vtt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TX003881.stl.ttml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TX003881.stl.vtt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TX003911.stl.ttml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TX003911.stl.vtt" beforeDir="false" />
+    <list default="true" id="9d2fb4ad-83a4-45fa-8f6b-41afe00af7fe" name="Default Changelist" comment="Added build of JAR file with groovy dependencies and runner script">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615260313364</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added build of JAR file with groovy dependencies and runner script">
+      <created>1683614458199</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683614458199</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +264,8 @@
     <MESSAGE value="Remove unused imports and fix scope violation" />
     <MESSAGE value="Added detection of frame rate from the DFC (Disk Format Code) in the GSI Block. Supports 25, 30, 50 and 60 fps with STL25.01, STL30.01, STL50.01 and STL60.01 values." />
     <MESSAGE value="Added detection of GSI numeric fields that contain non-numeric ASCII characters. Now outputs to STDERR the offending field name and assumes a zero-value." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added detection of GSI numeric fields that contain non-numeric ASCII characters. Now outputs to STDERR the offending field name and assumes a zero-value." />
+    <MESSAGE value="Added build of JAR file with groovy dependencies and runner script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added build of JAR file with groovy dependencies and runner script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
