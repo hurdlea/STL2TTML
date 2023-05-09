@@ -6,7 +6,8 @@ Output formats supported:
 - TTML text captions using regions for vertical placement and in-line text colour styling with spans
 - WebVTT with vertical placement and colour support using cue::color styling
 
-The *script/convert_stl.sh* uses *bin/jar/STL2TTML.jar* (with groovy dependencies) to run the application. 
+The `script/convert_stl.sh` uses `bin/jar/STL2TTML.jar` with groovy dependencies to run the application. All that is 
+required is a Java 8+ runtime in the path.
 ```
 STL2TTML Options:
 
