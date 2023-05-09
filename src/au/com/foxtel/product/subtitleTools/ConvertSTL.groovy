@@ -199,7 +199,10 @@ STYLE
 		cli.s(type: int, args:1, longOpt: 'safe-area-percent', defaultValue: "5", 'set the vertical safe area percentage')
 		def options = cli.parse(args)
 
-		ArrayList<CaptionMessage> captions = new ArrayList<CaptionMessage>()
+		if (!options) {
+			System.exit(-1)
+		}
+
 		String file = options.f
 		int offset = options.o
 		boolean vttStyling = !options.ns
@@ -213,6 +216,8 @@ STYLE
 			println('Safe area must be between 0 and 50')
 			System.exit(1)
 		}
+
+		ArrayList<CaptionMessage> captions = new ArrayList<CaptionMessage>()
 		processFile(file, captions, log_level, safe_area, autoZeroStlTimecode)
 
 		if (ttml) {

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="STL2TTML:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d2fb4ad-83a4-45fa-8f6b-41afe00af7fe" name="Default Changelist" comment="Added detection of GSI numeric fields that contain non-numeric ASCII characters. Now outputs to STDERR the offending field name and assumes a zero-value.">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/STL2TTML_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STL2TTML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/STL2TTML.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_parseEbuText_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_parseEbuText_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toString_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toString_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toTTML_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toTTML_closure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toVTT_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine$_toVTT_closure4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_ebuTextField_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_ebuTextField_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_splitLines_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_splitLines_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_toTTML_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_toTTML_closure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_toVTT_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage$_toVTT_closure4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/CaptionMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1$_closure4$_closure7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1$_closure4$_closure7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1$_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1$_closure4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getTTML_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getVTT_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL$_getVTT_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/ConvertSTL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/LineFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/LineFormat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlGsiBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlGsiBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlTtiBlock$_makePrintable_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlTtiBlock$_makePrintable_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlTtiBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/au/com/foxtel/product/subtitleTools/StlTtiBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/au/com/foxtel/product/subtitleTools/ConvertSTL.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/au/com/foxtel/product/subtitleTools/ConvertSTL.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/4751521.stl.ttml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/4751521.stl.vtt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TX003881.stl.ttml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TX003881.stl.vtt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TX003911.stl.ttml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TX003911.stl.vtt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/bin/convert_stl.sh" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1dhjsQplgZ3gIJmnvqdtPCFjgPG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.externalDependencies"
+  }
+}]]></component>
+  <component name="RunManager" selected="XSLT.Unnamed">
+    <configuration name="ConvertSTL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="au.com.foxtel.product.subtitleTools.ConvertSTL" />
+      <module name="STL2TTML" />
+      <option name="PROGRAM_PARAMETERS" value="-f &quot;$USER_HOME$/Downloads/MD150499.stl&quot; -o 0 -ns -v -t -l 1 -s 5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="au.com.foxtel.product.subtitleTools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="XSLT" factoryName="XSLT" nameIsGenerated="true">
+      <option name="myOutputFile" value="" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" value="" />
+      <option name="myWorkingDirectory" value="" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <XsltFile url="file://$USER_HOME$/OneDrive/Documents/SkyNZ/foxtel2epg.xslt" />
+      <XmlFile url="file://$USER_HOME$/OneDrive/Temp/EPG_ZIP/Sschedules/F8D20140831+1000_RB.xml" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConvertSTL" />
+      <item itemvalue="XSLT.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConvertSTL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d2fb4ad-83a4-45fa-8f6b-41afe00af7fe" name="Default Changelist" comment="" />
+      <created>1592884425368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592884425368</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Update to fix multiple ttiBlocks and timing error">
+      <created>1592905585516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592905585516</updated>
+    </task>
+    <task id="LOCAL-00002" summary="round the line position to get a better approximation">
+      <created>1592908765820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592908765820</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Made VTT files left|right|none|centre alignment aware and included styling for lines with spaces at the start">
+      <created>1592993718063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592993718063</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed the leading blank chars to black text on black background">
+      <created>1592994074928</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592994074928</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed entity mapping for characters in cues">
+      <created>1592995101527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592995101527</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixed entity mapping for characters in cues - really!">
+      <created>1592995646334</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592995646334</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Removed line-left positional property">
+      <created>1592997104548</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592997104548</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added command line options to control TTML and VTT output">
+      <created>1593059436099</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593059436099</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update documentation with command options">
+      <created>1593060143063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593060143063</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Detect Maximum Row Height from GSI block and apply to VTT line positioning">
+      <created>1611907137558</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611907137558</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adjust the VTT vertical safe area based on maximum number of lines and add a configuration parameter to change the default percentage.">
+      <created>1612083206638</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612083206638</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Improve the logging output to make the caption message more readable">
+      <created>1612084820444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612084820444</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Remove unused imports and fix scope violation">
+      <created>1612085038045</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612085038045</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added detection of frame rate from the DFC (Disk Format Code) in the GSI Block. Supports 25, 30, 50 and 60 fps with STL25.01, STL30.01, STL50.01 and STL60.01 values.">
+      <created>1612131247424</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612131247424</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added detection of GSI numeric fields that contain non-numeric ASCII characters. Now outputs to STDERR the offending field name and assumes a zero-value.">
+      <created>1615260313364</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1615260313364</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update to fix multiple ttiBlocks and timing error" />
+    <MESSAGE value="round the line position to get a better approximation" />
+    <MESSAGE value="Made VTT files left|right|none|centre alignment aware and included styling for lines with spaces at the start" />
+    <MESSAGE value="changed the leading blank chars to black text on black background" />
+    <MESSAGE value="Fixed entity mapping for characters in cues" />
+    <MESSAGE value="Fixed entity mapping for characters in cues - really!" />
+    <MESSAGE value="Removed line-left positional property" />
+    <MESSAGE value="Added command line options to control TTML and VTT output" />
+    <MESSAGE value="Update documentation with command options" />
+    <MESSAGE value="Detect Maximum Row Height from GSI block and apply to VTT line positioning" />
+    <MESSAGE value="Adjust the VTT vertical safe area based on maximum number of lines and add a configuration parameter to change the default percentage." />
+    <MESSAGE value="Improve the logging output to make the caption message more readable" />
+    <MESSAGE value="Remove unused imports and fix scope violation" />
+    <MESSAGE value="Added detection of frame rate from the DFC (Disk Format Code) in the GSI Block. Supports 25, 30, 50 and 60 fps with STL25.01, STL30.01, STL50.01 and STL60.01 values." />
+    <MESSAGE value="Added detection of GSI numeric fields that contain non-numeric ASCII characters. Now outputs to STDERR the offending field name and assumes a zero-value." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added detection of GSI numeric fields that contain non-numeric ASCII characters. Now outputs to STDERR the offending field name and assumes a zero-value." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/au/com/foxtel/product/subtitleTools/stlTtiBlock.groovy</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/au/com/foxtel/product/subtitleTools/ConvertSTL.groovy</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/au/com/foxtel/product/subtitleTools/ConvertSTL.groovy</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/au/com/foxtel/product/subtitleTools/stlGsiBlock.groovy</url>
+          <line>40</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/au/com/foxtel/product/subtitleTools/ConvertSTL.groovy</url>
+          <line>27</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="STL2TTML" type="b2602c69:ProjectViewProjectNode" />
+        <item name="STL2TTML" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
