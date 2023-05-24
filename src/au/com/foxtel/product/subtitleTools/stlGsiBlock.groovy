@@ -85,8 +85,8 @@ class StlGsiBlock {
 			default:
 				this.frameRate = 25
 		}
-
-		this.autoZeroCueTime = (int)(firstInCue / 3600) * 3600
+		int framesPerHour = (3600 * frameRate)
+		this.autoZeroCueTime = (int)(firstInCue / framesPerHour) * framesPerHour
 	}
 	
 	static Date getDate(List<Byte> data)
