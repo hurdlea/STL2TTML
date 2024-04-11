@@ -44,21 +44,18 @@ class CaptionLine {
 		this.row = row
 		LineFormat format = new LineFormat()
 		boolean backgroundChange = false
+		String foregroundColour = 'white'
+		String backgoundColour = 'black'
 		
 		line.each {
 			switch ( (int) it & 0xff ) {
-				case 0x00..0x07: // foreground colour
-					// Change the formatting for the text block if there is already an associated style to text 
-					if (!format.text.trim().empty) {
-						this.text.add(format)
-						format = new LineFormat()
-					}
-					
+				case 0x00..0x07: // colour change (defualts to foreground)
+					String colour = ebuColours[it as byte]
 					if (backgroundChange) {
-						format.background = ebuColours[it as byte]
+						backgoundColour = colour
 						backgroundChange = false
 					} else {
-						format.colour = ebuColours[it as byte]
+						foregroundColour = colour
 					}
 					format.text += ' '
 					break
@@ -68,15 +65,27 @@ class CaptionLine {
 					format.text += ' '
 					break
 					
-				case [0x0a, 0x8f, 0x8a]: // line termination
+				case [0x0a, 0x8f, 0x8a]: // format block termination
 					if (!format.text.trim().empty) {
 						this.text.add(format)
 						format = new LineFormat()
 					}
+					format.colour = foregroundColour
+					format.background = backgoundColour
 					break
 					
 				case {(0x20..0x7e).contains(it) || (0xa0..0xff).contains(it)}: // regular characters
 					String chr = mapCharacter((int) it & 0xff)
+					// Detect colour changes that require a new formatting block
+					// A foreground colour change on a space is ignored as there is no visual impact
+					if ((format.colour != foregroundColour && chr != ' ') || format.background != backgoundColour) {
+						if (!format.text.trim().empty) {
+							this.text.add(format)
+							format = new LineFormat()
+						}
+						format.colour = foregroundColour
+						format.background = backgoundColour
+					}
 					format.text += chr
 					break
 					
