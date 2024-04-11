@@ -12,9 +12,11 @@ class StlTtiBlock {
 	int commentFlag
 	byte[] textField
 	int timecodeOffset
+	int frameRate
 
-	StlTtiBlock(int offset) {
+	StlTtiBlock(int offset, int frameRate = 25) {
 		this.timecodeOffset = offset
+		this.frameRate = frameRate
 	}
 
 	void parse(byte[] record)
@@ -50,12 +52,17 @@ class StlTtiBlock {
 
 	def getTimecode(List<Byte> data)
 	{
-		((data[0] * (3600 * 25)) + (data[1] * (60 * 25)) + (data[2] * 25) + data[3]) - timecodeOffset
+		((data[0] * (3600 * this.frameRate)) + (data[1] * (60 * this.frameRate)) + (data[2] * this.frameRate) + data[3]) - timecodeOffset
 	}
 
 	String toString()
 	{
-		"[sn:" + subtitleNumber + " eb:" + extensionBlockNumber + " tcin:" + timecodeIn + " tcout:" + timecodeOut + " vp:" + verticalPosition + " text:\"" + makePrintable(textField) + "\"]"
+		"[sn:" + subtitleNumber.toString().padLeft(5) +
+		" eb:" + extensionBlockNumber.toString().padLeft(3) +
+		" tcin:" + framesToIsoTime(timecodeIn) +
+		" tcout:" + framesToIsoTime(timecodeOut) +
+		" vp:" + verticalPosition.toString().padLeft(2) +
+		" text:\"" + makePrintable(textField) + "\"]"
 	}
 	
 	static String makePrintable(byte[] text) {
@@ -77,17 +84,27 @@ class StlTtiBlock {
 				case 0x00..0x07:
 					output += "[#" + ebuColours[b] + "]"
 					break
-				// case 0x20..0x7e:
-				case {(0x0a..0xff).contains(it) || (0x20..0x7e).contains(it)}:
-					// String chr = new String(b as int[], 0, 1)
+				case {(0xa0..0xff).contains(it) || (0x20..0x7e).contains(it)}:
 					output += CaptionLine.mapCharacter(b)
-					// output += chr
 					break
 				default:
 					//output += "[#" + (b as byte[]).encodeHex() + "]"
 					break
 			}
 		}
+		output
+	}
+
+	String framesToIsoTime(int frames)
+	{
+
+		String output = ""
+
+		output += sprintf("%02d:", (int) (frames / (3600 * this.frameRate)))
+		output += sprintf("%02d:", (int) (frames / (60 * this.frameRate)).intValue() % 60)
+		output += sprintf("%02d.", (int) (frames / this.frameRate).intValue() % 60)
+		output += sprintf("%03d",  ((frames % this.frameRate) * (1000.0 / this.frameRate)).intValue())
+
 		output
 	}
 }

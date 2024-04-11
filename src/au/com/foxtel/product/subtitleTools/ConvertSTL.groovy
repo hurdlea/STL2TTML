@@ -19,7 +19,7 @@ class ConvertSTL {
 
 		while (contents.position() < contents.capacity())
 		{
-			StlTtiBlock ttiBlock = new StlTtiBlock(autoZero ? gsiBlock.autoZeroCueTime: 0)
+			StlTtiBlock ttiBlock = new StlTtiBlock(autoZero ? gsiBlock.autoZeroCueTime: 0, gsiBlock.frameRate)
 			while(ttiBlock.extensionBlockNumber != 0xff) {
 				byte[] ttiBytes = new byte[128]
 				contents.get(ttiBytes, 0, 128)
