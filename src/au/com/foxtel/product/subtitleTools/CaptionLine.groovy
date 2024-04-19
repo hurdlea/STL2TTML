@@ -34,6 +34,7 @@ class CaptionLine {
 
 	public LineAlignment align = LineAlignment.CENTRE
 	public int charStart = 0
+	public int lineLength = 0
 
 	int row
 	protected ArrayList<LineFormat> text = new ArrayList<LineFormat>()
@@ -45,14 +46,14 @@ class CaptionLine {
 		LineFormat format = new LineFormat()
 		boolean backgroundChange = false
 		String foregroundColour = 'white'
-		String backgoundColour = 'black'
+		String backgroundColour = 'black'
 		
 		line.each {
 			switch ( (int) it & 0xff ) {
-				case 0x00..0x07: // colour change (defualts to foreground)
+				case 0x00..0x07: // colour change (defaults to foreground)
 					String colour = ebuColours[it as byte]
 					if (backgroundChange) {
-						backgoundColour = colour
+						backgroundColour = colour
 						backgroundChange = false
 					} else {
 						foregroundColour = colour
@@ -68,23 +69,25 @@ class CaptionLine {
 				case [0x0a, 0x8f, 0x8a]: // format block termination
 					if (!format.text.trim().empty) {
 						this.text.add(format)
+						this.lineLength += format.text.length()
 						format = new LineFormat()
 					}
 					format.colour = foregroundColour
-					format.background = backgoundColour
+					format.background = backgroundColour
 					break
 					
 				case {(0x20..0x7e).contains(it) || (0xa0..0xff).contains(it)}: // regular characters
 					String chr = mapCharacter((int) it & 0xff)
 					// Detect colour changes that require a new formatting block
 					// A foreground colour change on a space is ignored as there is no visual impact
-					if ((format.colour != foregroundColour && chr != ' ') || format.background != backgoundColour) {
+					if ((format.colour != foregroundColour && chr != ' ') || format.background != backgroundColour) {
 						if (!format.text.trim().empty) {
 							this.text.add(format)
+							this.lineLength += format.text.length()
 							format = new LineFormat()
 						}
 						format.colour = foregroundColour
-						format.background = backgoundColour
+						format.background = backgroundColour
 					}
 					format.text += chr
 					break
@@ -98,6 +101,7 @@ class CaptionLine {
 		
 		if (!format.text.trim().empty) {
 			this.text.add(format)
+			this.lineLength += format.text.length()
 		}
 
 		if (this.text.size() > 0) {
@@ -106,7 +110,7 @@ class CaptionLine {
 			if(m = text =~ /(\s+)(.+)/) {
 				this.charStart = m.group(1).size()
 				this.text[0].text = m.group(2)
-				//println("Row: ${this.row} Align: ${align} Offset: ${this.charStart} ${m.group(2)}")
+				this.lineLength -= this.charStart
 			}
 		}
 	}

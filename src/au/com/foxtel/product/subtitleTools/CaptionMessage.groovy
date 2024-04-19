@@ -102,7 +102,127 @@ class CaptionMessage {
 			}
 		}
 	}
-	
+
+	// Format object for the VTT reformatter renderer
+	class CaptionFormat {
+		boolean positionalSpeaker = false
+		boolean colourSpeaker = false
+		String speakerColour = 'white'
+		String text = ''
+		int start = 0
+		int end = 0
+		boolean newline = true
+		int lineLength = 0
+	}
+
+	String[] toVTTWithReformatting(int offset, String speakerColour, boolean styling) {
+		String output = ""
+		ArrayList<CaptionFormat> rows
+		rows = new ArrayList<CaptionFormat>()
+
+		// Determine the required processing for the VTT Cue based on Foxtel Business rules
+		boolean centered = this.align == CaptionLine.LineAlignment.CENTRE
+
+		int previousStart
+		int previousEnd
+
+		CaptionFormat row = new CaptionFormat()
+
+		lines.each {
+			// Each line has a number of format units that need to be assessed
+
+			int start = it.charStart
+			int end = it.charStart + it.lineLength
+			if (rows.size() > 0 && !centered && it.text.size() == 1) {
+				// Identify use of horizontal positioning for speaker identification
+				int index = rows.size() - 1
+				previousStart = rows[index].start
+				previousEnd = rows[index].end
+				if (
+						(it.text[0].colour == 'white' && !rows[index].colourSpeaker && "\u2015-<>['#(".indexOf(it.text[0].text[0]) == -1) &&
+						((previousStart < start && previousEnd < end && start < previousEnd && Math.abs(previousStart - start) > 2) ||
+						(start < previousStart && end < previousEnd && previousStart < end  && Math.abs(previousStart - start) > 2) ||
+						(start >= previousEnd) ||
+						(end <= previousStart))
+				) {
+					// We are detecting horizontal positioning detecting two different speakers
+					// This means the initial case has to be 2 identified speaker lines
+					if (index == 0 && "\u2015-<>['#(".indexOf(rows[index].text[0]) == -1) {
+						rows[index].positionalSpeaker = true
+					}
+					row.positionalSpeaker = true
+					println("Positional Speaker :[" + it.text[0].colour + "]"+ it.text[0].text)
+				}
+
+			}
+
+			it.text.each {
+				// If there is a change in speaker colour capture it here and
+				// mark the CaptionFormat for speaker identification
+				if (it.colour != speakerColour && !row.positionalSpeaker && "\u2015-<>['#(".indexOf(it.text[0]) == -1) {
+					row.colourSpeaker = true
+					speakerColour = it.colour
+					println("Colour Speaker :[" + it.colour + "]" + it.text)
+				}
+				row.text = it.text
+				row.speakerColour = it.colour
+				row.start = start
+				row.end = start + row.text.length()
+				row.lineLength = it.text.length()
+				rows.add(row)
+				start = row.end + 1
+
+				row = new CaptionFormat()
+			}
+		}
+
+		int maxCueLines = 3
+		int activeRows = rows.size()
+		if (rows.size() > maxCueLines) {
+			// Reduce the number of rows to the desired business requirements
+			// Look for consecutive rows that are < 39 chars that can be merged
+			int merges = rows.size() - maxCueLines
+
+			for (int index = 1; index < rows.size(); index++) {
+				if (rows[index - 1].lineLength + rows[index].lineLength < 40) {
+					rows[index - 1].newline = false
+					rows[index].lineLength += rows[index].lineLength + 1
+					merges--
+					activeRows--
+					if (merges == 0) break
+				}
+			}
+		}
+
+		// Detect lines below the bottom of the screen
+		int multiplier = 2
+		if (maximumRowHeight < 15) multiplier = 1
+		if (lines[0].row + (activeRows * multiplier) > maximumRowHeight) {
+			// Shift up so that all captions are visible
+			lines[0].row = maximumRowHeight - (activeRows * multiplier)
+		}
+
+		// Render the VTT Cue Message
+		String startTime = framesToIsoTime(startOfMessage + offset)
+		String endTime = framesToIsoTime(endOfMessage + offset)
+		// Have a 10% safe area caption viewport
+		long line = Math.round(((lines[0].row) / maximumRowHeight) * 80) + 10
+		output += "${startTime} --> ${endTime} line:${line}% align:center size:80%\n"
+
+		// Now render out the captions lines
+		rows.each {
+			if (it.colourSpeaker || it.positionalSpeaker) {
+				output += "\u2015" + it.text
+			} else {
+				output += it.text
+			}
+			if (it.newline) output += "\n"
+		}
+		output += "\n"
+
+		return [output, rows.last().speakerColour]
+	}
+
 	String toVTT(int offset, boolean styling)
 	{
 		String output = ""

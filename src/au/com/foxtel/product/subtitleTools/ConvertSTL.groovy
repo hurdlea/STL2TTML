@@ -96,7 +96,7 @@ class ConvertSTL {
 		writer.toString()
 	}
 
-	static String getVTT(ArrayList<CaptionMessage> captions, int offset = 0, boolean styling)
+	static String getVTT(ArrayList<CaptionMessage> captions, int offset = 0, boolean styling, boolean restyle)
 	{
 		def output = ""
 		String style = '''\
@@ -180,8 +180,16 @@ STYLE
 		if (styling) {
 			output += style
 		}
+		String speakerColour = 'white'
+		String cue = ""
 		captions.each {
-			output += it.toVTT(offset, styling)
+			if (restyle) {
+				(cue, speakerColour) = it.toVTTWithReformatting(offset, speakerColour, styling)
+				output += cue
+			} else {
+				output += it.toVTT(offset, styling)
+			}
+
 		}
 		
 		return output
@@ -196,6 +204,7 @@ STYLE
 		cli.v(args:0, longOpt:'vtt', 'create a VTT file')
 		cli.ns(args:0, longOpt: 'no-vtt-styling', 'Disable VTT styling')
 		cli.l(type: int, args:1, longOpt:'logging-level', defaultValue:"0",'set the logging level 0 = off')
+		cli.r(args:0, longOpt:'restyle', 'restyle VTT cues')
 		cli.s(type: int, args:1, longOpt: 'safe-area-percent', defaultValue: "5", 'set the vertical safe area percentage')
 		def options = cli.parse(args)
 
@@ -210,6 +219,7 @@ STYLE
 		boolean vtt = options.v
 		int log_level = options.l
 		int safe_area = options.s
+		boolean restyle = options.r
 		boolean autoZeroStlTimecode = options.z
 
 		if (safe_area < 0 || safe_area > 50) {
@@ -228,7 +238,7 @@ STYLE
 		}
 
 		if (vtt) {
-			def vtt_captions = getVTT(captions, offset, vttStyling)
+			def vtt_captions = getVTT(captions, offset, vttStyling, restyle)
 			def vttFile = new File(file + ".vtt").newWriter()
 			vttFile.println vtt_captions
 			vttFile.close()
