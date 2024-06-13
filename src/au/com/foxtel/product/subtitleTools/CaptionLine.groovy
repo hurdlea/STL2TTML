@@ -216,12 +216,12 @@ class CaptionLine {
 			0xcf: "\u02EC",  // letter voicing
 */
 
-			0xd0: "-",  // ― "\u2015" changed to hyphen for compatibility 2024-06-13
+			0xd0: "-",       // ― "\u2015" changed to hyphen for compatibility 2024-06-13
 			0xd1: "\u00B9",  // ¹
 			0xd2: "\u00AE",  // ®
 			0xd3: "\u00A9",  // ©
 			0xd4: "\u2122",  // ™
-			0xd5: "\u266A",  // ♪
+			0xd5: "#",       // ♪ "\u266A" changed to hyphen for compatibility 2024-06-13
 			0xd6: "\u00AC",  // ¬
 			0xd7: "\u00A6",  // ¦
 			0xdc: "\u215B",  // ⅛
