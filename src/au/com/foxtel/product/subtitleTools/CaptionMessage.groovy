@@ -115,10 +115,20 @@ class CaptionMessage {
 		int lineLength = 0
 	}
 
+	// Jira VT-4861 Implement Business formatting of STL captions
+	// Implement the business reformatting rules
 	String[] toVTTWithReformatting(int offset, String speakerColour, boolean styling) {
 		String output = ""
 		ArrayList<CaptionFormat> rows
 		rows = new ArrayList<CaptionFormat>()
+		// A set of leading characters of a caption line that are not candidates
+		// for speaker identification.
+		final String noSpeakerCases = "\u2015-<>['#("
+		// NOTE: Changed the speaker identification character from horizontal Bar \u2015
+		//       to hyphen "-" as Unicode is not supported on Hubbl. 18-06-24 AH
+		//       This is part of Jira VT-4861 and should be unwound when Unicode is
+		//       supported on the Hubbl devices.
+		final String speakerCharacter = "-"
 
 		// Determine the required processing for the VTT Cue based on Foxtel Business rules
 		boolean centered = this.align == CaptionLine.LineAlignment.CENTRE
@@ -139,19 +149,21 @@ class CaptionMessage {
 				previousStart = rows[index].start
 				previousEnd = rows[index].end
 				if (
-						(it.text[0].colour == 'white' && !rows[index].colourSpeaker && "\u2015-<>['#(".indexOf(it.text[0].text[0]) == -1) &&
-						((previousStart < start && previousEnd < end && start < previousEnd && Math.abs(previousStart - start) > 2) ||
-						(start < previousStart && end < previousEnd && previousStart < end  && Math.abs(previousStart - start) > 2) ||
-						(start >= previousEnd) ||
-						(end <= previousStart))
+				// Identify blocks of text that are positionally offset to indicate
+				// a speaker. Only do this for plain white blocks without other formatting!
+						(it.text[0].colour == 'white' && !rows[index].colourSpeaker && noSpeakerCases.indexOf(it.text[0].text[0]) == -1) &&
+								((previousStart < start && previousEnd < end && start < previousEnd && Math.abs(previousStart - start) > 2) ||
+										(start < previousStart && end < previousEnd && previousStart < end  && Math.abs(previousStart - start) > 2) ||
+										(start >= previousEnd) ||
+										(end <= previousStart))
 				) {
 					// We are detecting horizontal positioning detecting two different speakers
 					// This means the initial case has to be 2 identified speaker lines
-					if (index == 0 && "\u2015-<>['#(".indexOf(rows[index].text[0]) == -1) {
+					if (index == 0 && noSpeakerCases.indexOf(rows[index].text[0]) == -1) {
 						rows[index].positionalSpeaker = true
 					}
 					row.positionalSpeaker = true
-					println("Positional Speaker :[" + it.text[0].colour + "]"+ it.text[0].text)
+					//println("Positional Speaker :[" + it.text[0].colour + "]"+ it.text[0].text)
 				}
 
 			}
@@ -159,10 +171,10 @@ class CaptionMessage {
 			it.text.each {
 				// If there is a change in speaker colour capture it here and
 				// mark the CaptionFormat for speaker identification
-				if (it.colour != speakerColour && !row.positionalSpeaker && "\u2015-<>['#(".indexOf(it.text[0]) == -1) {
+				if (it.colour != speakerColour && !row.positionalSpeaker && noSpeakerCases.indexOf(it.text[0]) == -1) {
 					row.colourSpeaker = true
 					speakerColour = it.colour
-					println("Colour Speaker :[" + it.colour + "]" + it.text)
+					//println("Colour Speaker :[" + it.colour + "]" + it.text)
 				}
 				row.text = it.text
 				row.speakerColour = it.colour
@@ -212,7 +224,7 @@ class CaptionMessage {
 		// Now render out the captions lines
 		rows.each {
 			if (it.colourSpeaker || it.positionalSpeaker) {
-				output += "\u2015" + it.text
+				output += speakerCharacter + it.text
 			} else {
 				output += it.text
 			}
